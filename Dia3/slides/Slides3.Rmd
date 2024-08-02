@@ -1,0 +1,620 @@
+---
+title: |
+  | Manipulação e
+  | Apresentação
+  | de Dados
+author: "Guilherme Bovi Ambrosano"
+date: "Dia 3 - 09/08/2024"
+output:
+    beamer_presentation:
+      includes:
+        in_header:
+          - config/config.sty
+      latex_engine: xelatex
+      keep_tex: false
+      toc: false
+fontsize: 10pt
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+# Sumário {.allowframebreaks}
+\tableofcontents[subsubsectionstyle=hide]
+
+# -
+\section{broom}
+\framecard{{\color{white}\Huge{broom}}}
+
+# broom
+
+```{r, echo=T}
+
+modelo.aov <- aov(Sepal.Length ~ Species, data=iris)
+modelo.lm  <- lm(Sepal.Width ~ Petal.Width, data=iris)
+modelo.wt  <- wilcox.test(iris$Petal.Length, g=iris$Species)
+
+```
+
+# broom
+
+\footnotesize
+```{r, echo=T}
+
+library(broom)
+tidy(modelo.aov)
+tidy(modelo.lm)
+tidy(modelo.wt)
+
+```
+
+# broom
+
+\footnotesize
+```{r, echo=T}
+
+glance(modelo.aov)
+glance(modelo.lm)
+glance(modelo.wt)
+
+```
+
+# broom
+
+\small
+```{r, echo=T}
+
+augment(modelo.lm, interval="confidence")
+
+```
+
+
+# -
+\section{purrr}
+\framecard{{\color{white}\Huge{purrr}}}
+
+# purrr
+
+```{r, echo=T}
+
+lapply(seq(1,5), function(x) {
+  paste(x, "é", ifelse(x%%2==0, "par", "ímpar"))
+})
+
+```
+
+# purrr
+
+```{r,echo=T}
+
+library(purrr)
+map(seq(1,5), function(x) {
+  paste(x, "é", ifelse(x%%2==0, "par", "ímpar"))
+})
+
+```
+
+# purrr
+
+```{r,echo=T}
+
+map_dfr(seq(1,5), function(x) {
+  tibble(par=paste(x, "é", ifelse(x%%2==0, "par", "ímpar")))
+})
+
+```
+
+# purrr
+
+```{r,echo=T}
+
+map_dfc(tibble(um=1, dois=2, tres=3), function(x) {
+  x * seq(1,5)
+})
+
+```
+
+
+# purrr
+
+```{r, echo=T}
+
+library(agridat)
+caribbean.maize
+
+```
+
+# purrr
+
+```{r, echo=T}
+
+caribbean.maize %>%
+  group_split(isle)
+
+```
+
+# purrr
+
+```{r, echo=T}
+
+caribbean.maize %>%
+  group_split(isle) %>%
+  map(function(x) x %>%
+        pivot_wider(id_cols=c(block,plot), names_from=site,
+                    values_from=yield))
+
+```
+
+# purrr
+
+```{r, echo=T}
+
+caribbean.maize %>%
+  group_split(isle) %>%
+  map(\(x) x %>%
+        pivot_wider(id_cols=c(block,plot), names_from=site,
+                    values_from=yield))
+
+```
+
+# purrr
+
+```{r, echo=T}
+
+caribbean.maize %>%
+  group_split(isle) %>%
+  map(. %>%
+        pivot_wider(id_cols=c(block,plot), names_from=site,
+                    values_from=yield))
+
+```
+
+# purrr
+
+```{r, echo=T}
+
+iris %>%
+  select(-Species) %>% 
+  as.list() %>%
+  map(\(x) x %>% 
+        enframe() %>%
+        cbind(Species=iris$Species) %>%
+        aov(value ~ Species, data=.) %>%
+        residuals() %>%
+        shapiro.test() %>%
+        tidy()) %>% 
+  bind_rows(.id="Variável")
+
+```
+
+# purrr
+
+```{r, echo=T}
+
+iris %>%
+  select(starts_with("Sepal")) %>% 
+  as.list() %>%
+  map(. %>% 
+        enframe() %>%
+        cbind(Species=iris$Species) %>%
+        aov(value ~ Species, data=.) %>%
+        tidy()) %>% 
+  bind_rows(.id="Variável")
+
+```
+
+# purrr
+
+```{r, echo=T}
+
+iris %>%
+  select(starts_with("Sepal")) %>% 
+  as.list() %>%
+  map_dfr(. %>% 
+            enframe() %>%
+            cbind(Species=iris$Species) %>%
+            aov(value ~ Species, data=.) %>%
+            tidy())
+
+```
+
+# purrr
+
+```{r, echo=T, error=T}
+
+cor(iris[-5])
+
+cor.test(iris[-5])
+
+```
+
+# purrr
+
+```{r, echo=T}
+
+expand_grid(Var1=names(iris)[-5],
+            Var2=names(iris)[-5]) %>%
+  pmap_dbl(\(Var1, Var2){
+    cor.test(iris[,Var1], iris[,Var2])$p.value
+  }) %>%
+  matrix(nrow=4)
+
+```
+
+# purrr
+
+```{r, echo=T}
+
+expand_grid(Var1=names(iris)[-5],
+            Var2=names(iris)[-5]) %>%
+  pmap_chr(\(Var1, Var2){
+    if(Var1==Var2) return("-")
+    cor.test(iris[,Var1], iris[,Var2]) %>%
+      .$p.value %>%
+      scales::pvalue(acc=.0001, dec=",")
+  }) %>%
+  matrix(nrow=4)
+
+```
+
+# purrr
+
+```{r, echo=T}
+
+map2(c(1,2,3,4), c("a","b","c","d"),
+     \(num, chr) paste0("Número: ", num, "; Caractere: ", chr))
+
+```
+
+
+# -
+\section{ggplot2}
+\framecard{{\color{white}\Huge{ggplot2}}}
+
+# ggplot2
+
+```{r, echo=T, fig.height=2,fig.width=3, fig.align='center'}
+
+library(ggplot2)
+iris %>%
+  ggplot(aes(x=Species, y=Sepal.Length)) +
+  geom_boxplot()
+
+```
+
+# ggplot2
+
+```{r, echo=T, fig.height=2,fig.width=3, fig.align='center'}
+
+iris %>%
+  ggplot(aes(x=Petal.Length, y=Sepal.Length)) +
+  geom_point()
+
+```
+
+# ggplot2
+
+```{r, echo=T, fig.height=2,fig.width=3, fig.align='center'}
+
+iris %>%
+  ggplot(aes(x=Petal.Length, y=Sepal.Length,
+             color=Species)) +
+  geom_point()
+
+```
+
+# ggplot2
+
+\small
+```{r, echo=T, fig.height=2,fig.width=3, fig.align='center'}
+
+iris %>%
+  group_by(Species) %>%
+  summarise_at(vars(Petal.Length, Sepal.Length), mean) %>% 
+  ggplot(aes(x=Petal.Length, y=Sepal.Length, col=Species)) +
+  geom_point(size=4) +
+  geom_line(col="black") +
+  geom_col(col="red", fill="transparent") +
+  geom_errorbar(aes(ymax=Sepal.Length+1, ymin=Sepal.Length-1),
+                col="blue", width=.4)
+
+```
+
+
+# ggplot2
+
+\scriptsize
+```{r, echo=T, warning=F, message=F}
+
+linhas <- read_lines(
+  "http://www.leb.esalq.usp.br/leb/exceldados/DCE2023.TXT")
+
+inicio <- which(str_starts(linhas, "="))[c(1, seq(3, 37, 3))]
+final <- which(str_starts(linhas, "="))[c(2, seq(5,37,3), 37)]
+pular <- sapply(seq(1,13), function(i){
+  seq(inicio[i], final[i])
+})
+pular2 <- which(linhas=="")
+
+linhas2 <- linhas[-c(unlist(pular),pular2)]
+
+dados_metereologicos <- as_tibble(linhas2) %>%
+  separate(value,
+           c("No", "ANO", "DIA", "MES", "R.GLOBA",
+             "INSOLACAO", "PRECIPITACAO", "UMIDADE RELATIV",
+             "VENTO MAXIMO", "VENTO MEDIO", "TEMPER MAXIMA",
+             "TEMPER MINIMA", "TEMPER MEDIA", "EVAPORACAO"),
+           sep=" +") %>%
+  unite(Data, DIA, MES, ANO) %>%
+  mutate(Data=lubridate::dmy(Data)) %>%
+  mutate_at(vars(-Data), str_replace, ",", ".") %>%
+  mutate_at(vars(-Data), parse_number) %>%
+  filter(!is.na(Data))
+
+```
+
+# ggplot2
+ 
+\small
+```{r, echo=T, warning=F, fig.height=4}
+
+dados_metereologicos %>%
+  ggplot(aes(x=Data)) +
+  geom_col(aes(y=PRECIPITACAO)) +
+  geom_line(aes(y=`TEMPER MEDIA`)) +
+  geom_line(aes(y=`TEMPER MINIMA`), col="blue") +
+  geom_line(aes(y=`TEMPER MAXIMA`), col="red")
+
+```
+
+# ggplot2
+ 
+\small
+```{r, echo=T, warning=F, fig.height=3}
+
+dados_metereologicos %>%
+  ggplot(aes(x=Data)) +
+  scale_x_date(date_breaks="3 months",
+               date_labels="%B de %Y") +
+  geom_col(aes(y=PRECIPITACAO)) +
+  geom_line(aes(y=`TEMPER MEDIA`)) +
+  geom_line(aes(y=`TEMPER MINIMA`), col="blue") +
+  geom_line(aes(y=`TEMPER MAXIMA`), col="red")
+
+```
+
+# ggplot2
+ 
+\small
+```{r, echo=T, warning=F, fig.height=3}
+
+dados_metereologicos %>%
+  select(Data, PRECIPITACAO, starts_with("TEMPER")) %>%
+  pivot_longer(starts_with("TEMPER"), names_to="TEMPER") %>%
+  ggplot(aes(x=Data)) +
+  geom_bar(stat="unique", aes(y=PRECIPITACAO)) +
+  geom_line(aes(y=value, color=TEMPER)) +
+  scale_color_manual(values=c("red", "black", "blue"))
+
+```
+
+# ggplot2
+ 
+\footnotesize
+```{r, echo=T, warning=F, fig.height=3}
+
+dados_metereologicos %>% 
+  mutate_at(vars(Data), month, label=T) %>% 
+  group_by(Data) %>%
+  summarise(PRECIPITACAO = sum(PRECIPITACAO),
+            `TEMPER MEDIA` = mean(`TEMPER MEDIA`),
+            `TEMPER MINIMA` = mean(`TEMPER MINIMA`),
+            `TEMPER MAXIMA` = mean(`TEMPER MAXIMA`)) %>% 
+  ggplot(aes(x=Data)) +
+  scale_y_continuous(name="TEMPERATURA",
+                     sec.axis = sec_axis(~.*10, name="PRECIPITACAO")) +
+  geom_col(aes(y=PRECIPITACAO/10)) +
+  geom_line(aes(y=`TEMPER MEDIA`, group=1)) +
+  geom_line(aes(y=`TEMPER MINIMA`, group=1), col="blue") +
+  geom_line(aes(y=`TEMPER MAXIMA`, group=1), col="red")
+
+```
+
+# ggplot2
+
+```{r, echo=T, fig.height=2,fig.width=4, fig.align='center'}
+
+iris %>%
+  pivot_longer(-Species) %>% 
+  ggplot(aes(x=Species, y=value)) +
+  geom_boxplot() +
+  facet_wrap(~name)
+
+```
+
+# ggplot2
+
+\small
+```{r, echo=T, fig.height=2,fig.width=4, fig.align='center'}
+
+agridat::caribbean.maize %>%
+  filter(site %in% c("DBAN", "LFAN", "MPSV", "AGSV")) %>% 
+  filter(trt %in% c("T000", "T111", "T222")) %>% 
+  group_by(isle, site, trt) %>%
+  summarise_at(vars(yield), mean) %>%
+  ggplot(aes(x=site, col=trt, y=yield)) +
+  geom_point() +
+  facet_wrap(~isle)
+
+```
+
+# ggplot2
+
+\small
+```{r, echo=T, fig.height=2,fig.width=3, fig.align='center'}
+
+agridat::caribbean.maize %>%
+  filter(site %in% c("DBAN", "LFAN", "MPSV", "AGSV")) %>% 
+  filter(trt %in% c("T000", "T111", "T222")) %>% 
+  group_by(isle, site, trt) %>%
+  summarise_at(vars(yield), mean) %>%
+  ggplot(aes(x=site, col=trt, y=yield)) +
+  geom_point() +
+  facet_wrap(~isle, scales = "free_x")
+
+```
+
+# ggplot2
+
+\small
+```{r, echo=T, fig.height=2}
+
+library(datasetsICR)
+data(NBA.game)
+NBA.game %>%
+  group_by(TEAM) %>%
+  summarise_at(vars(W),
+               list(media=mean, 
+                    erro=\(x) sd(x)/sqrt(length(x)))) %>%
+  ggplot(aes(x=TEAM, y=media)) +
+  geom_col(fill="orange", col="black") +
+  geom_errorbar(aes(ymin=media-erro, ymax=media+erro), 
+                width=.3, col="black")
+
+```
+
+
+# ggplot2
+
+\footnotesize
+```{r, warning=F, message=F, echo=T, fig.width=3, fig.height=1.5}
+
+iris %>%
+  select(-Species) %>%
+  cor() %>%
+  as.data.frame() %>% 
+  rownames_to_column("Var1") %>% 
+  pivot_longer(-Var1, names_to="Var2", values_to="Cor") %>%
+  mutate(Cor = ifelse(Var1==Var2, NA, Cor)) %>% 
+  ggplot(aes(x=Var1, y=Var2, fill=Cor)) +
+  geom_tile(show.legend=F) +
+  geom_text(aes(label=round(Cor, 4)), size=2) +
+  theme_grey(base_size = 8)
+
+```
+
+# ggplot2
+
+\footnotesize
+```{r, warning=F, message=F, fig.width=4, fig.height=3}
+
+iris %>%
+  select(-Species) %>%
+  cor() %>%
+  as.data.frame() %>% 
+  rownames_to_column("Var1") %>% 
+  pivot_longer(-Var1, names_to="Var2", values_to="Cor") %>%
+  mutate(Cor = ifelse(Var1==Var2, NA, Cor)) %>% 
+  ggplot(aes(x=Var1, y=Var2, fill=Cor)) +
+  geom_tile(show.legend=F) +
+  geom_text(aes(label=round(Cor, 4)))
+
+```
+
+# ggplot2
+
+\small
+```{r, echo=T, fig.height=5}
+
+agridat::aastveit.barley.height %>%
+  ggplot(aes(x=year, y=height)) +
+  facet_wrap(~gen) +
+  geom_line()
+
+```
+
+# ggplot2
+
+\small
+```{r, echo=T, fig.height=5}
+
+agridat::aastveit.barley.height %>%
+  ggplot(aes(x=year, y=height)) +
+  facet_wrap(~gen) +
+  geom_line() +
+  theme_bw()
+
+```
+
+
+# ggplot2
+
+\scriptsize
+```{r, fig.height=4, echo=T}
+
+agridat::aastveit.barley.height %>%
+  ggplot(aes(x=year, y=height)) +
+  facet_wrap(~gen, strip.position = "left") +
+  geom_line() +
+  theme_bw() +
+  theme(axis.title.x = element_text(color="red", face="bold"),
+        axis.title.y = element_text(color="blue", face="italic"),
+        axis.text.x = element_text(color="darkgreen", angle=90),
+        strip.background = element_rect(fill="pink"),
+        strip.text = element_text(size=3),
+        axis.line = element_line(color="orange"),
+        panel.grid.major.x = element_line(linewidth=2),
+        panel.grid.minor.y = element_line(linetype="dashed"))
+
+```
+
+
+# -
+\section{Exercícios}
+\framecard{{\color{white}\Huge{Exercícios}}}
+
+# Exercício 1
+
+Personalizar o gráfico a seguir:
+
+```{r, echo=T, eval=F}
+
+dados_metereologicos %>%
+  select(Data, PRECIPITACAO, starts_with("TEMPER")) %>%
+  pivot_longer(starts_with("TEMPER")) %>%
+  ggplot(aes(x=Data)) +
+  geom_bar(stat="unique", aes(y=PRECIPITACAO)) +
+  geom_line(aes(y=value, color=name))
+  
+```
+Exemplo:
+
+```{r, fig.height=3}
+
+dados_metereologicos %>%
+  select(Data, PRECIPITACAO, starts_with("TEMPER")) %>%
+  pivot_longer(starts_with("TEMPER")) %>%
+  mutate_at(vars(name), ~case_when(
+    str_ends(., "NIMA") ~ "Temperatura mínima",
+    str_ends(., "IA") ~ "Temperatura média",
+    str_ends(., "XIMA") ~ "Temperatura máxima")) %>% 
+  ggplot(aes(x=Data)) +
+  scale_x_date(label=function(x) str_sub(str_to_title(strftime(x, "%b")),1,1),
+               breaks="month", name="Mês") +
+  scale_y_continuous(name="Precipitação (mm)",
+                     sec.axis = sec_axis(~./2, name="Temperatura (°C)")) +
+  geom_bar(stat="unique", aes(y=PRECIPITACAO), fill="#4292c6") +
+  geom_line(aes(y=value*2, color=name)) +
+  scale_color_manual(values=c("#cb181d", "#000000", "#08306b")) +
+  theme_minimal() +
+  theme(legend.position = "bottom",
+        legend.title = element_blank())
+
+```
+
+# Exercício 2
+
+

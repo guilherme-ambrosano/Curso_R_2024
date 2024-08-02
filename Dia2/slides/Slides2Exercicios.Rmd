@@ -1,0 +1,253 @@
+---
+title: |
+  | Manipulação e
+  | Apresentação de
+  | Dados - Exercícios
+author: "Guilherme Bovi Ambrosano"
+date: "Dia 2 - 08/08/2024"
+output:
+    beamer_presentation:
+      includes:
+        in_header:
+          - config/config.sty
+      latex_engine: xelatex
+      keep_tex: false
+      toc: false
+fontsize: 10pt
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+load("../dados/Dados.RData")
+
+linhas <- read_lines("http://www.leb.esalq.usp.br/leb/exceldados/DCE2023.TXT")
+
+inicio <- which(str_starts(linhas, "="))[c(1, seq(3, 37, 3))]
+final <- which(str_starts(linhas, "="))[c(2, seq(5,37,3), 37)]
+pular <- sapply(seq(1,13), function(i){
+  seq(inicio[i], final[i])
+})
+pular2 <- which(linhas=="")
+
+linhas2 <- linhas[-c(unlist(pular),pular2)]
+
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+# -
+\section{Exercícios}
+\framecard{{\color{white}\Huge{Exercícios}}}
+
+# Exercício 1
+
+Transformar os objetos criados abaixo na estrutura a seguir.
+
+```{r, echo=T}
+
+pValores <- tibble(
+  contraste = c("Trat 1 - Trat 2", "Trat 1 - Trat 3",
+                "Trat 2 - Trat 3"),
+  `p-valor` = c(0.9999, 0.050, 0.0001)
+)
+
+```
+
+```{r}
+
+vetor.ex1 <- pValores %>%
+  mutate_at(vars(contraste), str_replace, " - ", "-") %>%
+  deframe()
+
+```
+
+```{r, echo=T}
+
+vetor.ex1
+str(vetor.ex1)
+
+```
+
+# Exercício 2
+
+Usando as funções do tidyverse e partindo do data-frame `dados` presente no arquivo `Dados.RData`, crie a tabela abaixo:
+
+```{r}
+
+dados %>%
+  rownames_to_column("id") %>%
+  separate(id, c("Trat", "Rep"), sep="_") %>%
+  mutate_at(vars(Trat), str_remove, "Trat") %>% 
+  group_by(Trat) %>%
+  summarise_at(vars(val), list(média=mean, desvio=sd))
+
+```
+
+# Exercício 3
+
+Usando o conjunto de dados presente no site http://www.leb.esalq.usp.br/leb/exceldados/DCE2023.TXT, obter os dias mais quentes do ano:
+
+```{r,warning=F}
+
+as_tibble(linhas2) %>%
+  separate(value, 
+           c("No", "ANO", "DIA", "MES", "R.GLOBA",
+             "INSOLACAO", "PRECIPITACAO", "UMIDADE RELATIV",
+             "VENTO MAXIMO", "VENTO MEDIO", "TEMPER MAXIMA",
+             "TEMPER MINIMA", "TEMPER MEDIA", "EVAPORACAO"),
+           sep=" +") %>%
+  unite(Data, DIA, MES, ANO) %>%
+  mutate(Data=lubridate::dmy(Data)) %>%
+  mutate_at(vars(-Data), str_replace, ",", ".") %>%
+  mutate_at(vars(-Data), parse_number) %>%
+  arrange(desc(`TEMPER MEDIA`)) %>%
+  select(Data, `TEMPER MEDIA`) %>%
+  slice(1:5) %>%
+  deframe()
+
+```
+
+
+# Exercício 4
+
+Usando o conjunto de dados presente no site http://www.leb.esalq.usp.br/leb/exceldados/DCE2023.TXT, obter os dias com precipitação entre 30mm e 40mm:
+
+```{r,warning=F}
+
+as_tibble(linhas2) %>%
+  separate(value, 
+           c("No", "ANO", "DIA", "MES", "R.GLOBA",
+             "INSOLACAO", "PRECIPITACAO", "UMIDADE RELATIV",
+             "VENTO MAXIMO", "VENTO MEDIO", "TEMPER MAXIMA",
+             "TEMPER MINIMA", "TEMPER MEDIA", "EVAPORACAO"),
+           sep=" +") %>%
+  unite(Data, DIA, MES, ANO) %>%
+  mutate(Data=lubridate::dmy(Data)) %>%
+  mutate_at(vars(-Data), str_replace, ",", ".") %>%
+  mutate_at(vars(-Data), parse_number) %>%
+  filter(PRECIPITACAO>30, PRECIPITACAO<40) %>%
+  select(Data, PRECIPITACAO) %>%
+  deframe()
+
+```
+
+# Exercício 5
+
+Transformar os objetos criados abaixo na estrutura a seguir, usando os pacotes do tidyverse.
+
+```{r, echo=T}
+
+tempo1 <- c(15, 14, 17, 14, 17, 13)
+tempo2 <- c(14, 13, 16, 14, 12, 16)
+tempo3 <- c(16, 14, 15, 12, 17, 15)
+
+```
+
+```{r}
+
+tibble(tempo1, tempo2, tempo3) %>%
+  pivot_longer(everything(),
+               names_to = "Tempo",
+               values_to="Valor") %>%
+  mutate_at(vars(Tempo), str_remove, "tempo") %>%
+  mutate_at(vars(Tempo), paste, "semana") %>%
+  mutate(Tempo=paste0(Tempo,ifelse(str_starts(Tempo, "1"), "", "s"))) %>%
+  mutate_at(vars(Tempo), factor) %>%
+  group_by(Tempo) %>%
+  summarise(Média = mean(Valor))
+
+```
+
+# Exercício 6
+
+Obter a tabela abaixo partindo do conjunto de dados `mtcars`, usando os pacotes do tidyverse.
+
+Carros cujos nomes começam com M:
+```{r}
+
+mtcars %>%
+  rownames_to_column("carro") %>%
+  filter(str_starts(carro, "M"))
+
+```
+
+# Exercício 7
+
+Obter a tabela abaixo partindo do conjunto de dados `mtcars`, usando os pacotes do tidyverse.
+
+Carros cujos nomes terminam em números:
+```{r}
+
+mtcars %>%
+  rownames_to_column("carro") %>%
+  filter(str_ends(carro, " \\d+"))
+
+```
+
+# Exercício 8
+
+Usando o conjunto de dados `archbold.apple` do pacote `agridat`, obter uma tabela como a Tabela 4 de Archbold, Brown, Cornelius (1987).
+
+https://journals.ashs.org/jashs/view/journals/jashs/112/2/article-p219.xml
+
+```{r, echo=T}
+library(agridat)
+```
+```{r}
+
+rbind(archbold.apple %>%
+        group_by(spacing, gen) %>%
+        summarise_at(vars(yield), mean, na.rm=T),
+      archbold.apple %>%
+        group_by(stock, gen) %>%
+        summarise_at(vars(yield), mean, na.rm=T)) %>%
+  ungroup() %>% 
+  select(spacing, stock, gen, yield) %>%
+  pivot_wider(id_cols=c(spacing, stock), names_from=gen,
+              values_from=yield) %>%
+  mutate_at(vars(spacing), factor, levels=c(6, 10, 14),
+            labels=c("1.8 m", "3.0m", "4.3 m")) %>% 
+  mutate_at(vars(stock), factor, levels=c("Seedling", "MM111", "MM106", "M0007"))
+
+```
+
+# Exercício 9
+
+Obter a tabela abaixo partindo do conjunto de dados `iris`, usando os pacotes do tidyverse.
+
+```{r}
+
+iris %>%
+  select(Species, starts_with("Petal")) %>%
+  filter(Species != "virginica") %>% 
+  group_by(Species) %>%
+  summarise_at(vars(starts_with("Petal")), list(média=mean, desvio=sd)) %>%
+  mutate_at(vars(Species), function(x) paste("Iris", x)) %>%
+  pivot_longer(-Species)
+
+```
+
+# Exercício 10
+
+Obter a estrutura abaixo partindo do conjunto de dados `iris`, usando os pacotes do tidyverse.
+
+```{r}
+
+lista.ex10 <- iris %>%
+  filter(Species != "virginica") %>%
+  mutate_at(vars(Species), fct_drop) %>% 
+  split(.$Species) %>%
+  map(. %>%
+        pivot_longer(-Species) %>% 
+        group_by(name) %>%
+        summarise_at(vars(value), list(mediana=median)) %>%
+        mutate_at(vars(name), function(x) paste0("Mediana (", x, ")")) %>% 
+        deframe())
+
+```
+
+\footnotesize
+```{r, echo=T}
+lista.ex10
+str(lista.ex10)
+```
