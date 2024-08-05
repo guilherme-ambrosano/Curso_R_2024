@@ -18,6 +18,7 @@ fontsize: 10pt
 
 ```{r setup, include=FALSE}
 library(tidyverse)
+Sys.setlocale(category = "LC_TIME", locale = "pt_BR.UTF-8")
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
@@ -176,6 +177,144 @@ caribbean.maize %>%
 
 ```{r, echo=T}
 
+library(readxl)
+excel_sheets(paste0(
+  "../dados/Relação nominal dos alunos - ",
+  "Bolsa Extensão - 2023.xlsx"))
+
+```
+
+
+# purrr
+
+```{r, echo=T}
+
+arquivo_xlsx <- paste0(
+  "../dados/Relação nominal dos alunos - ",
+  "Bolsa Extensão - 2023.xlsx")
+
+map(excel_sheets(arquivo_xlsx),
+  \(planilha) read_xlsx(arquivo_xlsx, planilha))
+
+```
+
+
+# purrr
+
+```{r, echo=T, error=T}
+
+arquivo_xlsx <- paste0(
+  "../dados/Relação nominal dos alunos - ",
+  "Bolsa Extensão - 2023.xlsx")
+
+map_dfr(excel_sheets(arquivo_xlsx),
+  \(planilha) read_xlsx(arquivo_xlsx, planilha))
+
+```
+
+
+# purrr
+
+\tiny
+```{r, echo=T, error=T}
+
+arquivo_xlsx <- paste0(
+  "../dados/Relação nominal dos alunos - ",
+  "Bolsa Extensão - 2023.xlsx")
+
+map(excel_sheets(arquivo_xlsx),
+        \(planilha) {
+          unique(read_xlsx(arquivo_xlsx, planilha)$`VALOR DA BOLSA`)
+        })
+
+```
+
+# purrr
+
+\small
+```{r, echo=T, error=T}
+
+arquivo_xlsx <- paste0(
+  "../dados/Relação nominal dos alunos - ",
+  "Bolsa Extensão - 2023.xlsx")
+
+map_dfr(excel_sheets(arquivo_xlsx),
+        \(planilha) {
+          bolsas_mes <- read_xlsx(arquivo_xlsx, planilha)
+          if(class(bolsas_mes$`VALOR DA BOLSA`)=="numeric") {
+            bolsas_mes <- bolsas_mes %>%
+              mutate_at(vars(`VALOR DA BOLSA`), ~paste("R$", .))
+          }
+          return(bolsas_mes)
+        })
+
+```
+
+# purrr
+
+\small
+```{r, echo=T, error=T}
+
+arquivo_xlsx <- paste0(
+  "../dados/Relação nominal dos alunos - ",
+  "Bolsa Extensão - 2023.xlsx")
+
+map_dfr(excel_sheets(arquivo_xlsx),
+        \(planilha) {
+          bolsas_mes <- read_xlsx(arquivo_xlsx, planilha)
+          if(class(bolsas_mes$`VALOR DA BOLSA`)=="numeric") {
+            bolsas_mes <- bolsas_mes %>%
+              mutate_at(vars(`VALOR DA BOLSA`), ~paste("R$", .))
+          }
+          return(bolsas_mes)
+        }) %>%
+  mutate_at(vars(`VALOR DA BOLSA`), parse_number,
+            locale=locale(decimal=","))
+
+```
+
+# purrr
+
+Algum bug no `lubridate` faz ele retornar `08` pro mês `ABR`
+
+```{r}
+
+parse_date_time2("ABR-2023", orders="%B-%Y")
+parse_date_time2("AUG-2023", orders="%B-%Y")
+parse_date_time2("APR-2023", orders="%B-%Y")
+
+```
+
+# purrr
+
+\small
+```{r, echo=T, error=T}
+
+arquivo_xlsx <- paste0(
+  "../dados/Relação nominal dos alunos - ",
+  "Bolsa Extensão - 2023.xlsx")
+
+bolsas <- map_dfr(excel_sheets(arquivo_xlsx),
+        \(planilha) {
+          bolsas_mes <- read_xlsx(arquivo_xlsx, planilha)
+          if(class(bolsas_mes$`VALOR DA BOLSA`)=="numeric") {
+            bolsas_mes <- bolsas_mes %>%
+              mutate_at(vars(`VALOR DA BOLSA`), ~paste("R$", .))
+          }
+          return(bolsas_mes %>%
+              mutate(Mes=planilha))
+        }) %>%
+  mutate_at(vars(`VALOR DA BOLSA`), parse_number,
+            locale=locale(decimal=",")) %>%
+  mutate_at(vars(Mes), ~ifelse(.=="ABR-2023", "APR-2023", .)) %>% 
+  mutate_at(vars(Mes), parse_date_time2, "%B-%Y")
+
+```
+
+# purrr
+
+```{r, echo=T}
+
 iris %>%
   select(-Species) %>% 
   as.list() %>%
@@ -303,6 +442,17 @@ iris %>%
   ggplot(aes(x=Petal.Length, y=Sepal.Length,
              color=Species)) +
   geom_point()
+
+```
+
+# ggplot2
+
+```{r, echo=T}
+
+bolsas %>%
+  ggplot(aes(x=Mes, y=`VALOR DA BOLSA`, col=BOLSISTA)) +
+  geom_line(show.legend=F) +
+  geom_point(show.legend=F, position="jitter")
 
 ```
 
@@ -954,8 +1104,7 @@ head(fr)
 
 fr <- fr %>%
   mutate_at(vars(anomes_s), as.character) %>% 
-  mutate_at(vars(anomes_s), fast_strptime, format="%Y%m") %>%
-  mutate_at(vars(anomes_s), as_date)
+  mutate_at(vars(anomes_s), fast_strptime, format="%Y%m", lt=F)
 
 head(fr)
 

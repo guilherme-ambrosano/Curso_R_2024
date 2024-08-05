@@ -10,6 +10,10 @@ modelo.lm  <- lm(Sepal.Width ~ Petal.Width, data=iris)
 modelo.wt  <- wilcox.test(iris$Petal.Length, g=iris$Species)
 
 # purrr
+
+excel_sheets("../dados/Relação nominal dos alunos - Bolsa Extensão - 2023.xlsx")
+read_xlsx("../dados/Relação nominal dos alunos - Bolsa Extensão - 2023.xlsx")
+
 # ggplot2
 
 linhas <- read_lines(
@@ -39,17 +43,14 @@ dados_metereologicos <- as_tibble(linhas2) %>%
 
 # Exemplos ----
 
-invasoras <- read_xlsx(
-  paste0("../dados/listagem-de-plantas-alternativas-as-",
-         "plantas-exoticas-invasoras-listadas-para-o-",
-         "estado-do-rio-de.xlsx"),
-  col_names=c("Codigo", "Familia_EEI", "NomeCient_EEI",
-              "NomePop_EEI",
-              "NomeCient_Ombro", "NouE_Ombro",
-              "NomeCient_Semidec", "NouE_Semidec",
-              "NomeCient_InfMar", "NouE_InfMar",
-              "Ecossist_EEI", "Categoria"),
-  range="A8:L268")
+invasoras <- read_xlsx("../dados/listagem-de-plantas-alternativas-as-plantas-exoticas-invasoras-listadas-para-o-estado-do-rio-de.xlsx",
+                       col_names=c("Codigo", "Familia_EEI", "NomeCient_EEI",
+                                   "NomePop_EEI",
+                                   "NomeCient_Ombro", "NouE_Ombro",
+                                   "NomeCient_Semidec", "NouE_Semidec",
+                                   "NomeCient_InfMar", "NouE_InfMar",
+                                   "Ecossist_EEI", "Categoria"),
+                       range="A8:L268")
 
 ecossist <- invasoras %>%
   mutate_at(vars(Ecossist_EEI), replace_na, "?") %>% 
