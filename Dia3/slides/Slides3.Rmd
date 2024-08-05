@@ -573,6 +573,248 @@ agridat::aastveit.barley.height %>%
 
 
 # -
+\section{Exemplo}
+\framecard{{\color{white}\Huge{Exemplo}}}
+
+# Conjuntos de dados do governo
+
+https://dados.gov.br/dados/conjuntos-dados
+
+# Plantas alternativas a exóticas invasoras
+
+Fonte: https://dados.gov.br/dados/conjuntos-dados/plantas-alternativas-as-plantas-exoticas-invasoras-rj
+
+```{r, echo=T}
+
+library(readxl)
+read_xlsx(
+  paste0("../dados/listagem-de-plantas-alternativas-as-",
+         "plantas-exoticas-invasoras-listadas-para-o-",
+         "estado-do-rio-de.xlsx"),
+  range="A7:L268")
+
+```
+
+# Plantas alternativas a exóticas invasoras
+
+Fonte: https://dados.gov.br/dados/conjuntos-dados/plantas-alternativas-as-plantas-exoticas-invasoras-rj
+
+```{r, echo=T, warning=F, message=F}
+
+library(readxl)
+invasoras <- read_xlsx(
+  paste0("../dados/listagem-de-plantas-alternativas-as-",
+         "plantas-exoticas-invasoras-listadas-para-o-",
+         "estado-do-rio-de.xlsx"),
+  col_names=c("Codigo", "Familia_EEI", "NomeCient_EEI",
+              "NomePop_EEI",
+              "NomeCient_Ombro", "NouE_Ombro",
+              "NomeCient_Semidec", "NouE_Semidec",
+              "NomeCient_InfMar", "NouE_InfMar",
+              "Ecossist_EEI", "Categoria"),
+  range="A8:L268")
+
+```
+
+
+# Plantas alternativas a exóticas invasoras
+
+```{r, echo=T, warning=F, message=F}
+
+invasoras %>%
+  pivot_longer(c(ends_with("Ombro"),
+                 ends_with("Semidec"),
+                 ends_with("InfMar"))) %>%
+  separate(name, c("Var", "Ecossist"))
+
+```
+
+# Plantas alternativas a exóticas invasoras
+
+```{r, echo=T, warning=F, message=F}
+
+invasoras %>%
+  pivot_longer(c(ends_with("Ombro"),
+                 ends_with("Semidec"),
+                 ends_with("InfMar"))) %>%
+  separate(name, c("Var", "Ecossist")) %>%
+  pivot_wider(id_cols=c(Codigo,ends_with("EEI"),Categoria,Ecossist),
+              names_from=Var)
+
+```
+
+# Plantas alternativas a exóticas invasoras
+
+```{r, echo=T, warning=F, message=F}
+
+invasoras %>%
+  pivot_longer(c(ends_with("Ombro"),
+                 ends_with("Semidec"),
+                 ends_with("InfMar"))) %>%
+  separate(name, c("Var", "Ecossist")) %>%
+  pivot_wider(id_cols=c(Codigo,ends_with("EEI"),Categoria,Ecossist),
+              names_from=Var) %>%
+  unnest_longer(c(NomeCient, NouE))
+
+```
+
+# Plantas alternativas a exóticas invasoras
+
+```{r, echo=T, warning=F, message=F}
+
+invasoras %>%
+  pivot_longer(c(ends_with("Ombro"),
+                 ends_with("Semidec"),
+                 ends_with("InfMar"))) %>%
+  separate(name, c("Var", "Ecossist")) %>%
+  pivot_wider(id_cols=c(Codigo,ends_with("EEI"),Categoria,Ecossist),
+              names_from=Var) %>%
+  unnest_longer(c(NomeCient, NouE)) %>%
+  filter(!is.na(NomeCient), !is.na(NouE))
+
+```
+
+# Programa de Fomento Rural
+
+```{r, echo=T, warning=F, message=F}
+
+library(readr)
+
+fomentoRural <- read_csv("https://aplicacoes.mds.gov.br/sagi/servicos/misocial/?fq=anomes_s:2024*&fq=formento_qtd_total_familias_benef_i%3A*&q=*%3A*&rows=1000000&wt=csv")
+
+head(fomentoRural)
+
+```
+
+# Programa de Fomento Rural
+
+```{r, echo=T}
+
+fomentoRural %>% 
+  select_if(~!all(is.na(.))) %>% 
+  select_if(~!all(.==0))
+
+```
+
+# Programa de Fomento Rural
+
+```{r, echo=T}
+
+fomentoRural %>% 
+  select_if(~mean(is.na(.)|.==0)<.5) %>%
+  select(mes_ano, matches( paste0(
+    "qtd\\_pes\\_(cad\\_nao\\_)?pbf",
+    "\\_idade\\_.+\\_sexo.+\\_i")))
+
+```
+
+# Programa de Fomento Rural
+
+```{r, echo=T}
+
+fomentoRural %>% 
+  select_if(~mean(is.na(.)|.==0)<.5) %>%
+  select(mes_ano, matches("qtd\\_pes\\_(cad\\_nao\\_)?pbf\\_idade\\_.+\\_sexo.+\\_i")) %>%
+  group_by(mes_ano) %>%
+  summarise_all(sum, na.rm=T)
+
+```
+
+# Programa de Fomento Rural
+
+```{r, echo=T}
+
+fr <- fomentoRural %>% 
+  select_if(~mean(is.na(.)|.==0)<.5) %>%
+  select(mes_ano, matches("qtd\\_pes\\_(cad\\_nao\\_)?pbf\\_idade\\_.+\\_sexo.+\\_i")) %>%
+  group_by(mes_ano) %>%
+  summarise_all(sum, na.rm=T) %>% 
+  pivot_longer(-mes_ano)
+
+head(fr)
+
+```
+
+
+# Programa de Fomento Rural
+
+\small
+```{r, echo=T}
+
+fr <- fr %>%
+  mutate(pbf = str_extract(name, "(nao\\_)?pbf"),
+         idade=str_extract(
+           name,
+           "idade\\_(maior\\_que\\_)?\\d+(\\_[ea]\\_\\d+)?"),
+         sexo =str_extract(name, "sexo\\_[^\\_]+ino"))
+
+head(fr)
+
+```
+
+# Programa de Fomento Rural
+
+```{r, echo=T}
+
+fr <- fr %>%
+  mutate(pbf = factor(pbf, levels=c("pbf", "nao_pbf"), 
+                      labels=c("PBF", "Não-PBF")),
+         idade=str_replace_all(str_remove(idade, "idade\\_"),
+                               "\\_", " "),
+         sexo =str_to_title(str_remove(sexo, "sexo\\_"))) %>%
+  mutate_at(vars(idade, sexo), factor)
+
+levels(fr$idade)
+
+```
+
+# Programa de Fomento Rural
+
+```{r, echo=T}
+
+fr <- fr %>%
+  mutate(idade1 = parse_number(str_extract(idade, "\\d+"))) %>% 
+  mutate_at(vars(idade, sexo), factor) %>% 
+  mutate(idade = fct_reorder(idade, idade1))
+
+levels(fr$idade)
+
+```
+
+# Programa de Fomento Rural
+
+```{r, echo=T}
+
+fr <- fr %>% 
+  select(mes_ano, pbf, idade, sexo, name, value) %>%
+  arrange(mes_ano, pbf, idade, sexo) %>%
+  pivot_wider(id_cols=c(mes_ano, idade, sexo), names_from=pbf)
+
+head(fr)
+
+```
+
+# Programa de Fomento Rural
+
+```{r, echo=T}
+
+fr %>%
+  ggplot(aes(x=mes_ano, col=idade, linetype=sexo, y=PBF)) +
+  geom_line()
+
+```
+
+# Programa de Fomento Rural
+
+```{r, echo=T}
+
+fr %>%
+  ggplot(aes(x=mes_ano, col=idade, linetype=sexo, y=`Não-PBF`)) +
+  geom_line()
+
+```
+
+# -
 \section{Exercícios}
 \framecard{{\color{white}\Huge{Exercícios}}}
 
