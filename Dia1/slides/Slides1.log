@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2024.3.18)  5 AUG 2024 07:30
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2024.3.18)  5 AUG 2024 08:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2468,6 +2468,23 @@ Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 ]
 \openout4 = `Slides1.vrb'.
 
+(./Slides1.vrb)
+
+Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
+
+File: imagens/Icon.jpg Graphic file (type bmp)
+<imagens/Icon.jpg>
+[69
+
+]
+
+Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
+
+[70
+
+]
+\openout4 = `Slides1.vrb'.
+
 (./Slides1.vrb
 Overfull \hbox (7.71013pt too wide) in paragraph at lines 29--29
 []\TU/lmtt/m/n/10 ## [1] 2.500000 2.666667 2.717391 2.361111 2.921348 2.435897[
@@ -2480,35 +2497,35 @@ Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
-[69
-
-] (./Slides1.vrb
-Overfull \hbox (7.71013pt too wide) in paragraph at lines 29--29
-[]\TU/lmtt/m/n/10 ## [1] 2.500000 2.666667 2.717391 2.361111 2.921348 2.435897[
-] 
- []
-
-)
-
-Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
-
-File: imagens/Icon.jpg Graphic file (type bmp)
-<imagens/Icon.jpg>
-[70
-
-] (./Slides1.vrb
-Overfull \hbox (7.71013pt too wide) in paragraph at lines 29--29
-[]\TU/lmtt/m/n/10 ## [1] 2.500000 2.666667 2.717391 2.361111 2.921348 2.435897[
-] 
- []
-
-)
-
-Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
-
-File: imagens/Icon.jpg Graphic file (type bmp)
-<imagens/Icon.jpg>
 [71
+
+] (./Slides1.vrb
+Overfull \hbox (7.71013pt too wide) in paragraph at lines 29--29
+[]\TU/lmtt/m/n/10 ## [1] 2.500000 2.666667 2.717391 2.361111 2.921348 2.435897[
+] 
+ []
+
+)
+
+Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
+
+File: imagens/Icon.jpg Graphic file (type bmp)
+<imagens/Icon.jpg>
+[72
+
+] (./Slides1.vrb
+Overfull \hbox (7.71013pt too wide) in paragraph at lines 29--29
+[]\TU/lmtt/m/n/10 ## [1] 2.500000 2.666667 2.717391 2.361111 2.921348 2.435897[
+] 
+ []
+
+)
+
+Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
+
+File: imagens/Icon.jpg Graphic file (type bmp)
+<imagens/Icon.jpg>
+[73
 
 ]
 \openout4 = `Slides1.vrb'.
@@ -2525,38 +2542,207 @@ Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
-[72
+[74
 
 ]
 \openout4 = `Slides1.vrb'.
 
-(./Slides1.vrb)
+(./Slides1.vrb
+Overfull \hbox (54.96013pt too wide) in paragraph at lines 72--72
+[]\TU/lmtt/m/n/10 ##       rating        complaints  privileges    learning    
+  raises[] 
+ []
+
+
+Overfull \hbox (91.71013pt too wide) in paragraph at lines 72--72
+[]\TU/lmtt/m/n/10 ##  [1,] "(-Inf,65.5]" "(-Inf,65]" "(-Inf,51.5]" "(-Inf,56.5]
+" "(-Inf,63.5]"[] 
+ []
+
+
+Overfull \hbox (91.71013pt too wide) in paragraph at lines 72--72
+[]\TU/lmtt/m/n/10 ##  [2,] "(-Inf,65.5]" "(-Inf,65]" "(-Inf,51.5]" "(-Inf,56.5]
+" "(-Inf,63.5]"[] 
+ []
+
+
+Overfull \hbox (91.71013pt too wide) in paragraph at lines 72--72
+[]\TU/lmtt/m/n/10 ##  [3,] "(65.5, Inf]" "(65, Inf]" "(51.5, Inf]" "(56.5, Inf]
+" "(63.5, Inf]"[] 
+ []
+
+
+Overfull \hbox (91.71013pt too wide) in paragraph at lines 72--72
+[]\TU/lmtt/m/n/10 ##  [4,] "(-Inf,65.5]" "(-Inf,65]" "(-Inf,51.5]" "(-Inf,56.5]
+" "(-Inf,63.5]"[] 
+ []
+
+
+Overfull \hbox (91.71013pt too wide) in paragraph at lines 72--72
+[]\TU/lmtt/m/n/10 ##  [5,] "(65.5, Inf]" "(65, Inf]" "(51.5, Inf]" "(56.5, Inf]
+" "(63.5, Inf]"[] 
+ []
+
+
+Overfull \hbox (91.71013pt too wide) in paragraph at lines 72--72
+[]\TU/lmtt/m/n/10 ##  [6,] "(-Inf,65.5]" "(-Inf,65]" "(-Inf,51.5]" "(-Inf,56.5]
+" "(-Inf,63.5]"[] 
+ []
+
+
+Overfull \hbox (91.71013pt too wide) in paragraph at lines 72--72
+[]\TU/lmtt/m/n/10 ##  [7,] "(-Inf,65.5]" "(65, Inf]" "(-Inf,51.5]" "(-Inf,56.5]
+" "(63.5, Inf]"[] 
+ []
+
+
+Overfull \hbox (91.71013pt too wide) in paragraph at lines 72--72
+[]\TU/lmtt/m/n/10 ##  [8,] "(65.5, Inf]" "(65, Inf]" "(-Inf,51.5]" "(-Inf,56.5]
+" "(63.5, Inf]"[] 
+ []
+
+
+Overfull \hbox (91.71013pt too wide) in paragraph at lines 72--72
+[]\TU/lmtt/m/n/10 ##  [9,] "(65.5, Inf]" "(65, Inf]" "(51.5, Inf]" "(56.5, Inf]
+" "(63.5, Inf]"[] 
+ []
+
+
+Overfull \hbox (91.71013pt too wide) in paragraph at lines 72--72
+[]\TU/lmtt/m/n/10 ## [10,] "(65.5, Inf]" "(-Inf,65]" "(-Inf,51.5]" "(-Inf,56.5]
+" "(-Inf,63.5]"[] 
+ []
+
+
+Overfull \hbox (91.71013pt too wide) in paragraph at lines 72--72
+[]\TU/lmtt/m/n/10 ## [11,] "(-Inf,65.5]" "(-Inf,65]" "(51.5, Inf]" "(56.5, Inf]
+" "(-Inf,63.5]"[] 
+ []
+
+
+Overfull \hbox (91.71013pt too wide) in paragraph at lines 72--72
+[]\TU/lmtt/m/n/10 ## [12,] "(65.5, Inf]" "(-Inf,65]" "(-Inf,51.5]" "(-Inf,56.5]
+" "(-Inf,63.5]"[] 
+ []
+
+
+Overfull \hbox (91.71013pt too wide) in paragraph at lines 72--72
+[]\TU/lmtt/m/n/10 ## [13,] "(65.5, Inf]" "(-Inf,65]" "(51.5, Inf]" "(-Inf,56.5]
+" "(-Inf,63.5]"[] 
+ []
+
+
+Overfull \hbox (91.71013pt too wide) in paragraph at lines 72--72
+[]\TU/lmtt/m/n/10 ## [14,] "(65.5, Inf]" "(65, Inf]" "(51.5, Inf]" "(-Inf,56.5]
+" "(-Inf,63.5]"[] 
+ []
+
+
+Overfull \hbox (91.71013pt too wide) in paragraph at lines 72--72
+[]\TU/lmtt/m/n/10 ## [15,] "(65.5, Inf]" "(65, Inf]" "(51.5, Inf]" "(56.5, Inf]
+" "(63.5, Inf]"[] 
+ []
+
+
+Overfull \hbox (91.71013pt too wide) in paragraph at lines 72--72
+[]\TU/lmtt/m/n/10 ## [16,] "(65.5, Inf]" "(65, Inf]" "(-Inf,51.5]" "(56.5, Inf]
+" "(-Inf,63.5]"[] 
+ []
+
+
+Overfull \hbox (91.71013pt too wide) in paragraph at lines 72--72
+[]\TU/lmtt/m/n/10 ## [17,] "(65.5, Inf]" "(65, Inf]" "(51.5, Inf]" "(56.5, Inf]
+" "(63.5, Inf]"[] 
+ []
+
+
+Overfull \hbox (91.71013pt too wide) in paragraph at lines 72--72
+[]\TU/lmtt/m/n/10 ## [18,] "(-Inf,65.5]" "(-Inf,65]" "(51.5, Inf]" "(56.5, Inf]
+" "(-Inf,63.5]"[] 
+ []
+
+
+Overfull \hbox (91.71013pt too wide) in paragraph at lines 72--72
+[]\TU/lmtt/m/n/10 ## [19,] "(-Inf,65.5]" "(65, Inf]" "(-Inf,51.5]" "(56.5, Inf]
+" "(63.5, Inf]"[] 
+ []
+
+
+Overfull \hbox (91.71013pt too wide) in paragraph at lines 72--72
+[]\TU/lmtt/m/n/10 ## [20,] "(-Inf,65.5]" "(-Inf,65]" "(51.5, Inf]" "(-Inf,56.5]
+" "(63.5, Inf]"[] 
+ []
+
+
+Overfull \hbox (91.71013pt too wide) in paragraph at lines 72--72
+[]\TU/lmtt/m/n/10 ## [21,] "(-Inf,65.5]" "(-Inf,65]" "(-Inf,51.5]" "(-Inf,56.5]
+" "(-Inf,63.5]"[] 
+ []
+
+
+Overfull \hbox (91.71013pt too wide) in paragraph at lines 72--72
+[]\TU/lmtt/m/n/10 ## [22,] "(-Inf,65.5]" "(-Inf,65]" "(51.5, Inf]" "(56.5, Inf]
+" "(63.5, Inf]"[] 
+ []
+
+
+Overfull \hbox (91.71013pt too wide) in paragraph at lines 72--72
+[]\TU/lmtt/m/n/10 ## [23,] "(-Inf,65.5]" "(65, Inf]" "(51.5, Inf]" "(-Inf,56.5]
+" "(-Inf,63.5]"[] 
+ []
+
+
+Overfull \hbox (91.71013pt too wide) in paragraph at lines 72--72
+[]\TU/lmtt/m/n/10 ## [24,] "(-Inf,65.5]" "(-Inf,65]" "(-Inf,51.5]" "(56.5, Inf]
+" "(-Inf,63.5]"[] 
+ []
+
+
+Overfull \hbox (91.71013pt too wide) in paragraph at lines 72--72
+[]\TU/lmtt/m/n/10 ## [25,] "(-Inf,65.5]" "(-Inf,65]" "(-Inf,51.5]" "(-Inf,56.5]
+" "(63.5, Inf]"[] 
+ []
+
+
+Overfull \hbox (91.71013pt too wide) in paragraph at lines 72--72
+[]\TU/lmtt/m/n/10 ## [26,] "(65.5, Inf]" "(65, Inf]" "(51.5, Inf]" "(56.5, Inf]
+" "(63.5, Inf]"[] 
+ []
+
+
+Overfull \hbox (91.71013pt too wide) in paragraph at lines 72--72
+[]\TU/lmtt/m/n/10 ## [27,] "(65.5, Inf]" "(65, Inf]" "(51.5, Inf]" "(56.5, Inf]
+" "(63.5, Inf]"[] 
+ []
+
+
+Overfull \hbox (91.71013pt too wide) in paragraph at lines 72--72
+[]\TU/lmtt/m/n/10 ## [28,] "(-Inf,65.5]" "(-Inf,65]" "(-Inf,51.5]" "(-Inf,56.5]
+" "(-Inf,63.5]"[] 
+ []
+
+
+Overfull \hbox (91.71013pt too wide) in paragraph at lines 72--72
+[]\TU/lmtt/m/n/10 ## [29,] "(65.5, Inf]" "(65, Inf]" "(51.5, Inf]" "(56.5, Inf]
+" "(63.5, Inf]"[] 
+ []
+
+
+Overfull \hbox (91.71013pt too wide) in paragraph at lines 72--72
+[]\TU/lmtt/m/n/10 ## [30,] "(65.5, Inf]" "(65, Inf]" "(-Inf,51.5]" "(56.5, Inf]
+" "(63.5, Inf]"[] 
+ []
+
+)
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 
-Overfull \vbox (33.2972pt too high) detected at line 1624
+Overfull \vbox (550.5772pt too high) detected at line 1692
  []
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
-[73
-
-]
-\openout4 = `Slides1.vrb'.
-
-(./Slides1.vrb)
-
-Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
-
-File: imagens/Icon.jpg Graphic file (type bmp)
-<imagens/Icon.jpg>
-[74
-
-]
-
-Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
-
 [75
 
 ]
@@ -2566,15 +2752,13 @@ Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
+
+Overfull \vbox (33.2972pt too high) detected at line 1723
+ []
+
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
 [76
-
-]
-
-Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
-
-[77
 
 ]
 \openout4 = `Slides1.vrb'.
@@ -2585,9 +2769,18 @@ Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
+[77
+
+]
+
+Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
+
 [78
 
-] (./Slides1.vrb)
+]
+\openout4 = `Slides1.vrb'.
+
+(./Slides1.vrb)
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
@@ -2611,16 +2804,7 @@ File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
 [81
 
-]
-\openout4 = `Slides1.vrb'.
-
-(./Slides1.vrb
-Overfull \hbox (107.46013pt too wide) in paragraph at lines 25--25
-[]\TU/lmtt/m/n/10 ## [1] "Um texto\nmuito\ncomprido,\nque\npode ser\nquebrado\n
-em várias\nlinhas"[] 
- []
-
-)
+] (./Slides1.vrb)
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
@@ -2628,7 +2812,10 @@ File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
 [82
 
-] (./Slides1.vrb
+]
+\openout4 = `Slides1.vrb'.
+
+(./Slides1.vrb
 Overfull \hbox (107.46013pt too wide) in paragraph at lines 25--25
 []\TU/lmtt/m/n/10 ## [1] "Um texto\nmuito\ncomprido,\nque\npode ser\nquebrado\n
 em várias\nlinhas"[] 
@@ -2642,6 +2829,20 @@ File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
 [83
 
+] (./Slides1.vrb
+Overfull \hbox (107.46013pt too wide) in paragraph at lines 25--25
+[]\TU/lmtt/m/n/10 ## [1] "Um texto\nmuito\ncomprido,\nque\npode ser\nquebrado\n
+em várias\nlinhas"[] 
+ []
+
+)
+
+Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
+
+File: imagens/Icon.jpg Graphic file (type bmp)
+<imagens/Icon.jpg>
+[84
+
 ]
 \openout4 = `Slides1.vrb'.
 
@@ -2656,25 +2857,7 @@ atamento 3[]
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 
-Overfull \vbox (14.35716pt too high) detected at line 1807
- []
-
-File: imagens/Icon.jpg Graphic file (type bmp)
-<imagens/Icon.jpg>
-[84
-
-] (./Slides1.vrb
-Overfull \hbox (65.46013pt too wide) in paragraph at lines 32--32
-[]\TU/lmtt/m/n/10 ## [1] Tratamento 1 Tratamento 1 Tratamento 2 Tratamento 2 Tr
-atamento 3[] 
- []
-
-)
-
-Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
-
-
-Overfull \vbox (14.35716pt too high) detected at line 1807
+Overfull \vbox (14.35716pt too high) detected at line 1881
  []
 
 File: imagens/Icon.jpg Graphic file (type bmp)
@@ -2692,18 +2875,36 @@ atamento 3[]
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 
-Overfull \vbox (14.35716pt too high) detected at line 1807
+Overfull \vbox (14.35716pt too high) detected at line 1881
  []
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
 [86
 
+] (./Slides1.vrb
+Overfull \hbox (65.46013pt too wide) in paragraph at lines 32--32
+[]\TU/lmtt/m/n/10 ## [1] Tratamento 1 Tratamento 1 Tratamento 2 Tratamento 2 Tr
+atamento 3[] 
+ []
+
+)
+
+Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
+
+
+Overfull \vbox (14.35716pt too high) detected at line 1881
+ []
+
+File: imagens/Icon.jpg Graphic file (type bmp)
+<imagens/Icon.jpg>
+[87
+
 ]
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
-[87
+[88
 
 ]
 \openout4 = `Slides1.vrb'.
@@ -2809,12 +3010,12 @@ Overfull \hbox (65.46013pt too wide) in paragraph at lines 32--32
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 
-Overfull \vbox (68.61719pt too high) detected at line 1847
+Overfull \vbox (68.61719pt too high) detected at line 1921
  []
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
-[88
+[89
 
 ]
 \openout4 = `Slides1.vrb'.
@@ -6614,12 +6815,12 @@ Overfull \hbox (259.71013pt too wide) in paragraph at lines 551--551
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 
-Overfull \vbox (6297.38719pt too high) detected at line 2400
+Overfull \vbox (6297.38719pt too high) detected at line 2474
  []
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
-[89
+[90
 
 ]
 \openout4 = `Slides1.vrb'.
@@ -10419,18 +10620,18 @@ Overfull \hbox (203.01013pt too wide) in paragraph at lines 553--553
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 
-Overfull \vbox (5755.01819pt too high) detected at line 2955
+Overfull \vbox (5755.01819pt too high) detected at line 3029
  []
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
-[90
+[91
 
 ]
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
-[91
+[92
 
 ]
 \openout4 = `Slides1.vrb'.
@@ -10440,12 +10641,12 @@ Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 
-Overfull \vbox (6.15817pt too high) detected at line 3005
+Overfull \vbox (6.15817pt too high) detected at line 3079
  []
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
-[92
+[93
 
 ]
 \openout4 = `Slides1.vrb'.
@@ -10480,7 +10681,7 @@ Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
-[93
+[94
 
 ]
 \openout4 = `Slides1.vrb'.
@@ -10515,7 +10716,7 @@ Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
-[94
+[95
 
 ]
 \openout4 = `Slides1.vrb'.
@@ -10526,7 +10727,7 @@ Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
-[95
+[96
 
 ]
 \openout4 = `Slides1.vrb'.
@@ -10551,12 +10752,12 @@ Overfull \hbox (24.05421pt too wide) in paragraph at lines 45--45
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 
-Overfull \vbox (15.28717pt too high) detected at line 3156
+Overfull \vbox (15.28717pt too high) detected at line 3230
  []
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
-[96
+[97
 
 ]
 \openout4 = `Slides1.vrb'.
@@ -10569,12 +10770,12 @@ LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <7> not available
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 
-Overfull \vbox (6.02817pt too high) detected at line 3200
+Overfull \vbox (6.02817pt too high) detected at line 3274
  []
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
-[97
+[98
 
 ]
 \openout4 = `Slides1.vrb'.
@@ -10585,7 +10786,7 @@ Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
-[98
+[99
 
 ]
 \openout4 = `Slides1.vrb'.
@@ -10599,7 +10800,7 @@ Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
-[99
+[100
 
 ]
 \openout4 = `Slides1.vrb'.
@@ -10616,7 +10817,7 @@ Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
-[100
+[101
 
 ]
 \openout4 = `Slides1.vrb'.
@@ -10633,7 +10834,7 @@ Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
-[101
+[102
 
 ]
 \tf@nav=\write6
@@ -10647,12 +10848,12 @@ File: imagens/Icon.jpg Graphic file (type bmp)
 
 (./Slides1.aux) ) 
 Here is how much of TeX's memory you used:
- 34856 strings out of 476191
- 717172 string characters out of 5812072
- 2802721 words of memory out of 5000000
- 54704 multiletter control sequences out of 15000+600000
+ 34827 strings out of 476191
+ 716415 string characters out of 5812072
+ 2801864 words of memory out of 5000000
+ 54673 multiletter control sequences out of 15000+600000
  475101 words of font info for 119 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  128i,15n,128p,1004b,1385s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Slides1.pdf (101 pages).
+Output written on Slides1.pdf (102 pages).

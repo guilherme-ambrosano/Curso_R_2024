@@ -495,6 +495,25 @@ expand.grid(c("Trat 1", "Trat 2", "Trat 3"),
 
 ```
 
+# -
+\section{Exercícios}
+\framecard{{\color{white}\Huge{Exercícios}}}
+
+# Exercícios
+
+A partir do conjunto de dados `datasets::attitude`:
+
+- **1.** Criar um vetor da classe fator que divida a coluna `attitude$ratings` em dois níveis pela mediana.
+- **2.** Obter as médias de `learning` para valores abaixo e acima da mediana de `critical`.
+- **3.** Criar uma função que dicotomize qualquer vetor pela mediana, como feito no exercício 1, e depois aplicar essa função para todas as colunas do data frame `attitude`.
+
+```{r, eval=F}
+
+cut(attitude$ratings, c(-Inf, median(attitude$ratings), Inf))
+
+aggregate(attitude$learning, by=list(critical=cut(attitude$critical, c(-Inf, median(attitude$critical), Inf))), mean)
+
+```
 
 # -
 \section{A família apply}
@@ -534,6 +553,14 @@ sapply(seq(1, length(nFolhas)),
 
 ```{r, echo=T}
 
+sapply(attitude, function(x) cut(x, c(-Inf, median(x), Inf)))
+
+```
+
+# A família apply
+
+```{r, echo=T}
+
 # Criando uma lista
 lapply(c("a", "e", "i", "o", "u"),
        function(x) {
@@ -553,27 +580,6 @@ sapply(c(1,2,3), divisao, b=2)
 
 ```
 
-# -
-\section{Exercícios}
-\framecard{{\color{white}\Huge{Exercícios}}}
-
-# Exercícios
-
-A partir do conjunto de dados `datasets::attitude`:
-
-- **1.** Criar um vetor da classe fator que divida a coluna `attitude$ratings` em dois níveis pela mediana
-- **2.** Dicotomizar todas as colunas do data frame `attitude` pela mediana, como feito no exercício **1.**, com um único comando (Dica: família apply)
-- **3.** Obter as médias de `learning` para valores abaixo e acima da mediana de `critical`
-
-```{r, eval=F}
-
-cut(attitude$ratings, c(-Inf, median(attitude$ratings), Inf))
-
-sapply(attitude, function(x) cut(x, c(-Inf, median(x), Inf)))
-
-aggregate(attitude$learning, by=list(critical=cut(attitude$critical, c(-Inf, median(attitude$critical), Inf))), mean)
-
-```
 
 # -
 \section{Pacotes stringr e forcats}
