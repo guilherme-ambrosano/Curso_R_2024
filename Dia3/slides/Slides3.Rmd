@@ -1002,7 +1002,7 @@ levels(fr$GPTE)
 
 # Programa de Fomento Rural
 
-```{r, echo=T}
+```{r, echo=T, fig.height=4}
 
 fr %>%
   ggplot(aes(x=anomes_s, col=GPTE, y=value)) +

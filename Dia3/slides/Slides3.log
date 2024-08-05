@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2024.3.18)  5 AUG 2024 10:24
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2024.3.18)  5 AUG 2024 14:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3515,63 +3515,63 @@ Overfull \hbox (84.88553pt too wide) in paragraph at lines 34--34
  []
 
 
+Overfull \hbox (84.88554pt too wide) in paragraph at lines 34--34
+[]\TU/lmtt/m/n/9 ##  1                             118                   7707  
+                11142[] 
+ []
+
+
 Overfull \hbox (84.88556pt too wide) in paragraph at lines 34--34
-[]\TU/lmtt/m/n/9 ##  1                              24                    756  
+[]\TU/lmtt/m/n/9 ##  2                             128                     NA  
+                11142[] 
+ []
+
+
+Overfull \hbox (84.88554pt too wide) in paragraph at lines 34--34
+[]\TU/lmtt/m/n/9 ##  3                              82                   4030  
+                 8114[] 
+ []
+
+
+Overfull \hbox (84.88556pt too wide) in paragraph at lines 34--34
+[]\TU/lmtt/m/n/9 ##  4                             148                     NA  
+                11750[] 
+ []
+
+
+Overfull \hbox (84.88556pt too wide) in paragraph at lines 34--34
+[]\TU/lmtt/m/n/9 ##  5                              79                     NA  
+                 8478[] 
+ []
+
+
+Overfull \hbox (84.88554pt too wide) in paragraph at lines 34--34
+[]\TU/lmtt/m/n/9 ##  6                              85                   5489  
+                 8478[] 
+ []
+
+
+Overfull \hbox (84.88554pt too wide) in paragraph at lines 34--34
+[]\TU/lmtt/m/n/9 ##  7                              83                   5522  
+                 8478[] 
+ []
+
+
+Overfull \hbox (84.88556pt too wide) in paragraph at lines 34--34
+[]\TU/lmtt/m/n/9 ##  8                              24                    756  
                  1031[] 
  []
 
 
 Overfull \hbox (84.88554pt too wide) in paragraph at lines 34--34
-[]\TU/lmtt/m/n/9 ##  2                             103                   1309  
-                 2399[] 
- []
-
-
-Overfull \hbox (84.88554pt too wide) in paragraph at lines 34--34
-[]\TU/lmtt/m/n/9 ##  3                             101                   1302  
-                 2399[] 
- []
-
-
-Overfull \hbox (84.88556pt too wide) in paragraph at lines 34--34
-[]\TU/lmtt/m/n/9 ##  4                              81                   3814  
-                   NA[] 
- []
-
-
-Overfull \hbox (84.88556pt too wide) in paragraph at lines 34--34
-[]\TU/lmtt/m/n/9 ##  5                             189                   2728  
-                   NA[] 
- []
-
-
-Overfull \hbox (84.88554pt too wide) in paragraph at lines 34--34
-[]\TU/lmtt/m/n/9 ##  6                             178                   2398  
-                 4583[] 
- []
-
-
-Overfull \hbox (84.88554pt too wide) in paragraph at lines 34--34
-[]\TU/lmtt/m/n/9 ##  7                              25                   3006  
+[]\TU/lmtt/m/n/9 ##  9                              25                   3006  
                  3853[] 
  []
 
 
-Overfull \hbox (84.88554pt too wide) in paragraph at lines 34--34
-[]\TU/lmtt/m/n/9 ##  8                              81                   1454  
-                 2931[] 
- []
-
-
-Overfull \hbox (84.88554pt too wide) in paragraph at lines 34--34
-[]\TU/lmtt/m/n/9 ##  9                             118                   7707  
-                11142[] 
- []
-
-
-Overfull \hbox (84.88554pt too wide) in paragraph at lines 34--34
-[]\TU/lmtt/m/n/9 ## 10                             128                     NA  
-                11142[] 
+Overfull \hbox (84.88553pt too wide) in paragraph at lines 34--34
+[]\TU/lmtt/m/n/9 ## 10                             103                   1309  
+                 2399[] 
  []
 
 
@@ -3621,61 +3621,61 @@ Overfull \hbox (128.46013pt too wide) in paragraph at lines 32--32
 
 
 Overfull \hbox (128.46013pt too wide) in paragraph at lines 32--32
-[]\TU/lmtt/m/n/10 ##  1   202306                      0                      0 
+[]\TU/lmtt/m/n/10 ##  1   202310                      0                      0 
                      0[] 
  []
 
 
 Overfull \hbox (128.46013pt too wide) in paragraph at lines 32--32
-[]\TU/lmtt/m/n/10 ##  2   202311                      0                      0 
+[]\TU/lmtt/m/n/10 ##  2   202312                      1                      0 
                      0[] 
  []
 
 
 Overfull \hbox (128.46013pt too wide) in paragraph at lines 32--32
-[]\TU/lmtt/m/n/10 ##  3   202310                      0                      0 
+[]\TU/lmtt/m/n/10 ##  3   202311                      0                      0 
                      0[] 
  []
 
 
 Overfull \hbox (128.46013pt too wide) in paragraph at lines 32--32
-[]\TU/lmtt/m/n/10 ##  4   202301                      0                      0 
+[]\TU/lmtt/m/n/10 ##  4   202312                      0                      0 
                      0[] 
  []
 
 
 Overfull \hbox (128.46013pt too wide) in paragraph at lines 32--32
-[]\TU/lmtt/m/n/10 ##  5   202301                      0                      0 
+[]\TU/lmtt/m/n/10 ##  5   202312                      0                      0 
                      0[] 
  []
 
 
 Overfull \hbox (128.46013pt too wide) in paragraph at lines 32--32
-[]\TU/lmtt/m/n/10 ##  6   202308                      0                      0 
+[]\TU/lmtt/m/n/10 ##  6   202310                      0                      0 
                      0[] 
  []
 
 
 Overfull \hbox (128.46013pt too wide) in paragraph at lines 32--32
-[]\TU/lmtt/m/n/10 ##  7   202308                      0                      0 
+[]\TU/lmtt/m/n/10 ##  7   202311                      0                      0 
                      0[] 
  []
 
 
 Overfull \hbox (128.46013pt too wide) in paragraph at lines 32--32
-[]\TU/lmtt/m/n/10 ##  8   202308                      0                      0 
+[]\TU/lmtt/m/n/10 ##  8   202306                      0                      0 
                      0[] 
  []
 
 
 Overfull \hbox (128.46013pt too wide) in paragraph at lines 32--32
-[]\TU/lmtt/m/n/10 ##  9   202310                      0                      0 
+[]\TU/lmtt/m/n/10 ##  9   202308                      0                      0 
                      0[] 
  []
 
 
 Overfull \hbox (128.46013pt too wide) in paragraph at lines 32--32
-[]\TU/lmtt/m/n/10 ## 10   202312                      1                      0 
+[]\TU/lmtt/m/n/10 ## 10   202311                      0                      0 
                      0[] 
  []
 
@@ -4053,10 +4053,6 @@ File: Slides3_files/figure-beamer/unnamed-chunk-64-1.pdf Graphic file (type pdf
 )
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
-
-
-Overfull \vbox (45.8032pt too high) detected at line 2808
- []
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
