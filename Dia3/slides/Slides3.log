@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2024.3.18)  5 AUG 2024 14:36
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2024.3.18)  5 AUG 2024 14:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1424,6 +1424,9 @@ Package fontspec Info: Libertad Book scale = 0.8879977783270926.
 
 Package fontspec Info: Libertad Book scale = 0.8879977783270926.
 
+
+Package fontspec Info: Libertad Book scale = 0.8879977783270926.
+
 )
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
@@ -2546,7 +2549,7 @@ File: Slides3_files/figure-beamer/unnamed-chunk-24-1.pdf Graphic file (type pdf
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 
-Overfull \vbox (26.0104pt too high) detected at line 1781
+Overfull \vbox (11.6794pt too high) detected at line 1781
  []
 
 File: imagens/Icon.jpg Graphic file (type bmp)
@@ -2557,8 +2560,9 @@ File: imagens/Icon.jpg Graphic file (type bmp)
 \openout4 = `Slides3.vrb'.
 
 (./Slides3.vrb
-LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <7> not available
-(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 7.
+File: Slides3_files/figure-beamer/unnamed-chunk-25-1.pdf Graphic file (type pdf
+)
+<use Slides3_files/figure-beamer/unnamed-chunk-25-1.pdf>
 )
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
@@ -2568,13 +2572,9 @@ File: imagens/Icon.jpg Graphic file (type bmp)
 [30
 
 ]
-\openout4 = `Slides3.vrb'.
-
-(./Slides3.vrb
 File: Slides3_files/figure-beamer/unnamed-chunk-26-1.pdf Graphic file (type pdf
 )
 <use Slides3_files/figure-beamer/unnamed-chunk-26-1.pdf>
-)
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
@@ -2583,18 +2583,9 @@ File: imagens/Icon.jpg Graphic file (type bmp)
 [31
 
 ]
-\openout4 = `Slides3.vrb'.
-
-(./Slides3.vrb
-File: Slides3_files/figure-beamer/unnamed-chunk-27-1.pdf Graphic file (type pdf
-)
-<use Slides3_files/figure-beamer/unnamed-chunk-27-1.pdf>
-)
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
-File: imagens/Icon.jpg Graphic file (type bmp)
-<imagens/Icon.jpg>
 [32
 
 ]
@@ -2613,23 +2604,24 @@ File: imagens/Icon.jpg Graphic file (type bmp)
 [33
 
 ]
+
+Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
+
+[34
+
+]
 \openout4 = `Slides3.vrb'.
 
 (./Slides3.vrb
-File: Slides3_files/figure-beamer/unnamed-chunk-29-1.pdf Graphic file (type pdf
-)
-<use Slides3_files/figure-beamer/unnamed-chunk-29-1.pdf>
+LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <7> not available
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 7.
 )
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
-
-Overfull \vbox (13.67813pt too high) detected at line 1898
- []
-
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
-[34
+[35
 
 ]
 \openout4 = `Slides3.vrb'.
@@ -2644,7 +2636,7 @@ Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
-[35
+[36
 
 ]
 \openout4 = `Slides3.vrb'.
@@ -2657,13 +2649,9 @@ File: Slides3_files/figure-beamer/unnamed-chunk-31-1.pdf Graphic file (type pdf
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
-
-Overfull \vbox (13.70193pt too high) detected at line 1933
- []
-
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
-[36
+[37
 
 ]
 \openout4 = `Slides3.vrb'.
@@ -2676,13 +2664,9 @@ File: Slides3_files/figure-beamer/unnamed-chunk-32-1.pdf Graphic file (type pdf
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
-
-Overfull \vbox (13.70193pt too high) detected at line 1953
- []
-
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
-[37
+[38
 
 ]
 \openout4 = `Slides3.vrb'.
@@ -2695,9 +2679,13 @@ File: Slides3_files/figure-beamer/unnamed-chunk-33-1.pdf Graphic file (type pdf
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
+
+Overfull \vbox (13.67813pt too high) detected at line 1960
+ []
+
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
-[38
+[39
 
 ]
 \openout4 = `Slides3.vrb'.
@@ -2712,18 +2700,26 @@ Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
-[39
+[40
 
 ]
+\openout4 = `Slides3.vrb'.
+
+(./Slides3.vrb
 File: Slides3_files/figure-beamer/unnamed-chunk-35-1.pdf Graphic file (type pdf
 )
 <use Slides3_files/figure-beamer/unnamed-chunk-35-1.pdf>
+)
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
+
+Overfull \vbox (13.70193pt too high) detected at line 1995
+ []
+
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
-[40
+[41
 
 ]
 \openout4 = `Slides3.vrb'.
@@ -2736,9 +2732,13 @@ File: Slides3_files/figure-beamer/unnamed-chunk-36-1.pdf Graphic file (type pdf
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
+
+Overfull \vbox (13.70193pt too high) detected at line 2015
+ []
+
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
-[41
+[42
 
 ]
 \openout4 = `Slides3.vrb'.
@@ -2753,7 +2753,7 @@ Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
-[42
+[43
 
 ]
 \openout4 = `Slides3.vrb'.
@@ -2766,13 +2766,9 @@ File: Slides3_files/figure-beamer/unnamed-chunk-38-1.pdf Graphic file (type pdf
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
-
-Overfull \vbox (53.74226pt too high) detected at line 2061
- []
-
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
-[43
+[44
 
 ]
 \openout4 = `Slides3.vrb'.
@@ -2785,13 +2781,9 @@ File: Slides3_files/figure-beamer/unnamed-chunk-39-1.pdf Graphic file (type pdf
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
-
-Overfull \vbox (53.74226pt too high) detected at line 2083
- []
-
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
-[44
+[45
 
 ]
 \openout4 = `Slides3.vrb'.
@@ -2805,18 +2797,31 @@ File: Slides3_files/figure-beamer/unnamed-chunk-40-1.pdf Graphic file (type pdf
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 
-Overfull \vbox (15.78523pt too high) detected at line 2108
+Overfull \vbox (53.74226pt too high) detected at line 2093
  []
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
-[45
+[46
 
 ]
+\openout4 = `Slides3.vrb'.
+
+(./Slides3.vrb
+File: Slides3_files/figure-beamer/unnamed-chunk-41-1.pdf Graphic file (type pdf
+)
+<use Slides3_files/figure-beamer/unnamed-chunk-41-1.pdf>
+)
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
-[46
+
+Overfull \vbox (53.74226pt too high) detected at line 2115
+ []
+
+File: imagens/Icon.jpg Graphic file (type bmp)
+<imagens/Icon.jpg>
+[47
 
 ]
 \openout4 = `Slides3.vrb'.
@@ -2830,26 +2835,26 @@ File: Slides3_files/figure-beamer/unnamed-chunk-42-1.pdf Graphic file (type pdf
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 
-Overfull \vbox (25.48137pt too high) detected at line 2134
+Overfull \vbox (15.78523pt too high) detected at line 2140
  []
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
-[47
-
-]
-
-Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
-
 [48
 
 ]
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
+[49
+
+]
+
+Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
+
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
-[49
+[50
 
 ]
 \openout4 = `Slides3.vrb'.
@@ -2967,12 +2972,12 @@ ora no estado do Rio de Janeiro[] <chr>,[]
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 
-Overfull \vbox (227.54718pt too high) detected at line 2195
+Overfull \vbox (227.54718pt too high) detected at line 2201
  []
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
-[50
+[51
 
 ]
 \openout4 = `Slides3.vrb'.
@@ -2983,7 +2988,7 @@ Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
-[51
+[52
 
 ]
 \openout4 = `Slides3.vrb'.
@@ -3065,12 +3070,12 @@ Overfull \hbox (123.21013pt too wide) in paragraph at lines 29--29
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 
-Overfull \vbox (34.4972pt too high) detected at line 2249
+Overfull \vbox (34.4972pt too high) detected at line 2255
  []
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
-[52
+[53
 
 ]
 \openout4 = `Slides3.vrb'.
@@ -3152,12 +3157,12 @@ m~         2 Ombro[]
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 
-Overfull \vbox (34.8562pt too high) detected at line 2284
+Overfull \vbox (34.8562pt too high) detected at line 2290
  []
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
-[53
+[54
 
 ]
 \openout4 = `Slides3.vrb'.
@@ -3239,12 +3244,12 @@ P~         1 Semidec[]
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 
-Overfull \vbox (46.5132pt too high) detected at line 2320
+Overfull \vbox (46.5132pt too high) detected at line 2326
  []
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
-[54
+[55
 
 ]
 \openout4 = `Slides3.vrb'.
@@ -3326,12 +3331,12 @@ m~         1 Ombro[]
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 
-Overfull \vbox (56.7572pt too high) detected at line 2357
+Overfull \vbox (56.7572pt too high) detected at line 2363
  []
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
-[55
+[56
 
 ]
 \openout4 = `Slides3.vrb'.
@@ -3345,12 +3350,12 @@ File: Slides3_files/figure-beamer/unnamed-chunk-49-1.pdf Graphic file (type pdf
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 
-Overfull \vbox (2.58363pt too high) detected at line 2377
+Overfull \vbox (2.58363pt too high) detected at line 2383
  []
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
-[56
+[57
 
 ]
 \openout4 = `Slides3.vrb'.
@@ -3364,12 +3369,12 @@ File: Slides3_files/figure-beamer/unnamed-chunk-50-1.pdf Graphic file (type pdf
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 
-Overfull \vbox (13.58363pt too high) detected at line 2398
+Overfull \vbox (13.58363pt too high) detected at line 2404
  []
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
-[57
+[58
 
 ]
 \openout4 = `Slides3.vrb'.
@@ -3383,22 +3388,7 @@ File: Slides3_files/figure-beamer/unnamed-chunk-51-1.pdf Graphic file (type pdf
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 
-Overfull \vbox (7.44887pt too high) detected at line 2422
- []
-
-File: imagens/Icon.jpg Graphic file (type bmp)
-<imagens/Icon.jpg>
-[58
-
-]
-\openout4 = `Slides3.vrb'.
-
-(./Slides3.vrb)
-
-Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
-
-
-Overfull \vbox (45.28719pt too high) detected at line 2454
+Overfull \vbox (7.44887pt too high) detected at line 2428
  []
 
 File: imagens/Icon.jpg Graphic file (type bmp)
@@ -3413,12 +3403,27 @@ File: imagens/Icon.jpg Graphic file (type bmp)
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 
-Overfull \vbox (6.1272pt too high) detected at line 2484
+Overfull \vbox (45.28719pt too high) detected at line 2460
  []
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
 [60
+
+]
+\openout4 = `Slides3.vrb'.
+
+(./Slides3.vrb)
+
+Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
+
+
+Overfull \vbox (6.1272pt too high) detected at line 2490
+ []
+
+File: imagens/Icon.jpg Graphic file (type bmp)
+<imagens/Icon.jpg>
+[61
 
 ]
 \openout4 = `Slides3.vrb'.
@@ -3433,7 +3438,7 @@ Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
-[61
+[62
 
 ]
 \openout4 = `Slides3.vrb'.
@@ -3492,12 +3497,12 @@ _i <lgl>,[]
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 
-Overfull \vbox (118.07219pt too high) detected at line 2549
+Overfull \vbox (118.07219pt too high) detected at line 2555
  []
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
-[62
+[63
 
 ]
 \openout4 = `Slides3.vrb'.
@@ -3597,12 +3602,12 @@ _i <dbl>,[]
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 
-Overfull \vbox (46.68419pt too high) detected at line 2585
+Overfull \vbox (46.68419pt too high) detected at line 2591
  []
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
-[63
+[64
 
 ]
 \openout4 = `Slides3.vrb'.
@@ -3702,12 +3707,12 @@ Overfull \hbox (33.96013pt too wide) in paragraph at lines 32--32
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 
-Overfull \vbox (71.45718pt too high) detected at line 2619
+Overfull \vbox (71.45718pt too high) detected at line 2625
  []
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
-[64
+[65
 
 ]
 \openout4 = `Slides3.vrb'.
@@ -3801,12 +3806,12 @@ Overfull \hbox (9.28517pt too wide) in paragraph at lines 36--36
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 
-Overfull \vbox (68.73819pt too high) detected at line 2657
+Overfull \vbox (68.73819pt too high) detected at line 2663
  []
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
-[65
+[66
 
 ]
 \openout4 = `Slides3.vrb'.
@@ -3865,7 +3870,7 @@ Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
-[66
+[67
 
 ]
 \openout4 = `Slides3.vrb'.
@@ -3924,7 +3929,7 @@ Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
-[67
+[68
 
 ]
 \openout4 = `Slides3.vrb'.
@@ -3983,7 +3988,7 @@ Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
-[68
+[69
 
 ]
 \openout4 = `Slides3.vrb'.
@@ -4012,7 +4017,7 @@ Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
-[69
+[70
 
 ]
 \openout4 = `Slides3.vrb'.
@@ -4041,7 +4046,7 @@ Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
-[70
+[71
 
 ]
 \openout4 = `Slides3.vrb'.
@@ -4056,13 +4061,13 @@ Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
-[71
+[72
 
 ]
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
-[72
+[73
 
 ]
 \openout4 = `Slides3.vrb'.
@@ -4077,7 +4082,7 @@ Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
-[73
+[74
 
 ]
 \openout4 = `Slides3.vrb'.
@@ -4108,12 +4113,12 @@ File: Slides3_files/figure-beamer/unnamed-chunk-68-1.pdf Graphic file (type pdf
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 
-Overfull \vbox (212.99458pt too high) detected at line 2873
+Overfull \vbox (212.99458pt too high) detected at line 2879
  []
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
-[74
+[75
 
 ]
 \tf@nav=\write6
@@ -4127,12 +4132,12 @@ File: imagens/Icon.jpg Graphic file (type bmp)
 
 (./Slides3.aux) ) 
 Here is how much of TeX's memory you used:
- 34839 strings out of 476191
- 724703 string characters out of 5812072
- 1528485 words of memory out of 5000000
- 54717 multiletter control sequences out of 15000+600000
+ 34850 strings out of 476191
+ 724862 string characters out of 5812072
+ 1527736 words of memory out of 5000000
+ 54728 multiletter control sequences out of 15000+600000
  475070 words of font info for 115 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  128i,15n,128p,1004b,1495s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Slides3.pdf (74 pages).
+Output written on Slides3.pdf (75 pages).
