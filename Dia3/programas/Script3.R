@@ -7,6 +7,14 @@ library(broom)
 # purrr
 # ggplot2
 
+fomentoRural <- read_csv(
+  paste0("https://aplicacoes.mds.gov.br/sagi/",
+         "servicos/misocial/?",
+         "fq=anomes_s:2023*&",
+         "fq=formento_qtd_total_familias_benef_i:*&",
+         "q=*:*&",
+         "rows=1000000&",
+         "wt=csv"))
 
 fr <- fomentoRural %>% 
   select_if(~mean(is.na(.)|.==0)<.5) %>%
