@@ -4,8 +4,73 @@ library(broom)
 # Tidyverse ----
 
 # broom
+
+modelo.aov <- aov(Sepal.Length ~ Species, data=iris)
+modelo.lm  <- lm(Sepal.Width ~ Petal.Width, data=iris)
+modelo.wt  <- wilcox.test(iris$Petal.Length, g=iris$Species)
+
 # purrr
 # ggplot2
+
+linhas <- read_lines(
+  "http://www.leb.esalq.usp.br/leb/exceldados/DCE2023.TXT")
+
+inicio <- which(str_starts(linhas, "="))[c(1, seq(3, 37, 3))]
+final <- which(str_starts(linhas, "="))[c(2, seq(5,37,3), 37)]
+pular <- sapply(seq(1,13), function(i){
+  seq(inicio[i], final[i])
+})
+pular2 <- which(linhas=="")
+
+linhas2 <- linhas[-c(unlist(pular),pular2)]
+
+dados_metereologicos <- as_tibble(linhas2) %>%
+  separate(value,
+           c("No", "ANO", "DIA", "MES", "R.GLOBA",
+             "INSOLACAO", "PRECIPITACAO", "UMIDADE RELATIV",
+             "VENTO MAXIMO", "VENTO MEDIO", "TEMPER MAXIMA",
+             "TEMPER MINIMA", "TEMPER MEDIA", "EVAPORACAO"),
+           sep=" +") %>%
+  unite(Data, DIA, MES, ANO) %>%
+  mutate(Data=lubridate::dmy(Data)) %>%
+  mutate_at(vars(-Data), str_replace, ",", ".") %>%
+  mutate_at(vars(-Data), parse_number) %>%
+  filter(!is.na(Data))
+
+# Exemplos ----
+
+invasoras <- read_xlsx(
+  paste0("../dados/listagem-de-plantas-alternativas-as-",
+         "plantas-exoticas-invasoras-listadas-para-o-",
+         "estado-do-rio-de.xlsx"),
+  col_names=c("Codigo", "Familia_EEI", "NomeCient_EEI",
+              "NomePop_EEI",
+              "NomeCient_Ombro", "NouE_Ombro",
+              "NomeCient_Semidec", "NouE_Semidec",
+              "NomeCient_InfMar", "NouE_InfMar",
+              "Ecossist_EEI", "Categoria"),
+  range="A8:L268")
+
+ecossist <- invasoras %>%
+  mutate_at(vars(Ecossist_EEI), replace_na, "?") %>% 
+  group_by(NomeCient_EEI, Ecossist_EEI) %>%
+  count() %>%
+  group_by(NomeCient_EEI) %>%
+  arrange(Ecossist_EEI) %>% 
+  summarise(Ecossist_EEI = (function(x) {
+    if(length(x)==1) return(x)
+    else {
+      if(is.na(x[1])) return(x[2])
+      if(is.na(x[2])) return(x[1])
+      if(grepl(x[1], x[2])) return(x[2])
+      if(grepl(x[2], x[1])) return(x[1])
+      return(paste(x, collapse=", "))
+    }
+  })(Ecossist_EEI),
+  n = sum(n)) %>%
+  mutate_at(vars(Ecossist_EEI), ~ifelse(
+    .=="Formações Pioneiras de Influência Marinha, Floresta Ombrófila Densa",
+    "Floresta Ombrófila Densa, Formações Pioneiras de Influência Marinha", .))
 
 fomentoRural <- read_csv(
   paste0("https://aplicacoes.mds.gov.br/sagi/",
@@ -43,15 +108,10 @@ fr %>%
   ggplot(aes(x=mes_ano, col=idade, linetype=sexo, y=`Não-PBF`)) +
   geom_line()
 
-# Exemplos ----
+# Mais conjuntos de dados -----
 
-adugna.sorghum
-alwan.lamb
-archbold.apple
-australia.soybean
-devries.pine
-usgs.herbicides
-kreusler.maize
-eden.potato
-belamkar.augmented
+?datasets
+?`datasetsICR-package`
+?agridat
+# https://dados.gov.br/dados/conjuntos-dados/
 
