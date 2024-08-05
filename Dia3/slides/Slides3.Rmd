@@ -539,12 +539,50 @@ agridat::aastveit.barley.height %>%
 # ggplot2
 
 \small
-```{r, echo=T, fig.height=5}
+```{r, echo=t, fig.height=5}
 
 agridat::aastveit.barley.height %>%
   ggplot(aes(x=year, y=height)) +
   facet_wrap(~gen) +
   geom_line() +
+  theme_bw()
+
+```
+
+
+# ggplot2
+
+\small
+```{r, echo=t, fig.height=5}
+
+agridat::aastveit.barley.height %>%
+  ggplot(aes(x=year, y=height)) +
+  facet_wrap(~gen) +
+  geom_line() +
+  geom_hline(
+    data=aggregate(aastveit.barley.height$height,
+                   list(gen=aastveit.barley.height$gen),
+                   mean),
+    aes(yintercept=x), linetype="dashed") +
+  theme_bw()
+
+```
+
+
+# ggplot2
+
+\small
+```{r, echo=t, fig.height=5}
+
+agridat::aastveit.barley.height %>%
+  ggplot(aes(x=year, y=height)) +
+  facet_wrap(~gen) +
+  geom_line() +
+  geom_vline(
+    data=aastveit.barley.height %>%
+      group_by(gen) %>%
+      filter(height==max(height)),
+    aes(xintercept=year), linetype="dashed") +
   theme_bw()
 
 ```
@@ -831,31 +869,23 @@ ecossist %>%
 ```
 
 
-# Plantas alternativas a exóticas invasoras
-
-\scriptsize
-```{r, echo=T, fig.height=4}
-
-ecossist %>% 
-  mutate(NomeCient_EEI = fct_reorder(NomeCient_EEI, desc(n))) %>%
-  mutate_at(vars(Ecossist_EEI), str_wrap, width=22) %>% 
-  mutate(Ecossist_EEI = fct_reorder(Ecossist_EEI, desc(n))) %>%
-  ggplot(aes(x=NomeCient_EEI, y=n, fill=Ecossist_EEI)) +
-  guides(fill=guide_legend(nrow=3)) +
-  geom_col() +
-  theme_grey(base_size = 8) +
-  theme(axis.text.x = element_blank(),
-        legend.position = "bottom")
-
-```
-
 # Programa de Fomento Rural
+
+\small
+Fonte: https://dados.gov.br/dados/conjuntos-dados/programa-fomento-rural
 
 ```{r, echo=T, warning=F, message=F}
 
 library(readr)
 
-fomentoRural <- read_csv("https://aplicacoes.mds.gov.br/sagi/servicos/misocial/?fq=anomes_s:2024*&fq=formento_qtd_total_familias_benef_i%3A*&q=*%3A*&rows=1000000&wt=csv")
+fomentoRural <- read_csv(
+  paste0("https://aplicacoes.mds.gov.br/sagi/",
+         "servicos/misocial/?",
+         "fq=anomes_s:2023*&",
+         "fq=formento_qtd_total_familias_benef_i:*&",
+         "q=*:*&",
+         "rows=1000000&",
+         "wt=csv"))
 
 head(fomentoRural)
 
@@ -863,6 +893,7 @@ head(fomentoRural)
 
 # Programa de Fomento Rural
 
+\small
 ```{r, echo=T}
 
 fomentoRural %>% 
@@ -876,10 +907,8 @@ fomentoRural %>%
 ```{r, echo=T}
 
 fomentoRural %>% 
-  select_if(~mean(is.na(.)|.==0)<.5) %>%
-  select(mes_ano, matches( paste0(
-    "qtd\\_pes\\_(cad\\_nao\\_)?pbf",
-    "\\_idade\\_.+\\_sexo.+\\_i")))
+  select(anomes_s, matches( paste0(
+    "formento\\_qtd\\_fam\\_benef\\_.*\\_i")))
 
 ```
 
@@ -889,10 +918,9 @@ fomentoRural %>%
 ```{r, echo=T}
 
 fomentoRural %>% 
-  select_if(~mean(is.na(.)|.==0)<.5) %>%
-  select(mes_ano, matches(
-    "qtd\\_pes\\_(cad\\_nao\\_)?pbf\\_idade\\_.+\\_sexo.+\\_i")) %>%
-  group_by(mes_ano) %>%
+  select(anomes_s, matches(
+    "formento\\_qtd\\_fam\\_benef\\_.*\\_i")) %>%
+  group_by(anomes_s) %>%
   summarise_all(sum, na.rm=T)
 
 ```
@@ -903,12 +931,11 @@ fomentoRural %>%
 ```{r, echo=T}
 
 fr <- fomentoRural %>% 
-  select_if(~mean(is.na(.)|.==0)<.5) %>%
-  select(mes_ano, matches(
-    "qtd\\_pes\\_(cad\\_nao\\_)?pbf\\_idade\\_.+\\_sexo.+\\_i")) %>%
-  group_by(mes_ano) %>%
+  select(anomes_s, matches(
+    "formento\\_qtd\\_fam\\_benef\\_.*\\_i")) %>%
+  group_by(anomes_s) %>%
   summarise_all(sum, na.rm=T) %>% 
-  pivot_longer(-mes_ano)
+  pivot_longer(-anomes_s)
 
 head(fr)
 
@@ -921,11 +948,23 @@ head(fr)
 ```{r, echo=T}
 
 fr <- fr %>%
-  mutate(pbf = str_extract(name, "(nao\\_)?pbf"),
-         idade=str_extract(
-           name,
-           "idade\\_(maior\\_que\\_)?\\d+(\\_[ea]\\_\\d+)?"),
-         sexo =str_extract(name, "sexo\\_[^\\_]+ino"))
+  mutate_at(vars(anomes_s), as.character) %>% 
+  mutate_at(vars(anomes_s), fast_strptime, format="%Y%m") %>%
+  mutate_at(vars(anomes_s), as_date)
+
+head(fr)
+
+```
+
+# Programa de Fomento Rural
+
+\small
+```{r, echo=T}
+
+fr <- fr %>%
+  mutate(GPTE = str_remove(name, "formento\\_qtd\\_fam\\_benef\\_"),
+         GPTE = str_remove(GPTE, "\\_i$")) %>%
+  mutate_at(vars(GPTE), factor)
 
 head(fr)
 
@@ -936,14 +975,12 @@ head(fr)
 ```{r, echo=T}
 
 fr <- fr %>%
-  mutate(pbf = factor(pbf, levels=c("pbf", "nao_pbf"), 
-                      labels=c("PBF", "Não-PBF")),
-         idade=str_replace_all(str_remove(idade, "idade\\_"),
-                               "\\_", " "),
-         sexo =str_to_title(str_remove(sexo, "sexo\\_"))) %>%
-  mutate_at(vars(idade, sexo), factor)
+  mutate_at(vars(GPTE), fct_relabel,
+            str_replace_all, "\\_", " ") %>%
+  mutate_at(vars(GPTE), fct_relabel,
+            str_to_title)
 
-levels(fr$idade)
+levels(fr$GPTE)
 
 ```
 
@@ -952,24 +989,14 @@ levels(fr$idade)
 ```{r, echo=T}
 
 fr <- fr %>%
-  mutate(idade1 = parse_number(str_extract(idade, "\\d+"))) %>% 
-  mutate_at(vars(idade, sexo), factor) %>% 
-  mutate(idade = fct_reorder(idade, idade1))
+  mutate_at(vars(GPTE), fct_relabel,
+            str_replace,
+            "Agrilcultores", "Agricultores") %>%
+  mutate_at(vars(GPTE), fct_relabel,
+            str_replace,
+            "Indinegas", "Indígenas")
 
-levels(fr$idade)
-
-```
-
-# Programa de Fomento Rural
-
-```{r, echo=T}
-
-fr <- fr %>% 
-  select(mes_ano, pbf, idade, sexo, name, value) %>%
-  arrange(mes_ano, pbf, idade, sexo) %>%
-  pivot_wider(id_cols=c(mes_ano, idade, sexo), names_from=pbf)
-
-head(fr)
+levels(fr$GPTE)
 
 ```
 
@@ -978,17 +1005,7 @@ head(fr)
 ```{r, echo=T}
 
 fr %>%
-  ggplot(aes(x=mes_ano, col=idade, linetype=sexo, y=PBF)) +
-  geom_line()
-
-```
-
-# Programa de Fomento Rural
-
-```{r, echo=T}
-
-fr %>%
-  ggplot(aes(x=mes_ano, col=idade, linetype=sexo, y=`Não-PBF`)) +
+  ggplot(aes(x=anomes_s, col=GPTE, y=value)) +
   geom_line()
 
 ```
@@ -1038,4 +1055,36 @@ dados_metereologicos %>%
 
 # Exercício 2
 
+- \icon Encontrar o conjunto de dados dos Cursos Ativos da Graduação da UFSCar
+(https://dados.gov.br/dados/conjuntos-dados/)
+- \icon Processar os dados
+- \icon Obter a soma de vagas para cada uma das duas modalidades
 
+```{r}
+
+dados_ufscar <- read_csv("https://dados.ufscar.br/dataset/b00bb4d5-37ad-42e3-b726-30c06a448f3f/resource/f6f03301-42c9-4d23-80c3-75b1582a8020/download/cursos-presencial-graduacao.csv")
+
+aggregate(dados_ufscar$Vagas, list(Modalidade=dados_ufscar$Modalidade), sum)
+```
+
+- \icon Fazer um gráfico, baseando-se no gráfico a seguir:
+
+```{r}
+
+dados_ufscar %>%
+  mutate_at(vars(Turno), factor, levels=c("Matutino", "Integral", "Noturno")) %>% 
+  group_by(Turno, Modalidade, Campus) %>%
+  filter(Modalidade != "EAD") %>% 
+  summarise_at(vars(Vagas), sum) %>%
+  ggplot(aes(x=Turno, y=Vagas)) +
+  facet_wrap(~Campus) +
+  geom_col(aes(fill=Turno), show.legend=F, color="grey25") +
+  geom_hline(linetype="dashed",
+             aes(yintercept=1405, color="Vagas para modalidade EAD")) +
+  scale_color_manual(values="red") +
+  scale_fill_manual(values=c("orange", "yellow", "darkblue")) +
+  theme_bw() +
+  theme(legend.position="bottom",
+        legend.title=element_blank())
+
+```
