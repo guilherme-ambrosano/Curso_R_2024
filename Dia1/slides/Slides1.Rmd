@@ -93,6 +93,16 @@ install.packages(c("tidyverse",
 - \icon `ggplot2`: https://ggplot2.tidyverse.org/ 
 
 # -
+\section{Material do curso}
+\framecard{{\color{white}\Huge{Material do curso}}}
+
+# Material do curso
+
+https://github.com/guilherme-ambrosano/Curso_R_2024
+
+![](imagens/Github.png)
+
+# -
 \section{R básico}
 \framecard{{\color{white}\Huge{R básico}}}
 

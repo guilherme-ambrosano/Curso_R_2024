@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2024.3.18)  5 AUG 2024 08:21
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2024.3.18)  7 AUG 2024 10:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -946,7 +946,7 @@ ge=dflt;"
 (fontspec)             Light/OT:script=latn;language=dflt;"
 
 \c@totalfr=\count378
-Package hyperref Info: Option `colorlinks' set `true' on input line 423.
+Package hyperref Info: Option `colorlinks' set `true' on input line 436.
 (/usr/share/texlive/texmf-dist/tex/latex/bookmark/bookmark.sty
 Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
 (/usr/share/texlive/texmf-dist/tex/latex/bookmark/bkm-dvipdfm.def
@@ -957,26 +957,26 @@ Package: xurl 2022/01/09 v 0.10 modify URL breaks
 ) (./Slides1.aux)
 \openout1 = `Slides1.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 447.
-LaTeX Font Info:    ... okay on input line 447.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 447.
-LaTeX Font Info:    ... okay on input line 447.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 447.
-LaTeX Font Info:    ... okay on input line 447.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 447.
-LaTeX Font Info:    ... okay on input line 447.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 447.
-LaTeX Font Info:    ... okay on input line 447.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 447.
-LaTeX Font Info:    ... okay on input line 447.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 447.
-LaTeX Font Info:    ... okay on input line 447.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 447.
-LaTeX Font Info:    ... okay on input line 447.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 447.
-LaTeX Font Info:    ... okay on input line 447.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 447.
-LaTeX Font Info:    ... okay on input line 447.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 460.
+LaTeX Font Info:    ... okay on input line 460.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 460.
+LaTeX Font Info:    ... okay on input line 460.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 460.
+LaTeX Font Info:    ... okay on input line 460.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 460.
+LaTeX Font Info:    ... okay on input line 460.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 460.
+LaTeX Font Info:    ... okay on input line 460.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 460.
+LaTeX Font Info:    ... okay on input line 460.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 460.
+LaTeX Font Info:    ... okay on input line 460.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 460.
+LaTeX Font Info:    ... okay on input line 460.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 460.
+LaTeX Font Info:    ... okay on input line 460.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 460.
+LaTeX Font Info:    ... okay on input line 460.
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
 *geometry* verbose mode - [ preamble ] result:
@@ -1011,7 +1011,7 @@ LaTeX Font Info:    ... okay on input line 447.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 447.
+Package hyperref Info: Link coloring OFF on input line 460.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
@@ -1021,9 +1021,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count380
 )
-LaTeX Info: Redefining \ref on input line 447.
-LaTeX Info: Redefining \pageref on input line 447.
-LaTeX Info: Redefining \nameref on input line 447.
+LaTeX Info: Redefining \ref on input line 460.
+LaTeX Info: Redefining \pageref on input line 460.
+LaTeX Info: Redefining \nameref on input line 460.
 
 (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-basic-dictionary
 -English.dict
@@ -1050,19 +1050,19 @@ ry-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/lmr/m/n --> TU/lmr/m/n on input line 447.
+(Font)                  OT1/lmr/m/n --> TU/lmr/m/n on input line 460.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/lmr/m/it --> TU/lmr/m/it on input line 447.
+(Font)                  OT1/lmr/m/it --> TU/lmr/m/it on input line 460.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/lmr/bx/n --> TU/lmr/bx/n on input line 447.
+(Font)                  OT1/lmr/bx/n --> TU/lmr/bx/n on input line 460.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/lmss/m/n --> TU/lmss/m/n on input line 447.
+(Font)                  OT1/lmss/m/n --> TU/lmss/m/n on input line 460.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/lmss/bx/n --> TU/lmss/bx/n on input line 447.
+(Font)                  OT1/lmss/bx/n --> TU/lmss/bx/n on input line 460.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/lmtt/m/n --> TU/lmtt/m/n on input line 447.
+(Font)                  OT1/lmtt/m/n --> TU/lmtt/m/n on input line 460.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/lmtt/m/n --> TU/lmtt/bx/n on input line 447.
+(Font)                  OT1/lmtt/m/n --> TU/lmtt/bx/n on input line 460.
 
 Package fontspec Info: latinmodern-math scale = 1.030159915882193.
 
@@ -1091,7 +1091,7 @@ t=math;language=dflt;"
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(0)/m/n' will be
-(Font)              scaled to size 10.30167pt on input line 447.
+(Font)              scaled to size 10.30167pt on input line 460.
 
 Package fontspec Info: latinmodern-math scale = 1.030159915882193.
 
@@ -1130,18 +1130,18 @@ t=math;language=dflt;"
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 10.30167pt on input line 447.
+(Font)              scaled to size 10.30167pt on input line 460.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 447.
+(Font)              `operators' in the math version `normal' on input line 460.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/lmr/m/n --> TU/latinmodern-math.otf(1)/m/n on input
- line 447.
+ line 460.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 447.
+(Font)              `operators' in the math version `bold' on input line 460.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/lmr/bx/n --> TU/latinmodern-math.otf(1)/b/n on inpu
-t line 447.
+t line 460.
 
 Package fontspec Info: latinmodern-math scale = 1.030159915882193.
 
@@ -1228,15 +1228,15 @@ t=math;language=dflt;"
 (fontspec)             =0pt\relax \fontdimen 21\font =0pt\relax 
 
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `normal' on input line 447.
+(Font)              `symbols' in the math version `normal' on input line 460.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
 (Font)                  OMS/lmsy/m/n --> TU/latinmodern-math.otf(2)/m/n on inpu
-t line 447.
+t line 460.
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `bold' on input line 447.
+(Font)              `symbols' in the math version `bold' on input line 460.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
 (Font)                  OMS/lmsy/b/n --> TU/latinmodern-math.otf(2)/b/n on inpu
-t line 447.
+t line 460.
 
 Package fontspec Info: latinmodern-math scale = 1.030159915882193.
 
@@ -1306,22 +1306,22 @@ t=math;language=dflt;"
 
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
 (Font)              `largesymbols' in the math version `normal' on input line 4
-47.
+60.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
 (Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/m/n on inpu
-t line 447.
+t line 460.
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
-(Font)              `largesymbols' in the math version `bold' on input line 447
+(Font)              `largesymbols' in the math version `bold' on input line 460
 .
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 (Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/b/n on inpu
-t line 447.
-LaTeX Info: Redefining \microtypecontext on input line 447.
-Package microtype Info: Applying patch `item' on input line 447.
-Package microtype Info: Applying patch `toc' on input line 447.
-Package microtype Info: Applying patch `eqnum' on input line 447.
+t line 460.
+LaTeX Info: Redefining \microtypecontext on input line 460.
+Package microtype Info: Applying patch `item' on input line 460.
+Package microtype Info: Applying patch `toc' on input line 460.
+Package microtype Info: Applying patch `eqnum' on input line 460.
 
-Package microtype Warning: Unable to apply patch `footnote' on input line 447.
+Package microtype Warning: Unable to apply patch `footnote' on input line 460.
 
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using protrusion set `basicmath'.
@@ -1336,13 +1336,13 @@ Package microtype Info: Loading generic protrusion settings for font family
 File: imagens/LogoFundoTransp.jpg Graphic file (type bmp)
 <imagens/LogoFundoTransp.jpg>
 LaTeX Font Info:    Font shape `TU/Libertad(0)/m/n' will be
-(Font)              scaled to size 18.41713pt on input line 448.
+(Font)              scaled to size 18.41713pt on input line 461.
 LaTeX Font Info:    Font shape `TU/Libertad(0)/m/n' will be
-(Font)              scaled to size 7.104pt on input line 448.
+(Font)              scaled to size 7.104pt on input line 461.
 LaTeX Font Info:    Font shape `TU/Libertad(0)/m/n' will be
-(Font)              scaled to size 8.88pt on input line 448.
+(Font)              scaled to size 8.88pt on input line 461.
 LaTeX Font Info:    Font shape `TU/Libertad(0)/m/n' will be
-(Font)              scaled to size 6.216pt on input line 448.
+(Font)              scaled to size 6.216pt on input line 461.
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
 [1
@@ -1433,6 +1433,9 @@ Package fontspec Info: Libertad Book scale = 0.8879977783270926.
 
 Package fontspec Info: Libertad Book scale = 0.8879977783270926.
 
+
+Package fontspec Info: Libertad Book scale = 0.8879977783270926.
+
 )
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
@@ -1495,40 +1498,40 @@ Package fontspec Info: Font family 'LibertadMediumItalic(0)' created for font
 (fontspec)             Italic/BI/OT:script=latn;language=dflt;+smcp;"
 
 LaTeX Font Info:    Font shape `TU/LibertadMediumItalic(0)/m/n' will be
-(Font)              scaled to size 12.7872pt on input line 453.
+(Font)              scaled to size 12.7872pt on input line 466.
 LaTeX Font Info:    Font shape `TU/Libertad(0)/m/n' will be
-(Font)              scaled to size 12.7872pt on input line 453.
+(Font)              scaled to size 12.7872pt on input line 466.
 LaTeX Font Info:    Font shape `TU/Libertad(0)/b/n' will be
-(Font)              scaled to size 12.7872pt on input line 453.
+(Font)              scaled to size 12.7872pt on input line 466.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 7.21117pt on input line 453.
+(Font)              scaled to size 7.21117pt on input line 466.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 5.15083pt on input line 453.
+(Font)              scaled to size 5.15083pt on input line 466.
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 4
-53.
+66.
 (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 10.30258pt on input line 453.
+(Font)              scaled to size 10.30258pt on input line 466.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 7.2118pt on input line 453.
+(Font)              scaled to size 7.2118pt on input line 466.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 5.15129pt on input line 453.
+(Font)              scaled to size 5.15129pt on input line 466.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 10.3006pt on input line 453.
+(Font)              scaled to size 10.3006pt on input line 466.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 7.21042pt on input line 453.
+(Font)              scaled to size 7.21042pt on input line 466.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 5.1503pt on input line 453.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 453
+(Font)              scaled to size 5.1503pt on input line 466.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 466
 .
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 ) (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 453
+LaTeX Font Info:    Trying to load font information for U+msb on input line 466
 .
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -1543,7 +1546,16 @@ File: imagens/Icon.jpg Graphic file (type bmp)
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
+File: imagens/Icon.jpg Graphic file (type bmp)
+<imagens/Icon.jpg>
 [3
+
+
+]
+
+Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
+
+[4
 
 ]
 File: imagens/facebook.png Graphic file (type bmp)
@@ -1553,7 +1565,7 @@ Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
-[4
+[5
 
 ]
 File: imagens/facebook.png Graphic file (type bmp)
@@ -1569,7 +1581,7 @@ Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
-[5
+[6
 
 ]
 File: imagens/facebook.png Graphic file (type bmp)
@@ -1587,7 +1599,7 @@ Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
-[6
+[7
 
 ]
 File: imagens/R.png Graphic file (type bmp)
@@ -1601,7 +1613,7 @@ Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
-[7
+[8
 
 ]
 \openout4 = `Slides1.vrb'.
@@ -1615,7 +1627,7 @@ Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
-[8
+[9
 
 ]
 \openout4 = `Slides1.vrb'.
@@ -1626,54 +1638,45 @@ Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
-[9
+[10
 
 ]
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
-[10
+[11
+
+]
+File: imagens/Github.png Graphic file (type bmp)
+<imagens/Github.png>
+
+Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
+
+File: imagens/Icon.jpg Graphic file (type bmp)
+<imagens/Icon.jpg>
+[12
+
+]
+
+Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
+
+[13
 
 ]
 File: imagens/rstudio-panes-labeled.jpeg Graphic file (type bmp)
 <imagens/rstudio-panes-labeled.jpeg>
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 8.24133pt on input line 572.
+(Font)              scaled to size 8.24133pt on input line 598.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 6.181pt on input line 572.
+(Font)              scaled to size 6.181pt on input line 598.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 8.24207pt on input line 572.
+(Font)              scaled to size 8.24207pt on input line 598.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 6.18155pt on input line 572.
+(Font)              scaled to size 6.18155pt on input line 598.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 8.24048pt on input line 572.
+(Font)              scaled to size 8.24048pt on input line 598.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 6.18036pt on input line 572.
-
-Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
-
-File: imagens/Icon.jpg Graphic file (type bmp)
-<imagens/Icon.jpg>
-[11
-
-]
-
-Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
-
-[12
-
-]
-\openout4 = `Slides1.vrb'.
-
-(./Slides1.vrb)
-
-Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
-
-File: imagens/Icon.jpg Graphic file (type bmp)
-<imagens/Icon.jpg>
-[13
-
-] (./Slides1.vrb)
+(Font)              scaled to size 6.18036pt on input line 598.
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
@@ -1681,15 +1684,16 @@ File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
 [14
 
-] (./Slides1.vrb)
+]
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
-File: imagens/Icon.jpg Graphic file (type bmp)
-<imagens/Icon.jpg>
 [15
 
-] (./Slides1.vrb)
+]
+\openout4 = `Slides1.vrb'.
+
+(./Slides1.vrb)
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
@@ -1697,10 +1701,7 @@ File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
 [16
 
-]
-\openout4 = `Slides1.vrb'.
-
-(./Slides1.vrb)
+] (./Slides1.vrb)
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
@@ -1716,10 +1717,7 @@ File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
 [18
 
-]
-\openout4 = `Slides1.vrb'.
-
-(./Slides1.vrb)
+] (./Slides1.vrb)
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
@@ -1727,7 +1725,10 @@ File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
 [19
 
-] (./Slides1.vrb)
+]
+\openout4 = `Slides1.vrb'.
+
+(./Slides1.vrb)
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
@@ -1743,13 +1744,40 @@ File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
 [21
 
-] (./Slides1.vrb)
+]
+\openout4 = `Slides1.vrb'.
+
+(./Slides1.vrb)
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
 [22
+
+] (./Slides1.vrb)
+
+Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
+
+File: imagens/Icon.jpg Graphic file (type bmp)
+<imagens/Icon.jpg>
+[23
+
+] (./Slides1.vrb)
+
+Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
+
+File: imagens/Icon.jpg Graphic file (type bmp)
+<imagens/Icon.jpg>
+[24
+
+] (./Slides1.vrb)
+
+Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
+
+File: imagens/Icon.jpg Graphic file (type bmp)
+<imagens/Icon.jpg>
+[25
 
 ]
 \openout4 = `Slides1.vrb'.
@@ -1774,116 +1802,89 @@ as linhas"[]
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 
-Overfull \vbox (30.44716pt too high) detected at line 776
- []
-
-File: imagens/Icon.jpg Graphic file (type bmp)
-<imagens/Icon.jpg>
-[23
-
-] (./Slides1.vrb
-Overfull \hbox (56.53526pt too wide) in paragraph at lines 16--16
-[]\TU/lmtt/m/n/9 ## [1] "Um texto"  "muito"     "comprido," "que pode"  "ser"  
-     "quebrado"[] 
- []
-
-
-Overfull \hbox (32.91022pt too wide) in paragraph at lines 40--40
-[]\TU/lmtt/m/n/9 ## [1] "Um texto muito comprido, que pode ser quebrado em vári
-as linhas"[] 
- []
-
-)
-
-Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
-
-
-Overfull \vbox (30.44716pt too high) detected at line 776
- []
-
-File: imagens/Icon.jpg Graphic file (type bmp)
-<imagens/Icon.jpg>
-[24
-
-] (./Slides1.vrb
-Overfull \hbox (56.53526pt too wide) in paragraph at lines 16--16
-[]\TU/lmtt/m/n/9 ## [1] "Um texto"  "muito"     "comprido," "que pode"  "ser"  
-     "quebrado"[] 
- []
-
-
-Overfull \hbox (32.91022pt too wide) in paragraph at lines 40--40
-[]\TU/lmtt/m/n/9 ## [1] "Um texto muito comprido, que pode ser quebrado em vári
-as linhas"[] 
- []
-
-)
-
-Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
-
-
-Overfull \vbox (30.44716pt too high) detected at line 776
- []
-
-File: imagens/Icon.jpg Graphic file (type bmp)
-<imagens/Icon.jpg>
-[25
-
-] (./Slides1.vrb
-Overfull \hbox (56.53526pt too wide) in paragraph at lines 16--16
-[]\TU/lmtt/m/n/9 ## [1] "Um texto"  "muito"     "comprido," "que pode"  "ser"  
-     "quebrado"[] 
- []
-
-
-Overfull \hbox (32.91022pt too wide) in paragraph at lines 40--40
-[]\TU/lmtt/m/n/9 ## [1] "Um texto muito comprido, que pode ser quebrado em vári
-as linhas"[] 
- []
-
-)
-
-Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
-
-
-Overfull \vbox (30.44716pt too high) detected at line 776
+Overfull \vbox (30.44716pt too high) detected at line 802
  []
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
 [26
 
-]
-\openout4 = `Slides1.vrb'.
+] (./Slides1.vrb
+Overfull \hbox (56.53526pt too wide) in paragraph at lines 16--16
+[]\TU/lmtt/m/n/9 ## [1] "Um texto"  "muito"     "comprido," "que pode"  "ser"  
+     "quebrado"[] 
+ []
 
-(./Slides1.vrb)
+
+Overfull \hbox (32.91022pt too wide) in paragraph at lines 40--40
+[]\TU/lmtt/m/n/9 ## [1] "Um texto muito comprido, que pode ser quebrado em vári
+as linhas"[] 
+ []
+
+)
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
+
+
+Overfull \vbox (30.44716pt too high) detected at line 802
+ []
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
 [27
 
-] (./Slides1.vrb)
+] (./Slides1.vrb
+Overfull \hbox (56.53526pt too wide) in paragraph at lines 16--16
+[]\TU/lmtt/m/n/9 ## [1] "Um texto"  "muito"     "comprido," "que pode"  "ser"  
+     "quebrado"[] 
+ []
+
+
+Overfull \hbox (32.91022pt too wide) in paragraph at lines 40--40
+[]\TU/lmtt/m/n/9 ## [1] "Um texto muito comprido, que pode ser quebrado em vári
+as linhas"[] 
+ []
+
+)
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
+
+
+Overfull \vbox (30.44716pt too high) detected at line 802
+ []
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
 [28
 
-]
-\openout4 = `Slides1.vrb'.
+] (./Slides1.vrb
+Overfull \hbox (56.53526pt too wide) in paragraph at lines 16--16
+[]\TU/lmtt/m/n/9 ## [1] "Um texto"  "muito"     "comprido," "que pode"  "ser"  
+     "quebrado"[] 
+ []
 
-(./Slides1.vrb)
+
+Overfull \hbox (32.91022pt too wide) in paragraph at lines 40--40
+[]\TU/lmtt/m/n/9 ## [1] "Um texto muito comprido, que pode ser quebrado em vári
+as linhas"[] 
+ []
+
+)
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
+
+
+Overfull \vbox (30.44716pt too high) detected at line 802
+ []
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
 [29
 
-] (./Slides1.vrb)
+]
+\openout4 = `Slides1.vrb'.
+
+(./Slides1.vrb)
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
@@ -1891,16 +1892,7 @@ File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
 [30
 
-]
-\openout4 = `Slides1.vrb'.
-
-(./Slides1.vrb
-Overfull \hbox (28.71013pt too wide) in paragraph at lines 22--22
-[]\TU/lmtt/m/n/10 ## [1] "Olá, Alice"   "Olá, Bob"     "Olá, Charlie" "Olá, Dav
-id"[] 
- []
-
-)
+] (./Slides1.vrb)
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
@@ -1908,13 +1900,10 @@ File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
 [31
 
-] (./Slides1.vrb
-Overfull \hbox (28.71013pt too wide) in paragraph at lines 22--22
-[]\TU/lmtt/m/n/10 ## [1] "Olá, Alice"   "Olá, Bob"     "Olá, Charlie" "Olá, Dav
-id"[] 
- []
+]
+\openout4 = `Slides1.vrb'.
 
-)
+(./Slides1.vrb)
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
@@ -1922,10 +1911,7 @@ File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
 [32
 
-]
-\openout4 = `Slides1.vrb'.
-
-(./Slides1.vrb)
+] (./Slides1.vrb)
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
@@ -1936,13 +1922,33 @@ File: imagens/Icon.jpg Graphic file (type bmp)
 ]
 \openout4 = `Slides1.vrb'.
 
-(./Slides1.vrb)
+(./Slides1.vrb
+Overfull \hbox (28.71013pt too wide) in paragraph at lines 22--22
+[]\TU/lmtt/m/n/10 ## [1] "Olá, Alice"   "Olá, Bob"     "Olá, Charlie" "Olá, Dav
+id"[] 
+ []
+
+)
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
 [34
+
+] (./Slides1.vrb
+Overfull \hbox (28.71013pt too wide) in paragraph at lines 22--22
+[]\TU/lmtt/m/n/10 ## [1] "Olá, Alice"   "Olá, Bob"     "Olá, Charlie" "Olá, Dav
+id"[] 
+ []
+
+)
+
+Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
+
+File: imagens/Icon.jpg Graphic file (type bmp)
+<imagens/Icon.jpg>
+[35
 
 ]
 \openout4 = `Slides1.vrb'.
@@ -1953,13 +1959,35 @@ Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
-[35
+[36
+
+]
+\openout4 = `Slides1.vrb'.
+
+(./Slides1.vrb)
+
+Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
+
+File: imagens/Icon.jpg Graphic file (type bmp)
+<imagens/Icon.jpg>
+[37
+
+]
+\openout4 = `Slides1.vrb'.
+
+(./Slides1.vrb)
+
+Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
+
+File: imagens/Icon.jpg Graphic file (type bmp)
+<imagens/Icon.jpg>
+[38
 
 ]
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
-[36
+[39
 
 ]
 \openout4 = `Slides1.vrb'.
@@ -1981,79 +2009,7 @@ Overfull \hbox (80.16048pt too wide) in paragraph at lines 74--74
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 
-Overfull \vbox (7.13013pt too high) detected at line 1041
- []
-
-File: imagens/Icon.jpg Graphic file (type bmp)
-<imagens/Icon.jpg>
-[37
-
-] (./Slides1.vrb
-Overfull \hbox (4.5602pt too wide) in paragraph at lines 13--13
-[]\TU/lmtt/m/n/9 ## [1] "Tratamento 1" "Tratamento 2" "Tratamento 3" "Tratament
-o 4"[] 
- []
-
-
-Overfull \hbox (80.16048pt too wide) in paragraph at lines 74--74
-[]\TU/lmtt/m/n/9 ##  [1]  3  3  6  6  9  9 12 12 15 15  3  3  6  6  9  9 12 12 
-15 15  3  3  6  6  9[] 
- []
-
-)
-
-Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
-
-
-Overfull \vbox (7.13013pt too high) detected at line 1041
- []
-
-File: imagens/Icon.jpg Graphic file (type bmp)
-<imagens/Icon.jpg>
-[38
-
-] (./Slides1.vrb
-Overfull \hbox (4.5602pt too wide) in paragraph at lines 13--13
-[]\TU/lmtt/m/n/9 ## [1] "Tratamento 1" "Tratamento 2" "Tratamento 3" "Tratament
-o 4"[] 
- []
-
-
-Overfull \hbox (80.16048pt too wide) in paragraph at lines 74--74
-[]\TU/lmtt/m/n/9 ##  [1]  3  3  6  6  9  9 12 12 15 15  3  3  6  6  9  9 12 12 
-15 15  3  3  6  6  9[] 
- []
-
-)
-
-Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
-
-
-Overfull \vbox (7.13013pt too high) detected at line 1041
- []
-
-File: imagens/Icon.jpg Graphic file (type bmp)
-<imagens/Icon.jpg>
-[39
-
-] (./Slides1.vrb
-Overfull \hbox (4.5602pt too wide) in paragraph at lines 13--13
-[]\TU/lmtt/m/n/9 ## [1] "Tratamento 1" "Tratamento 2" "Tratamento 3" "Tratament
-o 4"[] 
- []
-
-
-Overfull \hbox (80.16048pt too wide) in paragraph at lines 74--74
-[]\TU/lmtt/m/n/9 ##  [1]  3  3  6  6  9  9 12 12 15 15  3  3  6  6  9  9 12 12 
-15 15  3  3  6  6  9[] 
- []
-
-)
-
-Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
-
-
-Overfull \vbox (7.13013pt too high) detected at line 1041
+Overfull \vbox (7.13013pt too high) detected at line 1067
  []
 
 File: imagens/Icon.jpg Graphic file (type bmp)
@@ -2077,7 +2033,7 @@ Overfull \hbox (80.16048pt too wide) in paragraph at lines 74--74
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 
-Overfull \vbox (7.13013pt too high) detected at line 1041
+Overfull \vbox (7.13013pt too high) detected at line 1067
  []
 
 File: imagens/Icon.jpg Graphic file (type bmp)
@@ -2101,71 +2057,80 @@ Overfull \hbox (80.16048pt too wide) in paragraph at lines 74--74
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 
-Overfull \vbox (7.13013pt too high) detected at line 1041
+Overfull \vbox (7.13013pt too high) detected at line 1067
  []
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
 [42
 
-]
-\openout4 = `Slides1.vrb'.
-
-(./Slides1.vrb
-Overfull \hbox (128.46013pt too wide) in paragraph at lines 21--21
-[]\TU/lmtt/m/n/10 ## [1] (1.6,1.65] (1.65,1.7] (1.65,1.7] (1.55,1.6] (1.65,1.7]
- (1.7,1.75] (1.55,1.6][] 
+] (./Slides1.vrb
+Overfull \hbox (4.5602pt too wide) in paragraph at lines 13--13
+[]\TU/lmtt/m/n/9 ## [1] "Tratamento 1" "Tratamento 2" "Tratamento 3" "Tratament
+o 4"[] 
  []
 
 
-Overfull \hbox (44.46013pt too wide) in paragraph at lines 35--35
-[]\TU/lmtt/m/n/10 ## [1] Pequeno Pequeno Alto    Pequeno Alto    Alto    Pequen
-o Alto[] 
+Overfull \hbox (80.16048pt too wide) in paragraph at lines 74--74
+[]\TU/lmtt/m/n/9 ##  [1]  3  3  6  6  9  9 12 12 15 15  3  3  6  6  9  9 12 12 
+15 15  3  3  6  6  9[] 
  []
 
 )
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
+
+
+Overfull \vbox (7.13013pt too high) detected at line 1067
+ []
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
 [43
 
 ] (./Slides1.vrb
-Overfull \hbox (128.46013pt too wide) in paragraph at lines 21--21
-[]\TU/lmtt/m/n/10 ## [1] (1.6,1.65] (1.65,1.7] (1.65,1.7] (1.55,1.6] (1.65,1.7]
- (1.7,1.75] (1.55,1.6][] 
+Overfull \hbox (4.5602pt too wide) in paragraph at lines 13--13
+[]\TU/lmtt/m/n/9 ## [1] "Tratamento 1" "Tratamento 2" "Tratamento 3" "Tratament
+o 4"[] 
  []
 
 
-Overfull \hbox (44.46013pt too wide) in paragraph at lines 35--35
-[]\TU/lmtt/m/n/10 ## [1] Pequeno Pequeno Alto    Pequeno Alto    Alto    Pequen
-o Alto[] 
+Overfull \hbox (80.16048pt too wide) in paragraph at lines 74--74
+[]\TU/lmtt/m/n/9 ##  [1]  3  3  6  6  9  9 12 12 15 15  3  3  6  6  9  9 12 12 
+15 15  3  3  6  6  9[] 
  []
 
 )
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
+
+
+Overfull \vbox (7.13013pt too high) detected at line 1067
+ []
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
 [44
 
 ] (./Slides1.vrb
-Overfull \hbox (128.46013pt too wide) in paragraph at lines 21--21
-[]\TU/lmtt/m/n/10 ## [1] (1.6,1.65] (1.65,1.7] (1.65,1.7] (1.55,1.6] (1.65,1.7]
- (1.7,1.75] (1.55,1.6][] 
+Overfull \hbox (4.5602pt too wide) in paragraph at lines 13--13
+[]\TU/lmtt/m/n/9 ## [1] "Tratamento 1" "Tratamento 2" "Tratamento 3" "Tratament
+o 4"[] 
  []
 
 
-Overfull \hbox (44.46013pt too wide) in paragraph at lines 35--35
-[]\TU/lmtt/m/n/10 ## [1] Pequeno Pequeno Alto    Pequeno Alto    Alto    Pequen
-o Alto[] 
+Overfull \hbox (80.16048pt too wide) in paragraph at lines 74--74
+[]\TU/lmtt/m/n/9 ##  [1]  3  3  6  6  9  9 12 12 15 15  3  3  6  6  9  9 12 12 
+15 15  3  3  6  6  9[] 
  []
 
 )
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
+
+
+Overfull \vbox (7.13013pt too high) detected at line 1067
+ []
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
@@ -2175,9 +2140,15 @@ File: imagens/Icon.jpg Graphic file (type bmp)
 \openout4 = `Slides1.vrb'.
 
 (./Slides1.vrb
-Overfull \hbox (7.71013pt too wide) in paragraph at lines 42--42
-[]\TU/lmtt/m/n/10 ## [1] 2.500000 2.666667 2.717391 2.361111 2.921348 2.435897[
-] 
+Overfull \hbox (128.46013pt too wide) in paragraph at lines 21--21
+[]\TU/lmtt/m/n/10 ## [1] (1.6,1.65] (1.65,1.7] (1.65,1.7] (1.55,1.6] (1.65,1.7]
+ (1.7,1.75] (1.55,1.6][] 
+ []
+
+
+Overfull \hbox (44.46013pt too wide) in paragraph at lines 35--35
+[]\TU/lmtt/m/n/10 ## [1] Pequeno Pequeno Alto    Pequeno Alto    Alto    Pequen
+o Alto[] 
  []
 
 )
@@ -2189,9 +2160,15 @@ File: imagens/Icon.jpg Graphic file (type bmp)
 [46
 
 ] (./Slides1.vrb
-Overfull \hbox (7.71013pt too wide) in paragraph at lines 42--42
-[]\TU/lmtt/m/n/10 ## [1] 2.500000 2.666667 2.717391 2.361111 2.921348 2.435897[
-] 
+Overfull \hbox (128.46013pt too wide) in paragraph at lines 21--21
+[]\TU/lmtt/m/n/10 ## [1] (1.6,1.65] (1.65,1.7] (1.65,1.7] (1.55,1.6] (1.65,1.7]
+ (1.7,1.75] (1.55,1.6][] 
+ []
+
+
+Overfull \hbox (44.46013pt too wide) in paragraph at lines 35--35
+[]\TU/lmtt/m/n/10 ## [1] Pequeno Pequeno Alto    Pequeno Alto    Alto    Pequen
+o Alto[] 
  []
 
 )
@@ -2203,9 +2180,15 @@ File: imagens/Icon.jpg Graphic file (type bmp)
 [47
 
 ] (./Slides1.vrb
-Overfull \hbox (7.71013pt too wide) in paragraph at lines 42--42
-[]\TU/lmtt/m/n/10 ## [1] 2.500000 2.666667 2.717391 2.361111 2.921348 2.435897[
-] 
+Overfull \hbox (128.46013pt too wide) in paragraph at lines 21--21
+[]\TU/lmtt/m/n/10 ## [1] (1.6,1.65] (1.65,1.7] (1.65,1.7] (1.55,1.6] (1.65,1.7]
+ (1.7,1.75] (1.55,1.6][] 
+ []
+
+
+Overfull \hbox (44.46013pt too wide) in paragraph at lines 35--35
+[]\TU/lmtt/m/n/10 ## [1] Pequeno Pequeno Alto    Pequeno Alto    Alto    Pequen
+o Alto[] 
  []
 
 )
@@ -2219,13 +2202,58 @@ File: imagens/Icon.jpg Graphic file (type bmp)
 ]
 \openout4 = `Slides1.vrb'.
 
-(./Slides1.vrb)
+(./Slides1.vrb
+Overfull \hbox (7.71013pt too wide) in paragraph at lines 42--42
+[]\TU/lmtt/m/n/10 ## [1] 2.500000 2.666667 2.717391 2.361111 2.921348 2.435897[
+] 
+ []
+
+)
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
 [49
+
+] (./Slides1.vrb
+Overfull \hbox (7.71013pt too wide) in paragraph at lines 42--42
+[]\TU/lmtt/m/n/10 ## [1] 2.500000 2.666667 2.717391 2.361111 2.921348 2.435897[
+] 
+ []
+
+)
+
+Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
+
+File: imagens/Icon.jpg Graphic file (type bmp)
+<imagens/Icon.jpg>
+[50
+
+] (./Slides1.vrb
+Overfull \hbox (7.71013pt too wide) in paragraph at lines 42--42
+[]\TU/lmtt/m/n/10 ## [1] 2.500000 2.666667 2.717391 2.361111 2.921348 2.435897[
+] 
+ []
+
+)
+
+Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
+
+File: imagens/Icon.jpg Graphic file (type bmp)
+<imagens/Icon.jpg>
+[51
+
+]
+\openout4 = `Slides1.vrb'.
+
+(./Slides1.vrb)
+
+Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
+
+File: imagens/Icon.jpg Graphic file (type bmp)
+<imagens/Icon.jpg>
+[52
 
 ]
 \openout4 = `Slides1.vrb'.
@@ -2248,48 +2276,12 @@ Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
-[50
-
-]
-\openout4 = `Slides1.vrb'.
-
-(./Slides1.vrb)
-
-Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
-
-File: imagens/Icon.jpg Graphic file (type bmp)
-<imagens/Icon.jpg>
-[51
-
-] (./Slides1.vrb)
-
-Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
-
-File: imagens/Icon.jpg Graphic file (type bmp)
-<imagens/Icon.jpg>
-[52
-
-]
-\openout4 = `Slides1.vrb'.
-
-(./Slides1.vrb)
-
-Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
-
-File: imagens/Icon.jpg Graphic file (type bmp)
-<imagens/Icon.jpg>
 [53
 
 ]
 \openout4 = `Slides1.vrb'.
 
-(./Slides1.vrb
-Overfull \hbox (65.46013pt too wide) in paragraph at lines 38--38
-[]\TU/lmtt/m/n/10 ##  $ tratamentos: Factor w/ 3 levels "Trat 2","Trat 1",..: 2
- 2 1 1 3 3[] 
- []
-
-)
+(./Slides1.vrb)
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
@@ -2297,13 +2289,7 @@ File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
 [54
 
-] (./Slides1.vrb
-Overfull \hbox (65.46013pt too wide) in paragraph at lines 38--38
-[]\TU/lmtt/m/n/10 ##  $ tratamentos: Factor w/ 3 levels "Trat 2","Trat 1",..: 2
- 2 1 1 3 3[] 
- []
-
-)
+] (./Slides1.vrb)
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
@@ -2314,13 +2300,7 @@ File: imagens/Icon.jpg Graphic file (type bmp)
 ]
 \openout4 = `Slides1.vrb'.
 
-(./Slides1.vrb
-Overfull \hbox (7.71013pt too wide) in paragraph at lines 11--11
-[]\TU/lmtt/m/n/10 ## [1] "blocos"      "tratamentos" "nFolhas"     "compRamos"[
-] 
- []
-
-)
+(./Slides1.vrb)
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
@@ -2328,10 +2308,13 @@ File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
 [56
 
-] (./Slides1.vrb
-Overfull \hbox (7.71013pt too wide) in paragraph at lines 11--11
-[]\TU/lmtt/m/n/10 ## [1] "blocos"      "tratamentos" "nFolhas"     "compRamos"[
-] 
+]
+\openout4 = `Slides1.vrb'.
+
+(./Slides1.vrb
+Overfull \hbox (65.46013pt too wide) in paragraph at lines 38--38
+[]\TU/lmtt/m/n/10 ##  $ tratamentos: Factor w/ 3 levels "Trat 2","Trat 1",..: 2
+ 2 1 1 3 3[] 
  []
 
 )
@@ -2343,9 +2326,9 @@ File: imagens/Icon.jpg Graphic file (type bmp)
 [57
 
 ] (./Slides1.vrb
-Overfull \hbox (7.71013pt too wide) in paragraph at lines 11--11
-[]\TU/lmtt/m/n/10 ## [1] "blocos"      "tratamentos" "nFolhas"     "compRamos"[
-] 
+Overfull \hbox (65.46013pt too wide) in paragraph at lines 38--38
+[]\TU/lmtt/m/n/10 ##  $ tratamentos: Factor w/ 3 levels "Trat 2","Trat 1",..: 2
+ 2 1 1 3 3[] 
  []
 
 )
@@ -2359,7 +2342,13 @@ File: imagens/Icon.jpg Graphic file (type bmp)
 ]
 \openout4 = `Slides1.vrb'.
 
-(./Slides1.vrb)
+(./Slides1.vrb
+Overfull \hbox (7.71013pt too wide) in paragraph at lines 11--11
+[]\TU/lmtt/m/n/10 ## [1] "blocos"      "tratamentos" "nFolhas"     "compRamos"[
+] 
+ []
+
+)
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
@@ -2367,7 +2356,13 @@ File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
 [59
 
-] (./Slides1.vrb)
+] (./Slides1.vrb
+Overfull \hbox (7.71013pt too wide) in paragraph at lines 11--11
+[]\TU/lmtt/m/n/10 ## [1] "blocos"      "tratamentos" "nFolhas"     "compRamos"[
+] 
+ []
+
+)
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
@@ -2375,7 +2370,13 @@ File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
 [60
 
-] (./Slides1.vrb)
+] (./Slides1.vrb
+Overfull \hbox (7.71013pt too wide) in paragraph at lines 11--11
+[]\TU/lmtt/m/n/10 ## [1] "blocos"      "tratamentos" "nFolhas"     "compRamos"[
+] 
+ []
+
+)
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
@@ -2394,10 +2395,7 @@ File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
 [62
 
-]
-\openout4 = `Slides1.vrb'.
-
-(./Slides1.vrb)
+] (./Slides1.vrb)
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
@@ -2405,16 +2403,7 @@ File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
 [63
 
-]
-\openout4 = `Slides1.vrb'.
-
-(./Slides1.vrb
-Overfull \hbox (65.46013pt too wide) in paragraph at lines 11--11
-[]\TU/lmtt/m/n/10 ## [1] "blocos"      "tratamentos" "nFolhas"     "compRamos" 
-  "nRamos"[] 
- []
-
-)
+] (./Slides1.vrb)
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
@@ -2447,22 +2436,29 @@ File: imagens/Icon.jpg Graphic file (type bmp)
 ]
 \openout4 = `Slides1.vrb'.
 
-(./Slides1.vrb)
+(./Slides1.vrb
+Overfull \hbox (65.46013pt too wide) in paragraph at lines 11--11
+[]\TU/lmtt/m/n/10 ## [1] "blocos"      "tratamentos" "nFolhas"     "compRamos" 
+  "nRamos"[] 
+ []
+
+)
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
-
-
-Overfull \vbox (8.4672pt too high) detected at line 1525
- []
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
 [67
 
 ]
+\openout4 = `Slides1.vrb'.
+
+(./Slides1.vrb)
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
+File: imagens/Icon.jpg Graphic file (type bmp)
+<imagens/Icon.jpg>
 [68
 
 ]
@@ -2477,10 +2473,42 @@ File: imagens/Icon.jpg Graphic file (type bmp)
 [69
 
 ]
+\openout4 = `Slides1.vrb'.
+
+(./Slides1.vrb)
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
+
+Overfull \vbox (8.4672pt too high) detected at line 1551
+ []
+
+File: imagens/Icon.jpg Graphic file (type bmp)
+<imagens/Icon.jpg>
 [70
+
+]
+
+Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
+
+[71
+
+]
+\openout4 = `Slides1.vrb'.
+
+(./Slides1.vrb)
+
+Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
+
+File: imagens/Icon.jpg Graphic file (type bmp)
+<imagens/Icon.jpg>
+[72
+
+]
+
+Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
+
+[73
 
 ]
 \openout4 = `Slides1.vrb'.
@@ -2497,7 +2525,7 @@ Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
-[71
+[74
 
 ] (./Slides1.vrb
 Overfull \hbox (7.71013pt too wide) in paragraph at lines 29--29
@@ -2511,7 +2539,7 @@ Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
-[72
+[75
 
 ] (./Slides1.vrb
 Overfull \hbox (7.71013pt too wide) in paragraph at lines 29--29
@@ -2525,7 +2553,7 @@ Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
-[73
+[76
 
 ]
 \openout4 = `Slides1.vrb'.
@@ -2542,7 +2570,7 @@ Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
-[74
+[77
 
 ]
 \openout4 = `Slides1.vrb'.
@@ -2738,43 +2766,11 @@ Overfull \hbox (91.71013pt too wide) in paragraph at lines 72--72
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 
-Overfull \vbox (550.5772pt too high) detected at line 1692
+Overfull \vbox (550.5772pt too high) detected at line 1718
  []
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
-[75
-
-]
-\openout4 = `Slides1.vrb'.
-
-(./Slides1.vrb)
-
-Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
-
-
-Overfull \vbox (33.2972pt too high) detected at line 1723
- []
-
-File: imagens/Icon.jpg Graphic file (type bmp)
-<imagens/Icon.jpg>
-[76
-
-]
-\openout4 = `Slides1.vrb'.
-
-(./Slides1.vrb)
-
-Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
-
-File: imagens/Icon.jpg Graphic file (type bmp)
-<imagens/Icon.jpg>
-[77
-
-]
-
-Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
-
 [78
 
 ]
@@ -2784,11 +2780,18 @@ Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
+
+Overfull \vbox (33.2972pt too high) detected at line 1749
+ []
+
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
 [79
 
-] (./Slides1.vrb)
+]
+\openout4 = `Slides1.vrb'.
+
+(./Slides1.vrb)
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
@@ -2796,15 +2799,16 @@ File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
 [80
 
-] (./Slides1.vrb)
+]
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
-File: imagens/Icon.jpg Graphic file (type bmp)
-<imagens/Icon.jpg>
 [81
 
-] (./Slides1.vrb)
+]
+\openout4 = `Slides1.vrb'.
+
+(./Slides1.vrb)
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
@@ -2812,16 +2816,7 @@ File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
 [82
 
-]
-\openout4 = `Slides1.vrb'.
-
-(./Slides1.vrb
-Overfull \hbox (107.46013pt too wide) in paragraph at lines 25--25
-[]\TU/lmtt/m/n/10 ## [1] "Um texto\nmuito\ncomprido,\nque\npode ser\nquebrado\n
-em várias\nlinhas"[] 
- []
-
-)
+] (./Slides1.vrb)
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
@@ -2829,6 +2824,39 @@ File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
 [83
 
+] (./Slides1.vrb)
+
+Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
+
+File: imagens/Icon.jpg Graphic file (type bmp)
+<imagens/Icon.jpg>
+[84
+
+] (./Slides1.vrb)
+
+Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
+
+File: imagens/Icon.jpg Graphic file (type bmp)
+<imagens/Icon.jpg>
+[85
+
+]
+\openout4 = `Slides1.vrb'.
+
+(./Slides1.vrb
+Overfull \hbox (107.46013pt too wide) in paragraph at lines 25--25
+[]\TU/lmtt/m/n/10 ## [1] "Um texto\nmuito\ncomprido,\nque\npode ser\nquebrado\n
+em várias\nlinhas"[] 
+ []
+
+)
+
+Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
+
+File: imagens/Icon.jpg Graphic file (type bmp)
+<imagens/Icon.jpg>
+[86
+
 ] (./Slides1.vrb
 Overfull \hbox (107.46013pt too wide) in paragraph at lines 25--25
 []\TU/lmtt/m/n/10 ## [1] "Um texto\nmuito\ncomprido,\nque\npode ser\nquebrado\n
@@ -2841,7 +2869,7 @@ Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
-[84
+[87
 
 ]
 \openout4 = `Slides1.vrb'.
@@ -2857,12 +2885,12 @@ atamento 3[]
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 
-Overfull \vbox (14.35716pt too high) detected at line 1881
+Overfull \vbox (14.35716pt too high) detected at line 1907
  []
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
-[85
+[88
 
 ] (./Slides1.vrb
 Overfull \hbox (65.46013pt too wide) in paragraph at lines 32--32
@@ -2875,12 +2903,12 @@ atamento 3[]
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 
-Overfull \vbox (14.35716pt too high) detected at line 1881
+Overfull \vbox (14.35716pt too high) detected at line 1907
  []
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
-[86
+[89
 
 ] (./Slides1.vrb
 Overfull \hbox (65.46013pt too wide) in paragraph at lines 32--32
@@ -2893,18 +2921,18 @@ atamento 3[]
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 
-Overfull \vbox (14.35716pt too high) detected at line 1881
+Overfull \vbox (14.35716pt too high) detected at line 1907
  []
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
-[87
+[90
 
 ]
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
-[88
+[91
 
 ]
 \openout4 = `Slides1.vrb'.
@@ -3010,12 +3038,12 @@ Overfull \hbox (65.46013pt too wide) in paragraph at lines 32--32
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 
-Overfull \vbox (68.61719pt too high) detected at line 1921
+Overfull \vbox (68.61719pt too high) detected at line 1947
  []
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
-[89
+[92
 
 ]
 \openout4 = `Slides1.vrb'.
@@ -6815,12 +6843,12 @@ Overfull \hbox (259.71013pt too wide) in paragraph at lines 551--551
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 
-Overfull \vbox (6297.38719pt too high) detected at line 2474
+Overfull \vbox (6297.38719pt too high) detected at line 2500
  []
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
-[90
+[93
 
 ]
 \openout4 = `Slides1.vrb'.
@@ -10620,18 +10648,18 @@ Overfull \hbox (203.01013pt too wide) in paragraph at lines 553--553
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 
-Overfull \vbox (5755.01819pt too high) detected at line 3029
+Overfull \vbox (5755.01819pt too high) detected at line 3055
  []
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
-[91
+[94
 
 ]
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
-[92
+[95
 
 ]
 \openout4 = `Slides1.vrb'.
@@ -10641,12 +10669,12 @@ Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 
-Overfull \vbox (6.15817pt too high) detected at line 3079
+Overfull \vbox (6.15817pt too high) detected at line 3105
  []
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
-[93
+[96
 
 ]
 \openout4 = `Slides1.vrb'.
@@ -10681,7 +10709,7 @@ Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
-[94
+[97
 
 ]
 \openout4 = `Slides1.vrb'.
@@ -10716,7 +10744,7 @@ Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
-[95
+[98
 
 ]
 \openout4 = `Slides1.vrb'.
@@ -10727,7 +10755,7 @@ Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
-[96
+[99
 
 ]
 \openout4 = `Slides1.vrb'.
@@ -10752,12 +10780,12 @@ Overfull \hbox (24.05421pt too wide) in paragraph at lines 45--45
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 
-Overfull \vbox (15.28717pt too high) detected at line 3230
+Overfull \vbox (15.28717pt too high) detected at line 3256
  []
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
-[97
+[100
 
 ]
 \openout4 = `Slides1.vrb'.
@@ -10770,12 +10798,12 @@ LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <7> not available
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 
-Overfull \vbox (6.02817pt too high) detected at line 3274
+Overfull \vbox (6.02817pt too high) detected at line 3300
  []
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
-[98
+[101
 
 ]
 \openout4 = `Slides1.vrb'.
@@ -10786,7 +10814,7 @@ Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
-[99
+[102
 
 ]
 \openout4 = `Slides1.vrb'.
@@ -10800,7 +10828,7 @@ Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
-[100
+[103
 
 ]
 \openout4 = `Slides1.vrb'.
@@ -10817,7 +10845,7 @@ Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
-[101
+[104
 
 ]
 \openout4 = `Slides1.vrb'.
@@ -10834,7 +10862,7 @@ Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
-[102
+[105
 
 ]
 \tf@nav=\write6
@@ -10848,12 +10876,12 @@ File: imagens/Icon.jpg Graphic file (type bmp)
 
 (./Slides1.aux) ) 
 Here is how much of TeX's memory you used:
- 34827 strings out of 476191
- 716415 string characters out of 5812072
- 2801864 words of memory out of 5000000
- 54673 multiletter control sequences out of 15000+600000
+ 34897 strings out of 476191
+ 717839 string characters out of 5812072
+ 2802536 words of memory out of 5000000
+ 54742 multiletter control sequences out of 15000+600000
  475101 words of font info for 119 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  128i,15n,128p,1004b,1385s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Slides1.pdf (102 pages).
+Output written on Slides1.pdf (105 pages).
