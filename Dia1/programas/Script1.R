@@ -3,42 +3,40 @@ library(readxl)
 
 # R básico ----
 
-# tipos: numeric, character, factor, logical
+# tipos: numeric, character, factor, logical ----
 nFolhas <- c(15, 20, 25, 17, 26, 19)
-compRamos <- c(6.0, 7.5, 9.2, 7.2, 8.9, 7.8)
 cidade <- "Piracicaba"
 nomes <- c("Alice", "Bob", "Charlie", "David")
+
+textoComprido <- "Um texto muito comprido, que pode ser quebrado em várias linhas"
 
 tratamentos <- factor(rep(paste("Trat", seq(1,3)), each=2))
 blocos <- factor(rep(c(1,2), times=3))
 
-textoComprido <- "Um texto muito comprido, que pode ser quebrado em várias linhas"
+# estruturas: vetor, matriz, data.frame, lista, tabela ----
 
-# estruturas: matriz, data.frame, lista, tabela
+altura <- c(1.65, 1.67, 1.70, 1.58, 1.69, 1.73, 1.60, 1.70)
 
-matrix(seq(1,25), nrow=5)
+compRamos <- c(6.0, 7.5, 9.2, 7.2, 8.9, 7.8)
+
 M <- matrix(c(1,4,7, 2,5,8, 3,6,9))
 
 dados <- data.frame(blocos, tratamentos, nFolhas, compRamos)
-dados <- cbind(dados, nFolhas/compRamos)
-dados$folhasPorCm <- nFolhas/compRamos
 
 lista <- list(c(1,2,3), M, dados)
 
-# família apply
+# Exercício -----
+
+# família apply -----
 # apply, lapply, sapply
 
 folhasERamos <- cbind(nFolhas, compRamos)
 
-# leitura de arquivos externos
+# leitura de arquivos externos ----
 
 read_xls("dados/diario2023.xls")
 read_lines("dados/DCE2023.TXT")
 read_lines("http://www.leb.esalq.usp.br/leb/exceldados/DCE2023.TXT")
-
-# Tidyverse ----
-# readr, readxl
-# tibble
 
 # Exercícios ----
 
