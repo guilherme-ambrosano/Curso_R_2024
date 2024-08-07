@@ -277,7 +277,7 @@ map_dfr(excel_sheets(arquivo_xlsx),
 
 Algum bug no `lubridate` faz ele retornar `08` pro mês `ABR`
 
-```{r}
+```{r, echo=T}
 
 parse_date_time2("ABR-2023", orders="%B-%Y")
 parse_date_time2("AUG-2023", orders="%B-%Y")
