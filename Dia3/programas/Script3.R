@@ -11,8 +11,8 @@ modelo.wt  <- wilcox.test(iris$Petal.Length, g=iris$Species)
 
 # purrr
 
-excel_sheets("../dados/Relação nominal dos alunos - Bolsa Extensão - 2023.xlsx")
-read_xlsx("../dados/Relação nominal dos alunos - Bolsa Extensão - 2023.xlsx")
+excel_sheets("dados/Relação nominal dos alunos - Bolsa Extensão - 2023.xlsx")
+read_xlsx("dados/Relação nominal dos alunos - Bolsa Extensão - 2023.xlsx")
 
 # ggplot2
 
@@ -43,7 +43,7 @@ dados_metereologicos <- as_tibble(linhas2) %>%
 
 # Exemplos ----
 
-invasoras <- read_xlsx("../dados/listagem-de-plantas-alternativas-as-plantas-exoticas-invasoras-listadas-para-o-estado-do-rio-de.xlsx",
+invasoras <- read_xlsx("dados/listagem-de-plantas-alternativas-as-plantas-exoticas-invasoras-listadas-para-o-estado-do-rio-de.xlsx",
                        col_names=c("Codigo", "Familia_EEI", "NomeCient_EEI",
                                    "NomePop_EEI",
                                    "NomeCient_Ombro", "NouE_Ombro",
