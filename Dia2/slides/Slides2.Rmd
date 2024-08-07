@@ -25,6 +25,16 @@ knitr::opts_chunk$set(echo = FALSE)
 \tableofcontents[subsubsectionstyle=hide]
 
 # -
+\section{Material do curso}
+\framecard{{\color{white}\Huge{Material do curso}}}
+
+# Material do curso
+
+https://github.com/guilherme-ambrosano/Curso_R_2024
+
+![](imagens/Github.png)
+
+# -
 \section{tidyverse}
 \framecard{{\color{white}\Huge{tidyverse}}}
 
@@ -55,14 +65,6 @@ library(tibble)
 load("../dados/Dados.RData")
 
 dados
-
-```
-
-# tibble
-
-```{r,echo=T}
-
-as_tibble(dados)
 
 ```
 
@@ -132,12 +134,6 @@ funcao(1,2,3)
 1 %>%
   funcao(2,3) %>%
   funcao(4,5)
-
-```
-\pause
-```{r, echo=T}
-
-c(c(1, 2, 3), 4, 5)
 
 ```
 
@@ -273,11 +269,6 @@ tibble(coluna1=c(1,2,3)) %>%
 \draw[->] (funcao3) -- (output3);
 \end{tikzpicture}
 \end{figure}
-
-# dplyr
-
-- \icon Verbo `select`: selecionar colunas
-- \icon Verbo `filter`: filtrar linhas
 
 # Verbo select
 

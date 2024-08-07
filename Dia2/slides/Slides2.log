@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2024.3.18)  31 JUL 2024 08:19
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2024.3.18)  7 AUG 2024 18:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1082,7 +1082,7 @@ ge=dflt;"
 (fontspec)             Light/OT:script=latn;language=dflt;"
 
 \c@totalfr=\count388
-Package hyperref Info: Option `colorlinks' set `true' on input line 425.
+Package hyperref Info: Option `colorlinks' set `true' on input line 438.
 (/usr/share/texlive/texmf-dist/tex/latex/bookmark/bookmark.sty
 Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
 (/usr/share/texlive/texmf-dist/tex/latex/bookmark/bkm-dvipdfm.def
@@ -1093,26 +1093,26 @@ Package: xurl 2022/01/09 v 0.10 modify URL breaks
 ) (./Slides2.aux)
 \openout1 = `Slides2.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 449.
-LaTeX Font Info:    ... okay on input line 449.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 449.
-LaTeX Font Info:    ... okay on input line 449.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 449.
-LaTeX Font Info:    ... okay on input line 449.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 449.
-LaTeX Font Info:    ... okay on input line 449.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 449.
-LaTeX Font Info:    ... okay on input line 449.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 449.
-LaTeX Font Info:    ... okay on input line 449.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 449.
-LaTeX Font Info:    ... okay on input line 449.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 449.
-LaTeX Font Info:    ... okay on input line 449.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 449.
-LaTeX Font Info:    ... okay on input line 449.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 449.
-LaTeX Font Info:    ... okay on input line 449.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 462.
+LaTeX Font Info:    ... okay on input line 462.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 462.
+LaTeX Font Info:    ... okay on input line 462.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 462.
+LaTeX Font Info:    ... okay on input line 462.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 462.
+LaTeX Font Info:    ... okay on input line 462.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 462.
+LaTeX Font Info:    ... okay on input line 462.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 462.
+LaTeX Font Info:    ... okay on input line 462.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 462.
+LaTeX Font Info:    ... okay on input line 462.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 462.
+LaTeX Font Info:    ... okay on input line 462.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 462.
+LaTeX Font Info:    ... okay on input line 462.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 462.
+LaTeX Font Info:    ... okay on input line 462.
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
 *geometry* verbose mode - [ preamble ] result:
@@ -1147,7 +1147,7 @@ LaTeX Font Info:    ... okay on input line 449.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 449.
+Package hyperref Info: Link coloring OFF on input line 462.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
@@ -1157,9 +1157,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count390
 )
-LaTeX Info: Redefining \ref on input line 449.
-LaTeX Info: Redefining \pageref on input line 449.
-LaTeX Info: Redefining \nameref on input line 449.
+LaTeX Info: Redefining \ref on input line 462.
+LaTeX Info: Redefining \pageref on input line 462.
+LaTeX Info: Redefining \nameref on input line 462.
 
 (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-basic-dictionary
 -English.dict
@@ -1186,19 +1186,19 @@ ry-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/lmr/m/n --> TU/lmr/m/n on input line 449.
+(Font)                  OT1/lmr/m/n --> TU/lmr/m/n on input line 462.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/lmr/m/it --> TU/lmr/m/it on input line 449.
+(Font)                  OT1/lmr/m/it --> TU/lmr/m/it on input line 462.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/lmr/bx/n --> TU/lmr/bx/n on input line 449.
+(Font)                  OT1/lmr/bx/n --> TU/lmr/bx/n on input line 462.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/lmss/m/n --> TU/lmss/m/n on input line 449.
+(Font)                  OT1/lmss/m/n --> TU/lmss/m/n on input line 462.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/lmss/bx/n --> TU/lmss/bx/n on input line 449.
+(Font)                  OT1/lmss/bx/n --> TU/lmss/bx/n on input line 462.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/lmtt/m/n --> TU/lmtt/m/n on input line 449.
+(Font)                  OT1/lmtt/m/n --> TU/lmtt/m/n on input line 462.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/lmtt/m/n --> TU/lmtt/bx/n on input line 449.
+(Font)                  OT1/lmtt/m/n --> TU/lmtt/bx/n on input line 462.
 
 Package fontspec Info: latinmodern-math scale = 1.030159915882193.
 
@@ -1227,7 +1227,7 @@ t=math;language=dflt;"
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(0)/m/n' will be
-(Font)              scaled to size 10.30167pt on input line 449.
+(Font)              scaled to size 10.30167pt on input line 462.
 
 Package fontspec Info: latinmodern-math scale = 1.030159915882193.
 
@@ -1266,18 +1266,18 @@ t=math;language=dflt;"
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 10.30167pt on input line 449.
+(Font)              scaled to size 10.30167pt on input line 462.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 449.
+(Font)              `operators' in the math version `normal' on input line 462.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/lmr/m/n --> TU/latinmodern-math.otf(1)/m/n on input
- line 449.
+ line 462.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 449.
+(Font)              `operators' in the math version `bold' on input line 462.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/lmr/bx/n --> TU/latinmodern-math.otf(1)/b/n on inpu
-t line 449.
+t line 462.
 
 Package fontspec Info: latinmodern-math scale = 1.030159915882193.
 
@@ -1364,15 +1364,15 @@ t=math;language=dflt;"
 (fontspec)             =0pt\relax \fontdimen 21\font =0pt\relax 
 
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `normal' on input line 449.
+(Font)              `symbols' in the math version `normal' on input line 462.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
 (Font)                  OMS/lmsy/m/n --> TU/latinmodern-math.otf(2)/m/n on inpu
-t line 449.
+t line 462.
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `bold' on input line 449.
+(Font)              `symbols' in the math version `bold' on input line 462.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
 (Font)                  OMS/lmsy/b/n --> TU/latinmodern-math.otf(2)/b/n on inpu
-t line 449.
+t line 462.
 
 Package fontspec Info: latinmodern-math scale = 1.030159915882193.
 
@@ -1442,22 +1442,22 @@ t=math;language=dflt;"
 
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
 (Font)              `largesymbols' in the math version `normal' on input line 4
-49.
+62.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
 (Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/m/n on inpu
-t line 449.
+t line 462.
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
-(Font)              `largesymbols' in the math version `bold' on input line 449
+(Font)              `largesymbols' in the math version `bold' on input line 462
 .
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 (Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/b/n on inpu
-t line 449.
-LaTeX Info: Redefining \microtypecontext on input line 449.
-Package microtype Info: Applying patch `item' on input line 449.
-Package microtype Info: Applying patch `toc' on input line 449.
-Package microtype Info: Applying patch `eqnum' on input line 449.
+t line 462.
+LaTeX Info: Redefining \microtypecontext on input line 462.
+Package microtype Info: Applying patch `item' on input line 462.
+Package microtype Info: Applying patch `toc' on input line 462.
+Package microtype Info: Applying patch `eqnum' on input line 462.
 
-Package microtype Warning: Unable to apply patch `footnote' on input line 449.
+Package microtype Warning: Unable to apply patch `footnote' on input line 462.
 
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using protrusion set `basicmath'.
@@ -1472,13 +1472,13 @@ Package microtype Info: Loading generic protrusion settings for font family
 File: imagens/LogoFundoTransp.jpg Graphic file (type bmp)
 <imagens/LogoFundoTransp.jpg>
 LaTeX Font Info:    Font shape `TU/Libertad(0)/m/n' will be
-(Font)              scaled to size 18.41713pt on input line 450.
+(Font)              scaled to size 18.41713pt on input line 463.
 LaTeX Font Info:    Font shape `TU/Libertad(0)/m/n' will be
-(Font)              scaled to size 7.104pt on input line 450.
+(Font)              scaled to size 7.104pt on input line 463.
 LaTeX Font Info:    Font shape `TU/Libertad(0)/m/n' will be
-(Font)              scaled to size 8.88pt on input line 450.
+(Font)              scaled to size 8.88pt on input line 463.
 LaTeX Font Info:    Font shape `TU/Libertad(0)/m/n' will be
-(Font)              scaled to size 6.216pt on input line 450.
+(Font)              scaled to size 6.216pt on input line 463.
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
 [1
@@ -1557,6 +1557,9 @@ Package fontspec Info: Libertad Book scale = 0.8879977783270926.
 
 Package fontspec Info: Libertad Book scale = 0.8879977783270926.
 
+
+Package fontspec Info: Libertad Book scale = 0.8879977783270926.
+
 )
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
@@ -1619,40 +1622,40 @@ Package fontspec Info: Font family 'LibertadMediumItalic(0)' created for font
 (fontspec)             Italic/BI/OT:script=latn;language=dflt;+smcp;"
 
 LaTeX Font Info:    Font shape `TU/LibertadMediumItalic(0)/m/n' will be
-(Font)              scaled to size 12.7872pt on input line 455.
+(Font)              scaled to size 12.7872pt on input line 468.
 LaTeX Font Info:    Font shape `TU/Libertad(0)/m/n' will be
-(Font)              scaled to size 12.7872pt on input line 455.
+(Font)              scaled to size 12.7872pt on input line 468.
 LaTeX Font Info:    Font shape `TU/Libertad(0)/b/n' will be
-(Font)              scaled to size 12.7872pt on input line 455.
+(Font)              scaled to size 12.7872pt on input line 468.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 7.21117pt on input line 455.
+(Font)              scaled to size 7.21117pt on input line 468.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 5.15083pt on input line 455.
+(Font)              scaled to size 5.15083pt on input line 468.
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 4
-55.
+68.
 (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 10.30258pt on input line 455.
+(Font)              scaled to size 10.30258pt on input line 468.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 7.2118pt on input line 455.
+(Font)              scaled to size 7.2118pt on input line 468.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 5.15129pt on input line 455.
+(Font)              scaled to size 5.15129pt on input line 468.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 10.3006pt on input line 455.
+(Font)              scaled to size 10.3006pt on input line 468.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 7.21042pt on input line 455.
+(Font)              scaled to size 7.21042pt on input line 468.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 5.1503pt on input line 455.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 455
+(Font)              scaled to size 5.1503pt on input line 468.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 468
 .
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 ) (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 455
+LaTeX Font Info:    Trying to load font information for U+msb on input line 468
 .
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -1670,9 +1673,8 @@ Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 [3
 
 ]
-\openout4 = `Slides2.vrb'.
-
-(./Slides2.vrb)
+File: imagens/Github.png Graphic file (type bmp)
+<imagens/Github.png>
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
@@ -1689,6 +1691,23 @@ Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 ]
 \openout4 = `Slides2.vrb'.
 
+(./Slides2.vrb)
+
+Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
+
+File: imagens/Icon.jpg Graphic file (type bmp)
+<imagens/Icon.jpg>
+[6
+
+]
+
+Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
+
+[7
+
+]
+\openout4 = `Slides2.vrb'.
+
 (./Slides2.vrb
 LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <10> not available
 (Font)              Font shape `TU/lmtt/b/n' tried instead on input line 5.
@@ -1697,37 +1716,7 @@ LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <10> not available
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 
-Overfull \vbox (93.2472pt too high) detected at line 532
- []
-
-File: imagens/Icon.jpg Graphic file (type bmp)
-<imagens/Icon.jpg>
-[6
-
-]
-\openout4 = `Slides2.vrb'.
-
-(./Slides2.vrb)
-
-Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
-
-
-Overfull \vbox (80.66719pt too high) detected at line 567
- []
-
-File: imagens/Icon.jpg Graphic file (type bmp)
-<imagens/Icon.jpg>
-[7
-
-]
-\openout4 = `Slides2.vrb'.
-
-(./Slides2.vrb)
-
-Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
-
-
-Overfull \vbox (70.00719pt too high) detected at line 601
+Overfull \vbox (93.2472pt too high) detected at line 558
  []
 
 File: imagens/Icon.jpg Graphic file (type bmp)
@@ -1740,6 +1729,10 @@ File: imagens/Icon.jpg Graphic file (type bmp)
 (./Slides2.vrb)
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
+
+
+Overfull \vbox (70.00719pt too high) detected at line 592
+ []
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
@@ -1757,12 +1750,6 @@ File: imagens/Icon.jpg Graphic file (type bmp)
 [10
 
 ]
-
-Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
-
-[11
-
-]
 \openout4 = `Slides2.vrb'.
 
 (./Slides2.vrb)
@@ -1771,6 +1758,12 @@ Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
+[11
+
+]
+
+Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
+
 [12
 
 ]
@@ -1784,7 +1777,10 @@ File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
 [13
 
-] (./Slides2.vrb)
+]
+\openout4 = `Slides2.vrb'.
+
+(./Slides2.vrb)
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
@@ -1827,7 +1823,7 @@ File: imagens/Icon.jpg Graphic file (type bmp)
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 
-Overfull \vbox (8.4672pt too high) detected at line 781
+Overfull \vbox (8.4672pt too high) detected at line 760
  []
 
 File: imagens/Icon.jpg Graphic file (type bmp)
@@ -1882,19 +1878,19 @@ Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 ]
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 9.2715pt on input line 889.
+(Font)              scaled to size 9.2715pt on input line 868.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 6.181pt on input line 889.
+(Font)              scaled to size 6.181pt on input line 868.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 9.27232pt on input line 889.
+(Font)              scaled to size 9.27232pt on input line 868.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 6.18155pt on input line 889.
+(Font)              scaled to size 6.18155pt on input line 868.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 9.27054pt on input line 889.
+(Font)              scaled to size 9.27054pt on input line 868.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 6.18036pt on input line 889.
+(Font)              scaled to size 6.18036pt on input line 868.
 LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <7> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 889.
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 868.
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
@@ -1917,17 +1913,6 @@ Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
 [27
-
-]
-\openout4 = `Slides2.vrb'.
-
-(./Slides2.vrb)
-
-Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
-
-File: imagens/Icon.jpg Graphic file (type bmp)
-<imagens/Icon.jpg>
-[28
 
 ]
 \openout4 = `Slides2.vrb'.
@@ -2135,7 +2120,22 @@ Overfull \hbox (81.21013pt too wide) in paragraph at lines 45--45
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 
-Overfull \vbox (215.73718pt too high) detected at line 947
+Overfull \vbox (215.73718pt too high) detected at line 915
+ []
+
+File: imagens/Icon.jpg Graphic file (type bmp)
+<imagens/Icon.jpg>
+[28
+
+]
+\openout4 = `Slides2.vrb'.
+
+(./Slides2.vrb)
+
+Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
+
+
+Overfull \vbox (243.36719pt too high) detected at line 964
  []
 
 File: imagens/Icon.jpg Graphic file (type bmp)
@@ -2150,27 +2150,12 @@ File: imagens/Icon.jpg Graphic file (type bmp)
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 
-Overfull \vbox (243.36719pt too high) detected at line 996
+Overfull \vbox (242.44719pt too high) detected at line 1013
  []
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
 [30
-
-]
-\openout4 = `Slides2.vrb'.
-
-(./Slides2.vrb)
-
-Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
-
-
-Overfull \vbox (242.44719pt too high) detected at line 1045
- []
-
-File: imagens/Icon.jpg Graphic file (type bmp)
-<imagens/Icon.jpg>
-[31
 
 ]
 \openout4 = `Slides2.vrb'.
@@ -2189,7 +2174,25 @@ th"  "Species"[]
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 
-Overfull \vbox (23.93916pt too high) detected at line 1100
+Overfull \vbox (23.93916pt too high) detected at line 1068
+ []
+
+File: imagens/Icon.jpg Graphic file (type bmp)
+<imagens/Icon.jpg>
+[31
+
+] (./Slides2.vrb
+Overfull \hbox (15.55814pt too wide) in paragraph at lines 15--15
+[]\TU/lmtt/m/n/8 ## [1] "Sepal.Length" "Sepal.Width"  "Petal.Length" "Petal.Wid
+th"  "Species"[] 
+ []
+
+)
+
+Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
+
+
+Overfull \vbox (23.93916pt too high) detected at line 1068
  []
 
 File: imagens/Icon.jpg Graphic file (type bmp)
@@ -2207,30 +2210,12 @@ th"  "Species"[]
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 
-Overfull \vbox (23.93916pt too high) detected at line 1100
+Overfull \vbox (23.93916pt too high) detected at line 1068
  []
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
 [33
-
-] (./Slides2.vrb
-Overfull \hbox (15.55814pt too wide) in paragraph at lines 15--15
-[]\TU/lmtt/m/n/8 ## [1] "Sepal.Length" "Sepal.Width"  "Petal.Length" "Petal.Wid
-th"  "Species"[] 
- []
-
-)
-
-Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
-
-
-Overfull \vbox (23.93916pt too high) detected at line 1100
- []
-
-File: imagens/Icon.jpg Graphic file (type bmp)
-<imagens/Icon.jpg>
-[34
 
 ]
 \openout4 = `Slides2.vrb'.
@@ -2243,12 +2228,12 @@ LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <9> not available
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 
-Overfull \vbox (1493.40619pt too high) detected at line 1268
+Overfull \vbox (1493.40619pt too high) detected at line 1236
  []
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
-[35
+[34
 
 ]
 \openout4 = `Slides2.vrb'.
@@ -2269,6 +2254,59 @@ Overfull \hbox (39.21013pt too wide) in paragraph at lines 16--16
 Overfull \hbox (39.21013pt too wide) in paragraph at lines 16--16
 []\TU/lmtt/m/n/10 ## Maserati Bora  15.0   8  301 335 3.54 3.57 14.6  0  1    5
     8[] 
+ []
+
+)
+
+Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
+
+File: imagens/Icon.jpg Graphic file (type bmp)
+<imagens/Icon.jpg>
+[35
+
+]
+\openout4 = `Slides2.vrb'.
+
+(./Slides2.vrb
+Overfull \hbox (70.71013pt too wide) in paragraph at lines 18--18
+[]\TU/lmtt/m/n/10 ##                    mpg cyl  disp  hp drat    wt  qsec vs a
+m gear carb[] 
+ []
+
+
+Overfull \hbox (70.71013pt too wide) in paragraph at lines 18--18
+[]\TU/lmtt/m/n/10 ## Hornet Sportabout 18.7   8 360.0 175 3.15 3.440 17.02  0  
+0    3    2[] 
+ []
+
+
+Overfull \hbox (70.71013pt too wide) in paragraph at lines 18--18
+[]\TU/lmtt/m/n/10 ## Merc 450SE        16.4   8 275.8 180 3.07 4.070 17.40  0  
+0    3    3[] 
+ []
+
+
+Overfull \hbox (70.71013pt too wide) in paragraph at lines 18--18
+[]\TU/lmtt/m/n/10 ## Merc 450SL        17.3   8 275.8 180 3.07 3.730 17.60  0  
+0    3    3[] 
+ []
+
+
+Overfull \hbox (70.71013pt too wide) in paragraph at lines 18--18
+[]\TU/lmtt/m/n/10 ## Merc 450SLC       15.2   8 275.8 180 3.07 3.780 18.00  0  
+0    3    3[] 
+ []
+
+
+Overfull \hbox (70.71013pt too wide) in paragraph at lines 18--18
+[]\TU/lmtt/m/n/10 ## Pontiac Firebird  19.2   8 400.0 175 3.08 3.845 17.05  0  
+0    3    2[] 
+ []
+
+
+Overfull \hbox (70.71013pt too wide) in paragraph at lines 18--18
+[]\TU/lmtt/m/n/10 ## Ferrari Dino      19.7   6 145.0 175 3.62 2.770 15.50  0  
+1    5    6[] 
  []
 
 )
@@ -2336,59 +2374,6 @@ File: imagens/Icon.jpg Graphic file (type bmp)
 \openout4 = `Slides2.vrb'.
 
 (./Slides2.vrb
-Overfull \hbox (70.71013pt too wide) in paragraph at lines 18--18
-[]\TU/lmtt/m/n/10 ##                    mpg cyl  disp  hp drat    wt  qsec vs a
-m gear carb[] 
- []
-
-
-Overfull \hbox (70.71013pt too wide) in paragraph at lines 18--18
-[]\TU/lmtt/m/n/10 ## Hornet Sportabout 18.7   8 360.0 175 3.15 3.440 17.02  0  
-0    3    2[] 
- []
-
-
-Overfull \hbox (70.71013pt too wide) in paragraph at lines 18--18
-[]\TU/lmtt/m/n/10 ## Merc 450SE        16.4   8 275.8 180 3.07 4.070 17.40  0  
-0    3    3[] 
- []
-
-
-Overfull \hbox (70.71013pt too wide) in paragraph at lines 18--18
-[]\TU/lmtt/m/n/10 ## Merc 450SL        17.3   8 275.8 180 3.07 3.730 17.60  0  
-0    3    3[] 
- []
-
-
-Overfull \hbox (70.71013pt too wide) in paragraph at lines 18--18
-[]\TU/lmtt/m/n/10 ## Merc 450SLC       15.2   8 275.8 180 3.07 3.780 18.00  0  
-0    3    3[] 
- []
-
-
-Overfull \hbox (70.71013pt too wide) in paragraph at lines 18--18
-[]\TU/lmtt/m/n/10 ## Pontiac Firebird  19.2   8 400.0 175 3.08 3.845 17.05  0  
-0    3    2[] 
- []
-
-
-Overfull \hbox (70.71013pt too wide) in paragraph at lines 18--18
-[]\TU/lmtt/m/n/10 ## Ferrari Dino      19.7   6 145.0 175 3.62 2.770 15.50  0  
-1    5    6[] 
- []
-
-)
-
-Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
-
-File: imagens/Icon.jpg Graphic file (type bmp)
-<imagens/Icon.jpg>
-[38
-
-]
-\openout4 = `Slides2.vrb'.
-
-(./Slides2.vrb
 Overfull \hbox (49.71013pt too wide) in paragraph at lines 14--14
 []\TU/lmtt/m/n/10 ##                mpg cyl  disp  hp drat    wt  qsec vs am ge
 ar carb[] 
@@ -2412,7 +2397,7 @@ Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
-[39
+[38
 
 ]
 \openout4 = `Slides2.vrb'.
@@ -2488,8 +2473,19 @@ g <dbl>,[]
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 
-Overfull \vbox (34.3702pt too high) detected at line 1377
+Overfull \vbox (34.3702pt too high) detected at line 1345
  []
+
+File: imagens/Icon.jpg Graphic file (type bmp)
+<imagens/Icon.jpg>
+[39
+
+]
+\openout4 = `Slides2.vrb'.
+
+(./Slides2.vrb)
+
+Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
@@ -2524,6 +2520,10 @@ File: imagens/Icon.jpg Graphic file (type bmp)
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
+
+Overfull \vbox (1.8972pt too high) detected at line 1442
+ []
+
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
 [43
@@ -2536,12 +2536,24 @@ File: imagens/Icon.jpg Graphic file (type bmp)
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 
-Overfull \vbox (1.8972pt too high) detected at line 1474
+Overfull \vbox (9.51518pt too high) detected at line 1481
  []
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
 [44
+
+] (./Slides2.vrb)
+
+Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
+
+
+Overfull \vbox (9.51518pt too high) detected at line 1481
+ []
+
+File: imagens/Icon.jpg Graphic file (type bmp)
+<imagens/Icon.jpg>
+[45
 
 ]
 \openout4 = `Slides2.vrb'.
@@ -2551,19 +2563,7 @@ File: imagens/Icon.jpg Graphic file (type bmp)
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 
-Overfull \vbox (9.51518pt too high) detected at line 1513
- []
-
-File: imagens/Icon.jpg Graphic file (type bmp)
-<imagens/Icon.jpg>
-[45
-
-] (./Slides2.vrb)
-
-Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
-
-
-Overfull \vbox (9.51518pt too high) detected at line 1513
+Overfull \vbox (13.01819pt too high) detected at line 1514
  []
 
 File: imagens/Icon.jpg Graphic file (type bmp)
@@ -2576,10 +2576,6 @@ File: imagens/Icon.jpg Graphic file (type bmp)
 (./Slides2.vrb)
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
-
-
-Overfull \vbox (13.01819pt too high) detected at line 1546
- []
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
@@ -2614,6 +2610,10 @@ File: imagens/Icon.jpg Graphic file (type bmp)
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
+
+Overfull \vbox (12.3702pt too high) detected at line 1609
+ []
+
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
 [50
@@ -2624,10 +2624,6 @@ File: imagens/Icon.jpg Graphic file (type bmp)
 (./Slides2.vrb)
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
-
-
-Overfull \vbox (12.3702pt too high) detected at line 1641
- []
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
@@ -2724,9 +2720,211 @@ File: imagens/Icon.jpg Graphic file (type bmp)
 ]
 \openout4 = `Slides2.vrb'.
 
-(./Slides2.vrb)
+(./Slides2.vrb
+Overfull \hbox (81.21013pt too wide) in paragraph at lines 44--44
+[]\TU/lmtt/m/n/10 ##                      mpg cyl  disp  hp drat    wt  qsec vs
+ am gear carb[] 
+ []
+
+
+Overfull \hbox (81.21013pt too wide) in paragraph at lines 44--44
+[]\TU/lmtt/m/n/10 ## Honda Civic         30.4   4  75.7  52 4.93 1.615 18.52  1
+  1    4    2[] 
+ []
+
+
+Overfull \hbox (81.21013pt too wide) in paragraph at lines 44--44
+[]\TU/lmtt/m/n/10 ## Merc 240D           24.4   4 146.7  62 3.69 3.190 20.00  1
+  0    4    2[] 
+ []
+
+
+Overfull \hbox (81.21013pt too wide) in paragraph at lines 44--44
+[]\TU/lmtt/m/n/10 ## Toyota Corolla      33.9   4  71.1  65 4.22 1.835 19.90  1
+  1    4    1[] 
+ []
+
+
+Overfull \hbox (81.21013pt too wide) in paragraph at lines 44--44
+[]\TU/lmtt/m/n/10 ## Fiat 128            32.4   4  78.7  66 4.08 2.200 19.47  1
+  1    4    1[] 
+ []
+
+
+Overfull \hbox (81.21013pt too wide) in paragraph at lines 44--44
+[]\TU/lmtt/m/n/10 ## Fiat X1-9           27.3   4  79.0  66 4.08 1.935 18.90  1
+  1    4    1[] 
+ []
+
+
+Overfull \hbox (81.21013pt too wide) in paragraph at lines 44--44
+[]\TU/lmtt/m/n/10 ## Porsche 914-2       26.0   4 120.3  91 4.43 2.140 16.70  0
+  1    5    2[] 
+ []
+
+
+Overfull \hbox (81.21013pt too wide) in paragraph at lines 44--44
+[]\TU/lmtt/m/n/10 ## Datsun 710          22.8   4 108.0  93 3.85 2.320 18.61  1
+  1    4    1[] 
+ []
+
+
+Overfull \hbox (81.21013pt too wide) in paragraph at lines 44--44
+[]\TU/lmtt/m/n/10 ## Merc 230            22.8   4 140.8  95 3.92 3.150 22.90  1
+  0    4    2[] 
+ []
+
+
+Overfull \hbox (81.21013pt too wide) in paragraph at lines 44--44
+[]\TU/lmtt/m/n/10 ## Toyota Corona       21.5   4 120.1  97 3.70 2.465 20.01  1
+  0    3    1[] 
+ []
+
+
+Overfull \hbox (81.21013pt too wide) in paragraph at lines 44--44
+[]\TU/lmtt/m/n/10 ## Valiant             18.1   6 225.0 105 2.76 3.460 20.22  1
+  0    3    1[] 
+ []
+
+
+Overfull \hbox (81.21013pt too wide) in paragraph at lines 44--44
+[]\TU/lmtt/m/n/10 ## Volvo 142E          21.4   4 121.0 109 4.11 2.780 18.60  1
+  1    4    2[] 
+ []
+
+
+Overfull \hbox (81.21013pt too wide) in paragraph at lines 44--44
+[]\TU/lmtt/m/n/10 ## Mazda RX4           21.0   6 160.0 110 3.90 2.620 16.46  0
+  1    4    4[] 
+ []
+
+
+Overfull \hbox (81.21013pt too wide) in paragraph at lines 44--44
+[]\TU/lmtt/m/n/10 ## Mazda RX4 Wag       21.0   6 160.0 110 3.90 2.875 17.02  0
+  1    4    4[] 
+ []
+
+
+Overfull \hbox (81.21013pt too wide) in paragraph at lines 44--44
+[]\TU/lmtt/m/n/10 ## Hornet 4 Drive      21.4   6 258.0 110 3.08 3.215 19.44  1
+  0    3    1[] 
+ []
+
+
+Overfull \hbox (81.21013pt too wide) in paragraph at lines 44--44
+[]\TU/lmtt/m/n/10 ## Lotus Europa        30.4   4  95.1 113 3.77 1.513 16.90  1
+  1    5    2[] 
+ []
+
+
+Overfull \hbox (81.21013pt too wide) in paragraph at lines 44--44
+[]\TU/lmtt/m/n/10 ## Merc 280            19.2   6 167.6 123 3.92 3.440 18.30  1
+  0    4    4[] 
+ []
+
+
+Overfull \hbox (81.21013pt too wide) in paragraph at lines 44--44
+[]\TU/lmtt/m/n/10 ## Merc 280C           17.8   6 167.6 123 3.92 3.440 18.90  1
+  0    4    4[] 
+ []
+
+
+Overfull \hbox (81.21013pt too wide) in paragraph at lines 44--44
+[]\TU/lmtt/m/n/10 ## Dodge Challenger    15.5   8 318.0 150 2.76 3.520 16.87  0
+  0    3    2[] 
+ []
+
+
+Overfull \hbox (81.21013pt too wide) in paragraph at lines 44--44
+[]\TU/lmtt/m/n/10 ## AMC Javelin         15.2   8 304.0 150 3.15 3.435 17.30  0
+  0    3    2[] 
+ []
+
+
+Overfull \hbox (81.21013pt too wide) in paragraph at lines 44--44
+[]\TU/lmtt/m/n/10 ## Hornet Sportabout   18.7   8 360.0 175 3.15 3.440 17.02  0
+  0    3    2[] 
+ []
+
+
+Overfull \hbox (81.21013pt too wide) in paragraph at lines 44--44
+[]\TU/lmtt/m/n/10 ## Pontiac Firebird    19.2   8 400.0 175 3.08 3.845 17.05  0
+  0    3    2[] 
+ []
+
+
+Overfull \hbox (81.21013pt too wide) in paragraph at lines 44--44
+[]\TU/lmtt/m/n/10 ## Ferrari Dino        19.7   6 145.0 175 3.62 2.770 15.50  0
+  1    5    6[] 
+ []
+
+
+Overfull \hbox (81.21013pt too wide) in paragraph at lines 44--44
+[]\TU/lmtt/m/n/10 ## Merc 450SE          16.4   8 275.8 180 3.07 4.070 17.40  0
+  0    3    3[] 
+ []
+
+
+Overfull \hbox (81.21013pt too wide) in paragraph at lines 44--44
+[]\TU/lmtt/m/n/10 ## Merc 450SL          17.3   8 275.8 180 3.07 3.730 17.60  0
+  0    3    3[] 
+ []
+
+
+Overfull \hbox (81.21013pt too wide) in paragraph at lines 44--44
+[]\TU/lmtt/m/n/10 ## Merc 450SLC         15.2   8 275.8 180 3.07 3.780 18.00  0
+  0    3    3[] 
+ []
+
+
+Overfull \hbox (81.21013pt too wide) in paragraph at lines 44--44
+[]\TU/lmtt/m/n/10 ## Cadillac Fleetwood  10.4   8 472.0 205 2.93 5.250 17.98  0
+  0    3    4[] 
+ []
+
+
+Overfull \hbox (81.21013pt too wide) in paragraph at lines 44--44
+[]\TU/lmtt/m/n/10 ## Lincoln Continental 10.4   8 460.0 215 3.00 5.424 17.82  0
+  0    3    4[] 
+ []
+
+
+Overfull \hbox (81.21013pt too wide) in paragraph at lines 44--44
+[]\TU/lmtt/m/n/10 ## Chrysler Imperial   14.7   8 440.0 230 3.23 5.345 17.42  0
+  0    3    4[] 
+ []
+
+
+Overfull \hbox (81.21013pt too wide) in paragraph at lines 44--44
+[]\TU/lmtt/m/n/10 ## Duster 360          14.3   8 360.0 245 3.21 3.570 15.84  0
+  0    3    4[] 
+ []
+
+
+Overfull \hbox (81.21013pt too wide) in paragraph at lines 44--44
+[]\TU/lmtt/m/n/10 ## Camaro Z28          13.3   8 350.0 245 3.73 3.840 15.41  0
+  0    3    4[] 
+ []
+
+
+Overfull \hbox (81.21013pt too wide) in paragraph at lines 44--44
+[]\TU/lmtt/m/n/10 ## Ford Pantera L      15.8   8 351.0 264 4.22 3.170 14.50  0
+  1    5    4[] 
+ []
+
+
+Overfull \hbox (81.21013pt too wide) in paragraph at lines 44--44
+[]\TU/lmtt/m/n/10 ## Maserati Bora       15.0   8 301.0 335 3.54 3.570 14.60  0
+  1    5    8[] 
+ []
+
+)
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
+
+
+Overfull \vbox (213.28719pt too high) detected at line 1845
+ []
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
@@ -2743,134 +2941,44 @@ Overfull \hbox (81.21013pt too wide) in paragraph at lines 44--44
 
 
 Overfull \hbox (81.21013pt too wide) in paragraph at lines 44--44
-[]\TU/lmtt/m/n/10 ## Honda Civic         30.4   4  75.7  52 4.93 1.615 18.52  1
-  1    4    2[] 
+[]\TU/lmtt/m/n/10 ## Maserati Bora       15.0   8 301.0 335 3.54 3.570 14.60  0
+  1    5    8[] 
  []
 
 
 Overfull \hbox (81.21013pt too wide) in paragraph at lines 44--44
-[]\TU/lmtt/m/n/10 ## Merc 240D           24.4   4 146.7  62 3.69 3.190 20.00  1
-  0    4    2[] 
+[]\TU/lmtt/m/n/10 ## Ford Pantera L      15.8   8 351.0 264 4.22 3.170 14.50  0
+  1    5    4[] 
  []
 
 
 Overfull \hbox (81.21013pt too wide) in paragraph at lines 44--44
-[]\TU/lmtt/m/n/10 ## Toyota Corolla      33.9   4  71.1  65 4.22 1.835 19.90  1
-  1    4    1[] 
+[]\TU/lmtt/m/n/10 ## Duster 360          14.3   8 360.0 245 3.21 3.570 15.84  0
+  0    3    4[] 
  []
 
 
 Overfull \hbox (81.21013pt too wide) in paragraph at lines 44--44
-[]\TU/lmtt/m/n/10 ## Fiat 128            32.4   4  78.7  66 4.08 2.200 19.47  1
-  1    4    1[] 
+[]\TU/lmtt/m/n/10 ## Camaro Z28          13.3   8 350.0 245 3.73 3.840 15.41  0
+  0    3    4[] 
  []
 
 
 Overfull \hbox (81.21013pt too wide) in paragraph at lines 44--44
-[]\TU/lmtt/m/n/10 ## Fiat X1-9           27.3   4  79.0  66 4.08 1.935 18.90  1
-  1    4    1[] 
+[]\TU/lmtt/m/n/10 ## Chrysler Imperial   14.7   8 440.0 230 3.23 5.345 17.42  0
+  0    3    4[] 
  []
 
 
 Overfull \hbox (81.21013pt too wide) in paragraph at lines 44--44
-[]\TU/lmtt/m/n/10 ## Porsche 914-2       26.0   4 120.3  91 4.43 2.140 16.70  0
-  1    5    2[] 
+[]\TU/lmtt/m/n/10 ## Lincoln Continental 10.4   8 460.0 215 3.00 5.424 17.82  0
+  0    3    4[] 
  []
 
 
 Overfull \hbox (81.21013pt too wide) in paragraph at lines 44--44
-[]\TU/lmtt/m/n/10 ## Datsun 710          22.8   4 108.0  93 3.85 2.320 18.61  1
-  1    4    1[] 
- []
-
-
-Overfull \hbox (81.21013pt too wide) in paragraph at lines 44--44
-[]\TU/lmtt/m/n/10 ## Merc 230            22.8   4 140.8  95 3.92 3.150 22.90  1
-  0    4    2[] 
- []
-
-
-Overfull \hbox (81.21013pt too wide) in paragraph at lines 44--44
-[]\TU/lmtt/m/n/10 ## Toyota Corona       21.5   4 120.1  97 3.70 2.465 20.01  1
-  0    3    1[] 
- []
-
-
-Overfull \hbox (81.21013pt too wide) in paragraph at lines 44--44
-[]\TU/lmtt/m/n/10 ## Valiant             18.1   6 225.0 105 2.76 3.460 20.22  1
-  0    3    1[] 
- []
-
-
-Overfull \hbox (81.21013pt too wide) in paragraph at lines 44--44
-[]\TU/lmtt/m/n/10 ## Volvo 142E          21.4   4 121.0 109 4.11 2.780 18.60  1
-  1    4    2[] 
- []
-
-
-Overfull \hbox (81.21013pt too wide) in paragraph at lines 44--44
-[]\TU/lmtt/m/n/10 ## Mazda RX4           21.0   6 160.0 110 3.90 2.620 16.46  0
-  1    4    4[] 
- []
-
-
-Overfull \hbox (81.21013pt too wide) in paragraph at lines 44--44
-[]\TU/lmtt/m/n/10 ## Mazda RX4 Wag       21.0   6 160.0 110 3.90 2.875 17.02  0
-  1    4    4[] 
- []
-
-
-Overfull \hbox (81.21013pt too wide) in paragraph at lines 44--44
-[]\TU/lmtt/m/n/10 ## Hornet 4 Drive      21.4   6 258.0 110 3.08 3.215 19.44  1
-  0    3    1[] 
- []
-
-
-Overfull \hbox (81.21013pt too wide) in paragraph at lines 44--44
-[]\TU/lmtt/m/n/10 ## Lotus Europa        30.4   4  95.1 113 3.77 1.513 16.90  1
-  1    5    2[] 
- []
-
-
-Overfull \hbox (81.21013pt too wide) in paragraph at lines 44--44
-[]\TU/lmtt/m/n/10 ## Merc 280            19.2   6 167.6 123 3.92 3.440 18.30  1
-  0    4    4[] 
- []
-
-
-Overfull \hbox (81.21013pt too wide) in paragraph at lines 44--44
-[]\TU/lmtt/m/n/10 ## Merc 280C           17.8   6 167.6 123 3.92 3.440 18.90  1
-  0    4    4[] 
- []
-
-
-Overfull \hbox (81.21013pt too wide) in paragraph at lines 44--44
-[]\TU/lmtt/m/n/10 ## Dodge Challenger    15.5   8 318.0 150 2.76 3.520 16.87  0
-  0    3    2[] 
- []
-
-
-Overfull \hbox (81.21013pt too wide) in paragraph at lines 44--44
-[]\TU/lmtt/m/n/10 ## AMC Javelin         15.2   8 304.0 150 3.15 3.435 17.30  0
-  0    3    2[] 
- []
-
-
-Overfull \hbox (81.21013pt too wide) in paragraph at lines 44--44
-[]\TU/lmtt/m/n/10 ## Hornet Sportabout   18.7   8 360.0 175 3.15 3.440 17.02  0
-  0    3    2[] 
- []
-
-
-Overfull \hbox (81.21013pt too wide) in paragraph at lines 44--44
-[]\TU/lmtt/m/n/10 ## Pontiac Firebird    19.2   8 400.0 175 3.08 3.845 17.05  0
-  0    3    2[] 
- []
-
-
-Overfull \hbox (81.21013pt too wide) in paragraph at lines 44--44
-[]\TU/lmtt/m/n/10 ## Ferrari Dino        19.7   6 145.0 175 3.62 2.770 15.50  0
-  1    5    6[] 
+[]\TU/lmtt/m/n/10 ## Cadillac Fleetwood  10.4   8 472.0 205 2.93 5.250 17.98  0
+  0    3    4[] 
  []
 
 
@@ -2893,44 +3001,134 @@ Overfull \hbox (81.21013pt too wide) in paragraph at lines 44--44
 
 
 Overfull \hbox (81.21013pt too wide) in paragraph at lines 44--44
-[]\TU/lmtt/m/n/10 ## Cadillac Fleetwood  10.4   8 472.0 205 2.93 5.250 17.98  0
-  0    3    4[] 
+[]\TU/lmtt/m/n/10 ## Hornet Sportabout   18.7   8 360.0 175 3.15 3.440 17.02  0
+  0    3    2[] 
  []
 
 
 Overfull \hbox (81.21013pt too wide) in paragraph at lines 44--44
-[]\TU/lmtt/m/n/10 ## Lincoln Continental 10.4   8 460.0 215 3.00 5.424 17.82  0
-  0    3    4[] 
+[]\TU/lmtt/m/n/10 ## Pontiac Firebird    19.2   8 400.0 175 3.08 3.845 17.05  0
+  0    3    2[] 
  []
 
 
 Overfull \hbox (81.21013pt too wide) in paragraph at lines 44--44
-[]\TU/lmtt/m/n/10 ## Chrysler Imperial   14.7   8 440.0 230 3.23 5.345 17.42  0
-  0    3    4[] 
+[]\TU/lmtt/m/n/10 ## Ferrari Dino        19.7   6 145.0 175 3.62 2.770 15.50  0
+  1    5    6[] 
  []
 
 
 Overfull \hbox (81.21013pt too wide) in paragraph at lines 44--44
-[]\TU/lmtt/m/n/10 ## Duster 360          14.3   8 360.0 245 3.21 3.570 15.84  0
-  0    3    4[] 
+[]\TU/lmtt/m/n/10 ## Dodge Challenger    15.5   8 318.0 150 2.76 3.520 16.87  0
+  0    3    2[] 
  []
 
 
 Overfull \hbox (81.21013pt too wide) in paragraph at lines 44--44
-[]\TU/lmtt/m/n/10 ## Camaro Z28          13.3   8 350.0 245 3.73 3.840 15.41  0
-  0    3    4[] 
+[]\TU/lmtt/m/n/10 ## AMC Javelin         15.2   8 304.0 150 3.15 3.435 17.30  0
+  0    3    2[] 
  []
 
 
 Overfull \hbox (81.21013pt too wide) in paragraph at lines 44--44
-[]\TU/lmtt/m/n/10 ## Ford Pantera L      15.8   8 351.0 264 4.22 3.170 14.50  0
-  1    5    4[] 
+[]\TU/lmtt/m/n/10 ## Merc 280            19.2   6 167.6 123 3.92 3.440 18.30  1
+  0    4    4[] 
  []
 
 
 Overfull \hbox (81.21013pt too wide) in paragraph at lines 44--44
-[]\TU/lmtt/m/n/10 ## Maserati Bora       15.0   8 301.0 335 3.54 3.570 14.60  0
-  1    5    8[] 
+[]\TU/lmtt/m/n/10 ## Merc 280C           17.8   6 167.6 123 3.92 3.440 18.90  1
+  0    4    4[] 
+ []
+
+
+Overfull \hbox (81.21013pt too wide) in paragraph at lines 44--44
+[]\TU/lmtt/m/n/10 ## Lotus Europa        30.4   4  95.1 113 3.77 1.513 16.90  1
+  1    5    2[] 
+ []
+
+
+Overfull \hbox (81.21013pt too wide) in paragraph at lines 44--44
+[]\TU/lmtt/m/n/10 ## Mazda RX4           21.0   6 160.0 110 3.90 2.620 16.46  0
+  1    4    4[] 
+ []
+
+
+Overfull \hbox (81.21013pt too wide) in paragraph at lines 44--44
+[]\TU/lmtt/m/n/10 ## Mazda RX4 Wag       21.0   6 160.0 110 3.90 2.875 17.02  0
+  1    4    4[] 
+ []
+
+
+Overfull \hbox (81.21013pt too wide) in paragraph at lines 44--44
+[]\TU/lmtt/m/n/10 ## Hornet 4 Drive      21.4   6 258.0 110 3.08 3.215 19.44  1
+  0    3    1[] 
+ []
+
+
+Overfull \hbox (81.21013pt too wide) in paragraph at lines 44--44
+[]\TU/lmtt/m/n/10 ## Volvo 142E          21.4   4 121.0 109 4.11 2.780 18.60  1
+  1    4    2[] 
+ []
+
+
+Overfull \hbox (81.21013pt too wide) in paragraph at lines 44--44
+[]\TU/lmtt/m/n/10 ## Valiant             18.1   6 225.0 105 2.76 3.460 20.22  1
+  0    3    1[] 
+ []
+
+
+Overfull \hbox (81.21013pt too wide) in paragraph at lines 44--44
+[]\TU/lmtt/m/n/10 ## Toyota Corona       21.5   4 120.1  97 3.70 2.465 20.01  1
+  0    3    1[] 
+ []
+
+
+Overfull \hbox (81.21013pt too wide) in paragraph at lines 44--44
+[]\TU/lmtt/m/n/10 ## Merc 230            22.8   4 140.8  95 3.92 3.150 22.90  1
+  0    4    2[] 
+ []
+
+
+Overfull \hbox (81.21013pt too wide) in paragraph at lines 44--44
+[]\TU/lmtt/m/n/10 ## Datsun 710          22.8   4 108.0  93 3.85 2.320 18.61  1
+  1    4    1[] 
+ []
+
+
+Overfull \hbox (81.21013pt too wide) in paragraph at lines 44--44
+[]\TU/lmtt/m/n/10 ## Porsche 914-2       26.0   4 120.3  91 4.43 2.140 16.70  0
+  1    5    2[] 
+ []
+
+
+Overfull \hbox (81.21013pt too wide) in paragraph at lines 44--44
+[]\TU/lmtt/m/n/10 ## Fiat 128            32.4   4  78.7  66 4.08 2.200 19.47  1
+  1    4    1[] 
+ []
+
+
+Overfull \hbox (81.21013pt too wide) in paragraph at lines 44--44
+[]\TU/lmtt/m/n/10 ## Fiat X1-9           27.3   4  79.0  66 4.08 1.935 18.90  1
+  1    4    1[] 
+ []
+
+
+Overfull \hbox (81.21013pt too wide) in paragraph at lines 44--44
+[]\TU/lmtt/m/n/10 ## Toyota Corolla      33.9   4  71.1  65 4.22 1.835 19.90  1
+  1    4    1[] 
+ []
+
+
+Overfull \hbox (81.21013pt too wide) in paragraph at lines 44--44
+[]\TU/lmtt/m/n/10 ## Merc 240D           24.4   4 146.7  62 3.69 3.190 20.00  1
+  0    4    2[] 
+ []
+
+
+Overfull \hbox (81.21013pt too wide) in paragraph at lines 44--44
+[]\TU/lmtt/m/n/10 ## Honda Civic         30.4   4  75.7  52 4.93 1.615 18.52  1
+  1    4    2[] 
  []
 
 )
@@ -2938,225 +3136,12 @@ Overfull \hbox (81.21013pt too wide) in paragraph at lines 44--44
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 
-Overfull \vbox (213.28719pt too high) detected at line 1877
+Overfull \vbox (213.28719pt too high) detected at line 1891
  []
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
 [61
-
-]
-\openout4 = `Slides2.vrb'.
-
-(./Slides2.vrb
-Overfull \hbox (81.21013pt too wide) in paragraph at lines 44--44
-[]\TU/lmtt/m/n/10 ##                      mpg cyl  disp  hp drat    wt  qsec vs
- am gear carb[] 
- []
-
-
-Overfull \hbox (81.21013pt too wide) in paragraph at lines 44--44
-[]\TU/lmtt/m/n/10 ## Maserati Bora       15.0   8 301.0 335 3.54 3.570 14.60  0
-  1    5    8[] 
- []
-
-
-Overfull \hbox (81.21013pt too wide) in paragraph at lines 44--44
-[]\TU/lmtt/m/n/10 ## Ford Pantera L      15.8   8 351.0 264 4.22 3.170 14.50  0
-  1    5    4[] 
- []
-
-
-Overfull \hbox (81.21013pt too wide) in paragraph at lines 44--44
-[]\TU/lmtt/m/n/10 ## Duster 360          14.3   8 360.0 245 3.21 3.570 15.84  0
-  0    3    4[] 
- []
-
-
-Overfull \hbox (81.21013pt too wide) in paragraph at lines 44--44
-[]\TU/lmtt/m/n/10 ## Camaro Z28          13.3   8 350.0 245 3.73 3.840 15.41  0
-  0    3    4[] 
- []
-
-
-Overfull \hbox (81.21013pt too wide) in paragraph at lines 44--44
-[]\TU/lmtt/m/n/10 ## Chrysler Imperial   14.7   8 440.0 230 3.23 5.345 17.42  0
-  0    3    4[] 
- []
-
-
-Overfull \hbox (81.21013pt too wide) in paragraph at lines 44--44
-[]\TU/lmtt/m/n/10 ## Lincoln Continental 10.4   8 460.0 215 3.00 5.424 17.82  0
-  0    3    4[] 
- []
-
-
-Overfull \hbox (81.21013pt too wide) in paragraph at lines 44--44
-[]\TU/lmtt/m/n/10 ## Cadillac Fleetwood  10.4   8 472.0 205 2.93 5.250 17.98  0
-  0    3    4[] 
- []
-
-
-Overfull \hbox (81.21013pt too wide) in paragraph at lines 44--44
-[]\TU/lmtt/m/n/10 ## Merc 450SE          16.4   8 275.8 180 3.07 4.070 17.40  0
-  0    3    3[] 
- []
-
-
-Overfull \hbox (81.21013pt too wide) in paragraph at lines 44--44
-[]\TU/lmtt/m/n/10 ## Merc 450SL          17.3   8 275.8 180 3.07 3.730 17.60  0
-  0    3    3[] 
- []
-
-
-Overfull \hbox (81.21013pt too wide) in paragraph at lines 44--44
-[]\TU/lmtt/m/n/10 ## Merc 450SLC         15.2   8 275.8 180 3.07 3.780 18.00  0
-  0    3    3[] 
- []
-
-
-Overfull \hbox (81.21013pt too wide) in paragraph at lines 44--44
-[]\TU/lmtt/m/n/10 ## Hornet Sportabout   18.7   8 360.0 175 3.15 3.440 17.02  0
-  0    3    2[] 
- []
-
-
-Overfull \hbox (81.21013pt too wide) in paragraph at lines 44--44
-[]\TU/lmtt/m/n/10 ## Pontiac Firebird    19.2   8 400.0 175 3.08 3.845 17.05  0
-  0    3    2[] 
- []
-
-
-Overfull \hbox (81.21013pt too wide) in paragraph at lines 44--44
-[]\TU/lmtt/m/n/10 ## Ferrari Dino        19.7   6 145.0 175 3.62 2.770 15.50  0
-  1    5    6[] 
- []
-
-
-Overfull \hbox (81.21013pt too wide) in paragraph at lines 44--44
-[]\TU/lmtt/m/n/10 ## Dodge Challenger    15.5   8 318.0 150 2.76 3.520 16.87  0
-  0    3    2[] 
- []
-
-
-Overfull \hbox (81.21013pt too wide) in paragraph at lines 44--44
-[]\TU/lmtt/m/n/10 ## AMC Javelin         15.2   8 304.0 150 3.15 3.435 17.30  0
-  0    3    2[] 
- []
-
-
-Overfull \hbox (81.21013pt too wide) in paragraph at lines 44--44
-[]\TU/lmtt/m/n/10 ## Merc 280            19.2   6 167.6 123 3.92 3.440 18.30  1
-  0    4    4[] 
- []
-
-
-Overfull \hbox (81.21013pt too wide) in paragraph at lines 44--44
-[]\TU/lmtt/m/n/10 ## Merc 280C           17.8   6 167.6 123 3.92 3.440 18.90  1
-  0    4    4[] 
- []
-
-
-Overfull \hbox (81.21013pt too wide) in paragraph at lines 44--44
-[]\TU/lmtt/m/n/10 ## Lotus Europa        30.4   4  95.1 113 3.77 1.513 16.90  1
-  1    5    2[] 
- []
-
-
-Overfull \hbox (81.21013pt too wide) in paragraph at lines 44--44
-[]\TU/lmtt/m/n/10 ## Mazda RX4           21.0   6 160.0 110 3.90 2.620 16.46  0
-  1    4    4[] 
- []
-
-
-Overfull \hbox (81.21013pt too wide) in paragraph at lines 44--44
-[]\TU/lmtt/m/n/10 ## Mazda RX4 Wag       21.0   6 160.0 110 3.90 2.875 17.02  0
-  1    4    4[] 
- []
-
-
-Overfull \hbox (81.21013pt too wide) in paragraph at lines 44--44
-[]\TU/lmtt/m/n/10 ## Hornet 4 Drive      21.4   6 258.0 110 3.08 3.215 19.44  1
-  0    3    1[] 
- []
-
-
-Overfull \hbox (81.21013pt too wide) in paragraph at lines 44--44
-[]\TU/lmtt/m/n/10 ## Volvo 142E          21.4   4 121.0 109 4.11 2.780 18.60  1
-  1    4    2[] 
- []
-
-
-Overfull \hbox (81.21013pt too wide) in paragraph at lines 44--44
-[]\TU/lmtt/m/n/10 ## Valiant             18.1   6 225.0 105 2.76 3.460 20.22  1
-  0    3    1[] 
- []
-
-
-Overfull \hbox (81.21013pt too wide) in paragraph at lines 44--44
-[]\TU/lmtt/m/n/10 ## Toyota Corona       21.5   4 120.1  97 3.70 2.465 20.01  1
-  0    3    1[] 
- []
-
-
-Overfull \hbox (81.21013pt too wide) in paragraph at lines 44--44
-[]\TU/lmtt/m/n/10 ## Merc 230            22.8   4 140.8  95 3.92 3.150 22.90  1
-  0    4    2[] 
- []
-
-
-Overfull \hbox (81.21013pt too wide) in paragraph at lines 44--44
-[]\TU/lmtt/m/n/10 ## Datsun 710          22.8   4 108.0  93 3.85 2.320 18.61  1
-  1    4    1[] 
- []
-
-
-Overfull \hbox (81.21013pt too wide) in paragraph at lines 44--44
-[]\TU/lmtt/m/n/10 ## Porsche 914-2       26.0   4 120.3  91 4.43 2.140 16.70  0
-  1    5    2[] 
- []
-
-
-Overfull \hbox (81.21013pt too wide) in paragraph at lines 44--44
-[]\TU/lmtt/m/n/10 ## Fiat 128            32.4   4  78.7  66 4.08 2.200 19.47  1
-  1    4    1[] 
- []
-
-
-Overfull \hbox (81.21013pt too wide) in paragraph at lines 44--44
-[]\TU/lmtt/m/n/10 ## Fiat X1-9           27.3   4  79.0  66 4.08 1.935 18.90  1
-  1    4    1[] 
- []
-
-
-Overfull \hbox (81.21013pt too wide) in paragraph at lines 44--44
-[]\TU/lmtt/m/n/10 ## Toyota Corolla      33.9   4  71.1  65 4.22 1.835 19.90  1
-  1    4    1[] 
- []
-
-
-Overfull \hbox (81.21013pt too wide) in paragraph at lines 44--44
-[]\TU/lmtt/m/n/10 ## Merc 240D           24.4   4 146.7  62 3.69 3.190 20.00  1
-  0    4    2[] 
- []
-
-
-Overfull \hbox (81.21013pt too wide) in paragraph at lines 44--44
-[]\TU/lmtt/m/n/10 ## Honda Civic         30.4   4  75.7  52 4.93 1.615 18.52  1
-  1    4    2[] 
- []
-
-)
-
-Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
-
-
-Overfull \vbox (213.28719pt too high) detected at line 1923
- []
-
-File: imagens/Icon.jpg Graphic file (type bmp)
-<imagens/Icon.jpg>
-[62
 
 ]
 \openout4 = `Slides2.vrb'.
@@ -3203,7 +3188,7 @@ Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
-[63
+[62
 
 ]
 \openout4 = `Slides2.vrb'.
@@ -3226,7 +3211,7 @@ Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
-[64
+[63
 
 ]
 
@@ -3234,7 +3219,7 @@ Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
-[65
+[64
 
 ]
 \openout4 = `Slides2.vrb'.
@@ -3248,7 +3233,7 @@ Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
-[66
+[65
 
 ]
 \openout4 = `Slides2.vrb'.
@@ -3325,7 +3310,7 @@ Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
-[67
+[66
 
 ]
 \openout4 = `Slides2.vrb'.
@@ -3402,7 +3387,7 @@ Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
-[68
+[67
 
 ]
 \openout4 = `Slides2.vrb'.
@@ -3473,7 +3458,7 @@ Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
-[69
+[68
 
 ]
 \openout4 = `Slides2.vrb'.
@@ -3556,13 +3541,13 @@ Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
-[70
+[69
 
 ]
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
-[71
+[70
 
 ]
 \openout4 = `Slides2.vrb'.
@@ -3573,9 +3558,20 @@ Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
-[72
+[71
 
 ] (./Slides2.vrb)
+
+Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
+
+File: imagens/Icon.jpg Graphic file (type bmp)
+<imagens/Icon.jpg>
+[72
+
+]
+\openout4 = `Slides2.vrb'.
+
+(./Slides2.vrb)
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
@@ -3593,17 +3589,6 @@ Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
 [74
-
-]
-\openout4 = `Slides2.vrb'.
-
-(./Slides2.vrb)
-
-Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
-
-File: imagens/Icon.jpg Graphic file (type bmp)
-<imagens/Icon.jpg>
-[75
 
 ]
 \openout4 = `Slides2.vrb'.
@@ -4519,8 +4504,19 @@ ginica[]
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 
-Overfull \vbox (1616.42719pt too high) detected at line 2422
+Overfull \vbox (1616.42719pt too high) detected at line 2390
  []
+
+File: imagens/Icon.jpg Graphic file (type bmp)
+<imagens/Icon.jpg>
+[75
+
+]
+\openout4 = `Slides2.vrb'.
+
+(./Slides2.vrb)
+
+Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
@@ -4555,6 +4551,10 @@ File: imagens/Icon.jpg Graphic file (type bmp)
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
+
+Overfull \vbox (9.2172pt too high) detected at line 2502
+ []
+
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
 [79
@@ -4567,7 +4567,7 @@ File: imagens/Icon.jpg Graphic file (type bmp)
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 
-Overfull \vbox (9.2172pt too high) detected at line 2534
+Overfull \vbox (56.41719pt too high) detected at line 2535
  []
 
 File: imagens/Icon.jpg Graphic file (type bmp)
@@ -4582,7 +4582,7 @@ File: imagens/Icon.jpg Graphic file (type bmp)
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 
-Overfull \vbox (56.41719pt too high) detected at line 2567
+Overfull \vbox (70.75719pt too high) detected at line 2569
  []
 
 File: imagens/Icon.jpg Graphic file (type bmp)
@@ -4597,7 +4597,7 @@ File: imagens/Icon.jpg Graphic file (type bmp)
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 
-Overfull \vbox (70.75719pt too high) detected at line 2601
+Overfull \vbox (83.38719pt too high) detected at line 2604
  []
 
 File: imagens/Icon.jpg Graphic file (type bmp)
@@ -4610,10 +4610,6 @@ File: imagens/Icon.jpg Graphic file (type bmp)
 (./Slides2.vrb)
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
-
-
-Overfull \vbox (83.38719pt too high) detected at line 2636
- []
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
@@ -4637,6 +4633,10 @@ File: imagens/Icon.jpg Graphic file (type bmp)
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
+
+Overfull \vbox (202.75719pt too high) detected at line 2702
+ []
+
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
 [85
@@ -4647,10 +4647,6 @@ File: imagens/Icon.jpg Graphic file (type bmp)
 (./Slides2.vrb)
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
-
-
-Overfull \vbox (202.75719pt too high) detected at line 2734
- []
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
@@ -4663,6 +4659,10 @@ File: imagens/Icon.jpg Graphic file (type bmp)
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
+
+Overfull \vbox (43.8972pt too high) detected at line 2747
+ []
+
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
 [87
@@ -4673,10 +4673,6 @@ File: imagens/Icon.jpg Graphic file (type bmp)
 (./Slides2.vrb)
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
-
-
-Overfull \vbox (43.8972pt too high) detected at line 2779
- []
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
@@ -4689,30 +4685,19 @@ File: imagens/Icon.jpg Graphic file (type bmp)
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
+
+Overfull \vbox (38.66719pt too high) detected at line 2806
+ []
+
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
 [89
 
 ]
-\openout4 = `Slides2.vrb'.
-
-(./Slides2.vrb)
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
-
-Overfull \vbox (38.66719pt too high) detected at line 2838
- []
-
-File: imagens/Icon.jpg Graphic file (type bmp)
-<imagens/Icon.jpg>
 [90
-
-]
-
-Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
-
-[91
 
 ]
 \openout4 = `Slides2.vrb'.
@@ -8512,17 +8497,37 @@ Overfull \hbox (203.01013pt too wide) in paragraph at lines 554--554
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 
-Overfull \vbox (5766.01819pt too high) detected at line 3400
+Overfull \vbox (5766.01819pt too high) detected at line 3368
  []
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
-[92
+[91
 
 ]
 \openout4 = `Slides2.vrb'.
 
 (./Slides2.vrb
+Overfull \hbox (128.46013pt too wide) in paragraph at lines 13--13
+[]\TU/lmtt/m/n/10 ##  [1]   1   5  37  46  50  82  91  95 127 136 140 172 181 1
+85 217 226 230 262 271[] 
+ []
+
+
+Overfull \hbox (107.46013pt too wide) in paragraph at lines 13--13
+[]\TU/lmtt/m/n/10 ## [20] 275 307 316 320 352 361 365 397 406 410 442 451 455 4
+87 496 500 532 541[] 
+ []
+
+)
+
+Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
+
+File: imagens/Icon.jpg Graphic file (type bmp)
+<imagens/Icon.jpg>
+[92
+
+] (./Slides2.vrb
 Overfull \hbox (128.46013pt too wide) in paragraph at lines 13--13
 []\TU/lmtt/m/n/10 ##  [1]   1   5  37  46  50  82  91  95 127 136 140 172 181 1
 85 217 226 230 262 271[] 
@@ -8562,21 +8567,16 @@ File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
 [94
 
-] (./Slides2.vrb
-Overfull \hbox (128.46013pt too wide) in paragraph at lines 13--13
-[]\TU/lmtt/m/n/10 ##  [1]   1   5  37  46  50  82  91  95 127 136 140 172 181 1
-85 217 226 230 262 271[] 
- []
+]
+\openout4 = `Slides2.vrb'.
 
-
-Overfull \hbox (107.46013pt too wide) in paragraph at lines 13--13
-[]\TU/lmtt/m/n/10 ## [20] 275 307 316 320 352 361 365 397 406 410 442 451 455 4
-87 496 500 532 541[] 
- []
-
-)
+(./Slides2.vrb)
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
+
+
+Overfull \vbox (299.01819pt too high) detected at line 3477
+ []
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
@@ -8589,24 +8589,9 @@ File: imagens/Icon.jpg Graphic file (type bmp)
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
-
-Overfull \vbox (299.01819pt too high) detected at line 3509
- []
-
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
 [96
-
-]
-\openout4 = `Slides2.vrb'.
-
-(./Slides2.vrb)
-
-Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
-
-File: imagens/Icon.jpg Graphic file (type bmp)
-<imagens/Icon.jpg>
-[97
 
 ]
 \openout4 = `Slides2.vrb'.
@@ -8724,12 +8709,12 @@ Overfull \hbox (84.88539pt too wide) in paragraph at lines 43--43
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 
-Overfull \vbox (46.79617pt too high) detected at line 3565
+Overfull \vbox (46.79617pt too high) detected at line 3533
  []
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
-[98
+[97
 
 ] (./Slides2.vrb
 Overfull \hbox (779.46109pt too wide) in paragraph at lines 18--18
@@ -8844,12 +8829,12 @@ Overfull \hbox (84.88539pt too wide) in paragraph at lines 43--43
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 
-Overfull \vbox (46.79617pt too high) detected at line 3565
+Overfull \vbox (46.79617pt too high) detected at line 3533
  []
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
-[99
+[98
 
 ]
 \openout4 = `Slides2.vrb'.
@@ -8877,7 +8862,7 @@ Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
-[100
+[99
 
 ]
 \openout4 = `Slides2.vrb'.
@@ -8911,12 +8896,12 @@ PER MEDIA[] <chr>,[]
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 
-Overfull \vbox (56.3702pt too high) detected at line 3642
+Overfull \vbox (56.3702pt too high) detected at line 3610
  []
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
-[101
+[100
 
 ]
 \openout4 = `Slides2.vrb'.
@@ -9010,12 +8995,12 @@ ACAO <chr>[]
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 
-Overfull \vbox (56.7752pt too high) detected at line 3679
+Overfull \vbox (56.7752pt too high) detected at line 3647
  []
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
-[102
+[101
 
 ]
 \openout4 = `Slides2.vrb'.
@@ -9109,12 +9094,12 @@ PER MEDIA[] <dbl>,[]
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 
-Overfull \vbox (100.3702pt too high) detected at line 3720
+Overfull \vbox (100.3702pt too high) detected at line 3688
  []
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
-[103
+[102
 
 ]
 \tf@nav=\write6
@@ -9128,12 +9113,12 @@ File: imagens/Icon.jpg Graphic file (type bmp)
 
 (./Slides2.aux) ) 
 Here is how much of TeX's memory you used:
- 36894 strings out of 476191
- 774097 string characters out of 5812072
- 2890726 words of memory out of 5000000
- 56705 multiletter control sequences out of 15000+600000
+ 36912 strings out of 476191
+ 774479 string characters out of 5812072
+ 2890873 words of memory out of 5000000
+ 56727 multiletter control sequences out of 15000+600000
  475118 words of font info for 121 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  128i,15n,128p,1004b,1385s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Slides2.pdf (103 pages).
+Output written on Slides2.pdf (102 pages).
