@@ -43,7 +43,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 Usando o conjunto de dados `agridat::walsh.cottonprice`:
 
-- \icon Obter um conjunto de dados com as colunas `year` (ano), `cotton` (cents por libra de algodão), `cottonseed` (dólares por toneladas de sementes) e `combined` ($\textrm{cotton}+1857\times\textrm{cottonseed}$, em cents por libra)
+- \icon Obter um conjunto de dados com as colunas `year` (ano), `cotton` (cents por libra de algodão), `cottonseed` (dólares por toneladas de sementes) e `combined` ($\textrm{cotton}+1{,}857\times\textrm{cottonseed}$, em cents por libra)
 - \icon Sabendo que 1 ton = 2000 pounds e que 1 dólar = 100 cents, converter `cottonseed` para a mesma unidade de `cotton`
 - \icon Criar a coluna `combined2`, com a mesma fórmula da coluna `combined`
 - \icon Criar a coluna `década` a partir da coluna `year`, 
