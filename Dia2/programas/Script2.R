@@ -3,6 +3,49 @@ library(lubridate)
 library(agridat)
 library(readxl)
 
+# Dia 1 (revisão) ----
+
+# Tipos: numeric, character, factor, logical, date, ...
+# Estruturas:
+#    Vetor: seleciona elementos com colchetes simples []
+vetor <- c(1,2,3,4)
+vetor
+vetor[3]
+#    Cada um dos elementos de um vetor pode ou não ser nomeado
+c(um=1, dois=2, 3, quatro=4)
+#    Matriz: seleciona elementos com colchetes com vírgula [,]
+matriz <- matrix(c(1,2,3,4), nrow=2)
+matriz
+matriz[1,]
+matriz[,2]
+matriz[1,2]
+#    As linhas e colunas de uma matriz podem ou não ser nomeadas
+dimnames(matriz) <- list(linhas=c("um", "dois"),
+                         colunas=c("col_um", "col_dois"))
+matriz
+#    Data-frame: seleciona elementos com colchetes com vírgula [,] ou cifrão $
+df <- data.frame(bloco=rep(seq(1,4),each=2),
+                 trat=rep(seq(1,2), 4))
+df
+df[,2]
+df[,"trat"]
+df$trat
+#    As colunas e linhas de um data-frame precisam ser nomeadas
+data.frame(rep(seq(1,4),each=2),
+           rep(seq(1,2), 4))
+#    Lista: seleciona elementos com colchetes duplos [[]] ou cifrão $
+#    Os elementos podem ou não ser nomeados
+lista <- list(vetor=vetor, M=matriz, df)
+lista
+lista[[2]]
+lista$M
+# Obs: uma lista de objetos do mesmo tipo pode ser transformada em vetor
+lista2 <- list(vetor1=c(1,2,3), vetor2=c(4,5,6), vetor3=c(7,8,9))
+lista2
+unlist(lista2)
+
+# Dia 2 ----
+
 # Tidyverse ----
 
 # tibble - rownames_to_column, column_to_rownames
@@ -29,6 +72,12 @@ medidas <- read_xlsx("dados/Planilha.xlsx") %>%
 
 usuarios <- read_xlsx("dados/Transacoes.xlsx", "usuarios")
 transacoes <- read_xlsx("dados/Transacoes.xlsx", "transacoes")
+
+# Exercícios - dplyr ----
+
+agridat::walsh.cottonprice
+
+dplyr::starwars
 
 # tidyr - pivot_wider, pivot_longer,
 #         unnest_longer, unnest_wider, separate, unite

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2024.3.18)  30 JUL 2024 11:52
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2024.3.18)  8 AUG 2024 09:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1589,18 +1589,17 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 ]
 \openout4 = `Slides2Exercicios.vrb'.
 
-(./Slides2Exercicios.vrb
-LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <10> not available
-(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 7.
-
-Overfull \hbox (117.96013pt too wide) in paragraph at lines 35--35
-[]\TU/lmtt/m/n/10 ##  - attr(*, "names")= chr [1:3] "Trat 1-Trat 2" "Trat 1-Tra
-t 3" "Trat 2-Trat 3"[] 
- []
-
-)
+(./Slides2Exercicios.vrb (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-
+LatinModernRoman.cfg
+File: mt-LatinModernRoman.cfg 2021/02/21 v1.1 microtype config. file: Latin Mod
+ern Roman (RS)
+))
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
+
+
+Overfull \vbox (336.1372pt too high) detected at line 517
+ []
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
@@ -1620,9 +1619,361 @@ File: imagens/Icon.jpg Graphic file (type bmp)
 ]
 \openout4 = `Slides2Exercicios.vrb'.
 
-(./Slides2Exercicios.vrb)
+(./Slides2Exercicios.vrb
+Overfull \hbox (49.71013pt too wide) in paragraph at lines 71--71
+[]\TU/lmtt/m/n/10 ##        Luke Skywalker                 C-3PO               
+  R2-D2[] 
+ []
+
+
+Overfull \hbox (49.71013pt too wide) in paragraph at lines 71--71
+[]\TU/lmtt/m/n/10 ##                     5                     6               
+      7[] 
+ []
+
+
+Overfull \hbox (49.71013pt too wide) in paragraph at lines 71--71
+[]\TU/lmtt/m/n/10 ##           Darth Vader           Leia Organa             Ow
+en Lars[] 
+ []
+
+
+Overfull \hbox (49.71013pt too wide) in paragraph at lines 71--71
+[]\TU/lmtt/m/n/10 ##                     4                     5               
+      3[] 
+ []
+
+
+Overfull \hbox (49.71013pt too wide) in paragraph at lines 71--71
+[]\TU/lmtt/m/n/10 ##    Beru Whitesun Lars                 R5-D4     Biggs Dark
+lighter[] 
+ []
+
+
+Overfull \hbox (49.71013pt too wide) in paragraph at lines 71--71
+[]\TU/lmtt/m/n/10 ##                     3                     1               
+      1[] 
+ []
+
+
+Overfull \hbox (49.71013pt too wide) in paragraph at lines 71--71
+[]\TU/lmtt/m/n/10 ##        Obi-Wan Kenobi      Anakin Skywalker        Wilhuff
+ Tarkin[] 
+ []
+
+
+Overfull \hbox (49.71013pt too wide) in paragraph at lines 71--71
+[]\TU/lmtt/m/n/10 ##                     6                     3               
+      2[] 
+ []
+
+
+Overfull \hbox (49.71013pt too wide) in paragraph at lines 71--71
+[]\TU/lmtt/m/n/10 ##             Chewbacca              Han Solo               
+ Greedo[] 
+ []
+
+
+Overfull \hbox (49.71013pt too wide) in paragraph at lines 71--71
+[]\TU/lmtt/m/n/10 ##                     5                     4               
+      1[] 
+ []
+
+
+Overfull \hbox (49.71013pt too wide) in paragraph at lines 71--71
+[]\TU/lmtt/m/n/10 ## Jabba Desilijic Tiure        Wedge Antilles      Jek Tono 
+Porkins[] 
+ []
+
+
+Overfull \hbox (49.71013pt too wide) in paragraph at lines 71--71
+[]\TU/lmtt/m/n/10 ##                     3                     3               
+      1[] 
+ []
+
+
+Overfull \hbox (49.71013pt too wide) in paragraph at lines 71--71
+[]\TU/lmtt/m/n/10 ##                  Yoda             Palpatine             Bo
+ba Fett[] 
+ []
+
+
+Overfull \hbox (49.71013pt too wide) in paragraph at lines 71--71
+[]\TU/lmtt/m/n/10 ##                     5                     5               
+      3[] 
+ []
+
+
+Overfull \hbox (49.71013pt too wide) in paragraph at lines 71--71
+[]\TU/lmtt/m/n/10 ##                 IG-88                 Bossk      Lando Cal
+rissian[] 
+ []
+
+
+Overfull \hbox (49.71013pt too wide) in paragraph at lines 71--71
+[]\TU/lmtt/m/n/10 ##                     1                     1               
+      2[] 
+ []
+
+
+Overfull \hbox (49.71013pt too wide) in paragraph at lines 71--71
+[]\TU/lmtt/m/n/10 ##                 Lobot                Ackbar            Mon
+ Mothma[] 
+ []
+
+
+Overfull \hbox (49.71013pt too wide) in paragraph at lines 71--71
+[]\TU/lmtt/m/n/10 ##                     1                     2               
+      1[] 
+ []
+
+
+Overfull \hbox (49.71013pt too wide) in paragraph at lines 71--71
+[]\TU/lmtt/m/n/10 ##          Arvel Crynyd Wicket Systri Warrick             Ni
+en Nunb[] 
+ []
+
+
+Overfull \hbox (49.71013pt too wide) in paragraph at lines 71--71
+[]\TU/lmtt/m/n/10 ##                     1                     1               
+      1[] 
+ []
+
+
+Overfull \hbox (49.71013pt too wide) in paragraph at lines 71--71
+[]\TU/lmtt/m/n/10 ##          Qui-Gon Jinn           Nute Gunray         Finis 
+Valorum[] 
+ []
+
+
+Overfull \hbox (49.71013pt too wide) in paragraph at lines 71--71
+[]\TU/lmtt/m/n/10 ##                     1                     3               
+      1[] 
+ []
+
+
+Overfull \hbox (49.71013pt too wide) in paragraph at lines 71--71
+[]\TU/lmtt/m/n/10 ##         Padmé Amidala         Jar Jar Binks          Roos 
+Tarpals[] 
+ []
+
+
+Overfull \hbox (49.71013pt too wide) in paragraph at lines 71--71
+[]\TU/lmtt/m/n/10 ##                     3                     2               
+      1[] 
+ []
+
+
+Overfull \hbox (49.71013pt too wide) in paragraph at lines 71--71
+[]\TU/lmtt/m/n/10 ##            Rugor Nass              Ric Olié               
+  Watto[] 
+ []
+
+
+Overfull \hbox (49.71013pt too wide) in paragraph at lines 71--71
+[]\TU/lmtt/m/n/10 ##                     1                     1               
+      2[] 
+ []
+
+
+Overfull \hbox (49.71013pt too wide) in paragraph at lines 71--71
+[]\TU/lmtt/m/n/10 ##               Sebulba         Quarsh Panaka        Shmi Sk
+ywalker[] 
+ []
+
+
+Overfull \hbox (49.71013pt too wide) in paragraph at lines 71--71
+[]\TU/lmtt/m/n/10 ##                     1                     1               
+      2[] 
+ []
+
+
+Overfull \hbox (49.71013pt too wide) in paragraph at lines 71--71
+[]\TU/lmtt/m/n/10 ##            Darth Maul           Bib Fortuna           Ayla
+ Secura[] 
+ []
+
+
+Overfull \hbox (49.71013pt too wide) in paragraph at lines 71--71
+[]\TU/lmtt/m/n/10 ##                     1                     1               
+      3[] 
+ []
+
+
+Overfull \hbox (49.71013pt too wide) in paragraph at lines 71--71
+[]\TU/lmtt/m/n/10 ##          Ratts Tyerel              Dud Bolt               
+Gasgano[] 
+ []
+
+
+Overfull \hbox (49.71013pt too wide) in paragraph at lines 71--71
+[]\TU/lmtt/m/n/10 ##                     1                     1               
+      1[] 
+ []
+
+
+Overfull \hbox (49.71013pt too wide) in paragraph at lines 71--71
+[]\TU/lmtt/m/n/10 ##        Ben Quadinaros            Mace Windu          Ki-Ad
+i-Mundi[] 
+ []
+
+
+Overfull \hbox (49.71013pt too wide) in paragraph at lines 71--71
+[]\TU/lmtt/m/n/10 ##                     1                     3               
+      3[] 
+ []
+
+
+Overfull \hbox (49.71013pt too wide) in paragraph at lines 71--71
+[]\TU/lmtt/m/n/10 ##             Kit Fisto             Eeth Koth            Adi
+ Gallia[] 
+ []
+
+
+Overfull \hbox (49.71013pt too wide) in paragraph at lines 71--71
+[]\TU/lmtt/m/n/10 ##                     3                     2               
+      2[] 
+ []
+
+
+Overfull \hbox (49.71013pt too wide) in paragraph at lines 71--71
+[]\TU/lmtt/m/n/10 ##           Saesee Tiin           Yarael Poof              P
+lo Koon[] 
+ []
+
+
+Overfull \hbox (49.71013pt too wide) in paragraph at lines 71--71
+[]\TU/lmtt/m/n/10 ##                     2                     1               
+      3[] 
+ []
+
+
+Overfull \hbox (49.71013pt too wide) in paragraph at lines 71--71
+[]\TU/lmtt/m/n/10 ##            Mas Amedda          Gregar Typho               
+  Cordé[] 
+ []
+
+
+Overfull \hbox (49.71013pt too wide) in paragraph at lines 71--71
+[]\TU/lmtt/m/n/10 ##                     2                     1               
+      1[] 
+ []
+
+
+Overfull \hbox (49.71013pt too wide) in paragraph at lines 71--71
+[]\TU/lmtt/m/n/10 ##           Cliegg Lars     Poggle the Lesser       Luminara
+ Unduli[] 
+ []
+
+
+Overfull \hbox (49.71013pt too wide) in paragraph at lines 71--71
+[]\TU/lmtt/m/n/10 ##                     1                     2               
+      2[] 
+ []
+
+
+Overfull \hbox (49.71013pt too wide) in paragraph at lines 71--71
+[]\TU/lmtt/m/n/10 ##         Barriss Offee                 Dormé               
+  Dooku[] 
+ []
+
+
+Overfull \hbox (49.71013pt too wide) in paragraph at lines 71--71
+[]\TU/lmtt/m/n/10 ##                     1                     1               
+      2[] 
+ []
+
+
+Overfull \hbox (49.71013pt too wide) in paragraph at lines 71--71
+[]\TU/lmtt/m/n/10 ##   Bail Prestor Organa            Jango Fett            Zam
+ Wesell[] 
+ []
+
+
+Overfull \hbox (49.71013pt too wide) in paragraph at lines 71--71
+[]\TU/lmtt/m/n/10 ##                     2                     1               
+      1[] 
+ []
+
+
+Overfull \hbox (49.71013pt too wide) in paragraph at lines 71--71
+[]\TU/lmtt/m/n/10 ##       Dexter Jettster               Lama Su               
+Taun We[] 
+ []
+
+
+Overfull \hbox (49.71013pt too wide) in paragraph at lines 71--71
+[]\TU/lmtt/m/n/10 ##                     1                     1               
+      1[] 
+ []
+
+
+Overfull \hbox (49.71013pt too wide) in paragraph at lines 71--71
+[]\TU/lmtt/m/n/10 ##            Jocasta Nu                R4-P17            Wat
+ Tambor[] 
+ []
+
+
+Overfull \hbox (49.71013pt too wide) in paragraph at lines 71--71
+[]\TU/lmtt/m/n/10 ##                     1                     2               
+      1[] 
+ []
+
+
+Overfull \hbox (49.71013pt too wide) in paragraph at lines 71--71
+[]\TU/lmtt/m/n/10 ##              San Hill              Shaak Ti              G
+rievous[] 
+ []
+
+
+Overfull \hbox (49.71013pt too wide) in paragraph at lines 71--71
+[]\TU/lmtt/m/n/10 ##                     1                     2               
+      1[] 
+ []
+
+
+Overfull \hbox (49.71013pt too wide) in paragraph at lines 71--71
+[]\TU/lmtt/m/n/10 ##               Tarfful       Raymus Antilles             Sl
+y Moore[] 
+ []
+
+
+Overfull \hbox (49.71013pt too wide) in paragraph at lines 71--71
+[]\TU/lmtt/m/n/10 ##                     1                     2               
+      2[] 
+ []
+
+
+Overfull \hbox (49.71013pt too wide) in paragraph at lines 71--71
+[]\TU/lmtt/m/n/10 ##            Tion Medon                  Finn               
+    Rey[] 
+ []
+
+
+Overfull \hbox (49.71013pt too wide) in paragraph at lines 71--71
+[]\TU/lmtt/m/n/10 ##                     1                     1               
+      1[] 
+ []
+
+
+Overfull \hbox (49.71013pt too wide) in paragraph at lines 71--71
+[]\TU/lmtt/m/n/10 ##           Poe Dameron                   BB8        Captain
+ Phasma[] 
+ []
+
+
+Overfull \hbox (49.71013pt too wide) in paragraph at lines 71--71
+[]\TU/lmtt/m/n/10 ##                     1                     1               
+      1[] 
+ []
+
+)
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
+
+
+Overfull \vbox (528.02722pt too high) detected at line 612
+ []
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
@@ -1635,6 +1986,10 @@ File: imagens/Icon.jpg Graphic file (type bmp)
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
+
+Overfull \vbox (12.1372pt too high) detected at line 642
+ []
+
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
 [6
@@ -1646,9 +2001,83 @@ File: imagens/Icon.jpg Graphic file (type bmp)
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
+
+Overfull \vbox (0.1372pt too high) detected at line 671
+ []
+
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
 [7
+
+]
+
+Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
+
+[8
+
+]
+\openout4 = `Slides2Exercicios.vrb'.
+
+(./Slides2Exercicios.vrb
+LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <10> not available
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 7.
+
+Overfull \hbox (117.96013pt too wide) in paragraph at lines 35--35
+[]\TU/lmtt/m/n/10 ##  - attr(*, "names")= chr [1:3] "Trat 1-Trat 2" "Trat 1-Tra
+t 3" "Trat 2-Trat 3"[] 
+ []
+
+)
+
+Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
+
+File: imagens/Icon.jpg Graphic file (type bmp)
+<imagens/Icon.jpg>
+[9
+
+]
+\openout4 = `Slides2Exercicios.vrb'.
+
+(./Slides2Exercicios.vrb)
+
+Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
+
+File: imagens/Icon.jpg Graphic file (type bmp)
+<imagens/Icon.jpg>
+[10
+
+]
+\openout4 = `Slides2Exercicios.vrb'.
+
+(./Slides2Exercicios.vrb)
+
+Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
+
+File: imagens/Icon.jpg Graphic file (type bmp)
+<imagens/Icon.jpg>
+[11
+
+]
+\openout4 = `Slides2Exercicios.vrb'.
+
+(./Slides2Exercicios.vrb)
+
+Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
+
+File: imagens/Icon.jpg Graphic file (type bmp)
+<imagens/Icon.jpg>
+[12
+
+]
+\openout4 = `Slides2Exercicios.vrb'.
+
+(./Slides2Exercicios.vrb)
+
+Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
+
+File: imagens/Icon.jpg Graphic file (type bmp)
+<imagens/Icon.jpg>
+[13
 
 ]
 \openout4 = `Slides2Exercicios.vrb'.
@@ -1725,7 +2154,7 @@ Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
-[8
+[14
 
 ]
 \openout4 = `Slides2Exercicios.vrb'.
@@ -1772,7 +2201,7 @@ Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
-[9
+[15
 
 ]
 \openout4 = `Slides2Exercicios.vrb'.
@@ -1783,7 +2212,7 @@ Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
-[10
+[16
 
 ]
 \openout4 = `Slides2Exercicios.vrb'.
@@ -1794,7 +2223,7 @@ Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
-[11
+[17
 
 ]
 \openout4 = `Slides2Exercicios.vrb'.
@@ -1819,12 +2248,12 @@ Overfull \hbox (261.9422pt too wide) in paragraph at lines 40--40
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 
-Overfull \vbox (4.11519pt too high) detected at line 685
+Overfull \vbox (4.11519pt too high) detected at line 906
  []
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
-[12
+[18
 
 ]
 \tf@nav=\write6
@@ -1838,12 +2267,12 @@ File: imagens/Icon.jpg Graphic file (type bmp)
 
 (./Slides2Exercicios.aux) ) 
 Here is how much of TeX's memory you used:
- 35905 strings out of 476191
- 756652 string characters out of 5812072
- 1221475 words of memory out of 5000000
- 55908 multiletter control sequences out of 15000+600000
- 473028 words of font info for 89 fonts, out of 8000000 for 9000
+ 36070 strings out of 476191
+ 761573 string characters out of 5812072
+ 1279288 words of memory out of 5000000
+ 56045 multiletter control sequences out of 15000+600000
+ 473044 words of font info for 91 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  128i,15n,124p,1014b,866s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Slides2Exercicios.pdf (12 pages).
+Output written on Slides2Exercicios.pdf (18 pages).

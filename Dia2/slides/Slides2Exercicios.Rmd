@@ -36,6 +36,101 @@ knitr::opts_chunk$set(echo = FALSE)
 
 
 # -
+\section{Exercícios dplyr}
+\framecard{{\color{white}\Huge{Exercícios do dplyr}}}
+
+# Exercício 1
+
+Usando o conjunto de dados `agridat::walsh.cottonprice`:
+
+- \icon Obter um conjunto de dados com as colunas `year` (ano), `cotton` (cents por libra de algodão), `cottonseed` (dólares por toneladas de sementes) e `combined` ($\textrm{cotton}+1857\times\textrm{cottonseed}$, em cents por libra)
+- \icon Sabendo que 1 ton = 2000 pounds e que 1 dólar = 100 cents, converter `cottonseed` para a mesma unidade de `cotton`
+- \icon Criar a coluna `combined2`, com a mesma fórmula da coluna `combined`
+- \icon Criar a coluna `década` a partir da coluna `year`, 
+
+```{r}
+
+agridat::walsh.cottonprice %>%
+  select(year, cotton, cottonseed, combined) %>%
+  mutate(cottonseed=cottonseed/2000*100) %>% 
+  mutate(combined2 = cotton + cottonseed*1.857) %>%
+  mutate(década = cut(year, c(1909, 1919, 1929, 1939, 1949))) %>%
+  mutate(década = paste0(str_sub(year, 1, 3), 0)) 
+
+```
+
+# Exercício 1 (continuação)
+
+Usando o conjunto de dados `agridat::walsh.cottonprice`:
+
+- \icon Obter a média e a mediana da coluna `combined2` para cada `década`
+
+```{r}
+
+agridat::walsh.cottonprice %>%
+  select(year, cotton, cottonseed, combined) %>%
+  mutate(cottonseed=cottonseed/2000*100) %>% 
+  mutate(combined2 = cotton + cottonseed*1.857) %>%
+  mutate(década = cut(year, c(1909, 1919, 1929, 1939, 1949))) %>%
+  mutate(década = paste0(str_sub(year, 1, 3), 0)) %>%
+  group_by(década) %>%
+  summarise_at(vars(combined2), list(média=mean, mediana=median))
+
+```
+
+# Exercício 2
+
+Usando o conjunto de dados `dplyr::starwars`:
+
+- \icon Obter um vetor com o número de filmes em que cada personagem aparece
+
+```{r}
+
+starwars %>%
+  select(name, films) %>%
+  group_by(name) %>% 
+  mutate(n = length(films[[1]])) %>% 
+  select(name, n) %>%
+  deframe()
+
+```
+
+# Exercício 2 (continuação)
+
+Usando o conjunto de dados `dplyr::starwars`:
+
+- \icon Criar uma `tibble` nova, em que se repitam nas linhas os nomes dos personagens tantas vezes quanto o número de filmes em que aparecem
+
+```{r}
+
+aparece <- starwars %>%
+  select(name, films) %>%
+  group_by(name) %>% 
+  mutate(n = length(films[[1]])) %>% 
+  select(name, n) %>%
+  deframe()
+
+tibble(name=rep(names(aparece), aparece))
+
+```
+
+
+# Exercício 2 (continuação)
+
+Usando o conjunto de dados `dplyr::starwars`:
+
+- \icon Adicionar na `tibble` criada uma coluna com os nomes dos filmes e um id por filme de cada personagem
+
+```{r}
+
+tibble(name=rep(names(aparece), aparece),
+       id=unlist(lapply(aparece, \(x) seq(1, x))),
+       films=unlist(starwars$films))
+
+```
+
+
+# -
 \section{Exercícios}
 \framecard{{\color{white}\Huge{Exercícios}}}
 
