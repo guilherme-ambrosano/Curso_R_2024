@@ -296,17 +296,14 @@ arquivo_xlsx <- paste0(
 
 bolsas <- map_dfr(excel_sheets(arquivo_xlsx),
         \(planilha) {
-          bolsas_mes <- read_xlsx(arquivo_xlsx, planilha)
-          if(class(bolsas_mes$`VALOR DA BOLSA`)=="numeric") {
-            bolsas_mes <- bolsas_mes %>%
-              mutate_at(vars(`VALOR DA BOLSA`), ~paste("R$", .))
-          }
-          return(bolsas_mes %>%
-              mutate(Mes=planilha))
+          read_xlsx(arquivo_xlsx, planilha) %>%
+            mutate_at(vars(`VALOR DA BOLSA`),
+                      as.character) %>% 
+            mutate(Mes=planilha)
         }) %>%
   mutate_at(vars(`VALOR DA BOLSA`), parse_number,
-            locale=locale(decimal=",")) %>%
-  mutate_at(vars(Mes), ~ifelse(.=="ABR-2023", "APR-2023", .)) %>% 
+            locale=locale(decimal=",")) %>% 
+  mutate_at(vars(Mes), ~ifelse(.=="ABR-2023", "APR-2023", .)) %>%
   mutate_at(vars(Mes), parse_date_time2, "%B-%Y")
 
 ```

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2024.3.18)  9 AUG 2024 10:27
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2024.3.18)  9 AUG 2024 10:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2754,7 +2754,7 @@ st[]
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 
-Overfull \vbox (10.81718pt too high) detected at line 1989
+Overfull \vbox (10.81718pt too high) detected at line 1986
  []
 
 File: imagens/Icon.jpg Graphic file (type bmp)
@@ -3037,7 +3037,7 @@ File: Slides3_files/figure-beamer/unnamed-chunk-35-1.pdf Graphic file (type pdf
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 
-Overfull \vbox (11.6794pt too high) detected at line 2251
+Overfull \vbox (11.6794pt too high) detected at line 2248
  []
 
 File: imagens/Icon.jpg Graphic file (type bmp)
@@ -3141,7 +3141,7 @@ File: Slides3_files/figure-beamer/unnamed-chunk-42-1.pdf Graphic file (type pdf
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 
-Overfull \vbox (13.67813pt too high) detected at line 2398
+Overfull \vbox (13.67813pt too high) detected at line 2395
  []
 
 File: imagens/Icon.jpg Graphic file (type bmp)
@@ -3175,7 +3175,7 @@ File: Slides3_files/figure-beamer/unnamed-chunk-44-1.pdf Graphic file (type pdf
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 
-Overfull \vbox (13.70193pt too high) detected at line 2433
+Overfull \vbox (13.70193pt too high) detected at line 2430
  []
 
 File: imagens/Icon.jpg Graphic file (type bmp)
@@ -3194,7 +3194,7 @@ File: Slides3_files/figure-beamer/unnamed-chunk-45-1.pdf Graphic file (type pdf
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 
-Overfull \vbox (13.70193pt too high) detected at line 2453
+Overfull \vbox (13.70193pt too high) detected at line 2450
  []
 
 File: imagens/Icon.jpg Graphic file (type bmp)
@@ -3258,7 +3258,7 @@ File: Slides3_files/figure-beamer/unnamed-chunk-49-1.pdf Graphic file (type pdf
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 
-Overfull \vbox (53.74226pt too high) detected at line 2531
+Overfull \vbox (53.74226pt too high) detected at line 2528
  []
 
 File: imagens/Icon.jpg Graphic file (type bmp)
@@ -3277,7 +3277,7 @@ File: Slides3_files/figure-beamer/unnamed-chunk-50-1.pdf Graphic file (type pdf
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 
-Overfull \vbox (53.74226pt too high) detected at line 2553
+Overfull \vbox (53.74226pt too high) detected at line 2550
  []
 
 File: imagens/Icon.jpg Graphic file (type bmp)
@@ -3296,7 +3296,7 @@ File: Slides3_files/figure-beamer/unnamed-chunk-51-1.pdf Graphic file (type pdf
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 
-Overfull \vbox (15.78523pt too high) detected at line 2578
+Overfull \vbox (15.78523pt too high) detected at line 2575
  []
 
 File: imagens/Icon.jpg Graphic file (type bmp)
