@@ -12,23 +12,26 @@ modelo.wt  <- wilcox.test(iris$Petal.Length, g=iris$Species)
 # purrr
 
 excel_sheets("dados/Relação nominal dos alunos - Bolsa Extensão - 2023.xlsx")
-read_xlsx("dados/Relação nominal dos alunos - Bolsa Extensão - 2023.xlsx")
+arquivo_xlsx <- "dados/Relação nominal dos alunos - Bolsa Extensão - 2023.xlsx"
+
+map_dfr(excel_sheets(arquivo_xlsx),
+        \(planilha) {
+          read_xlsx(arquivo_xlsx, planilha) %>%
+            mutate_at(vars(`VALOR DA BOLSA`), as.character) %>% 
+            mutate(Mes=planilha)
+        }) %>%
+  mutate_at(vars(`VALOR DA BOLSA`), parse_number, locale=locale(decimal=",")) %>% 
+  mutate_at(vars(Mes), ~ifelse(.=="ABR-2023", "APR-2023", .)) %>%
+  mutate_at(vars(Mes), parse_date_time2, "%B-%Y")
 
 # ggplot2
 
-linhas <- read_lines(
-  "http://www.leb.esalq.usp.br/leb/exceldados/DCE2023.TXT")
-
-inicio <- which(str_starts(linhas, "="))[c(1, seq(3, 37, 3))]
-final <- which(str_starts(linhas, "="))[c(2, seq(5,37,3), 37)]
-pular <- sapply(seq(1,13), function(i){
-  seq(inicio[i], final[i])
-})
-pular2 <- which(linhas=="")
-
-linhas2 <- linhas[-c(unlist(pular),pular2)]
-
-dados_metereologicos <- as_tibble(linhas2) %>%
+dados_meteorologicos <- read_lines(
+  "http://www.leb.esalq.usp.br/leb/exceldados/DCE2023.TXT") %>%
+  as_tibble() %>% 
+  mutate(n = nchar(value)) %>%
+  filter(n > 98) %>%
+  select(-n) %>%
   separate(value,
            c("No", "ANO", "DIA", "MES", "R.GLOBA",
              "INSOLACAO", "PRECIPITACAO", "UMIDADE RELATIV",
@@ -108,6 +111,26 @@ fr %>%
 fr %>%
   ggplot(aes(x=mes_ano, col=idade, linetype=sexo, y=`Não-PBF`)) +
   geom_line()
+
+indicadores <- read_xlsx("../dados/ranking_2015_2020.xlsx")
+estados <- read_state(
+  year = 2020, 
+  showProgress = FALSE)
+
+indicadores %>%
+  filter(Pilar!="Ranking Geral",
+         Indicador=="Total", UF=="SP",
+         `Ano Publicação` %in% c(2019, 2020)) %>% 
+  group_by(`Ano Publicação`, Pilar) %>%
+  summarise(soma = sum(`Nota Normalizada Indicador`)) %>%
+  mutate(`Ano Publicação` = factor(`Ano Publicação`)) %>% 
+  mutate(Pilar = fct_reorder(Pilar, -soma)) %>% 
+  mutate(Pilar = fct_relabel(Pilar, str_wrap, width=15)) %>% 
+  ggplot(aes(x=Pilar, y=soma, color=`Ano Publicação`)) +
+  geom_line(aes(group=`Ano Publicação`)) +
+  coord_radial(expand=F, r_axis_inside = T) +
+  theme_minimal() +
+  theme(axis.title = element_blank())
 
 # Mais conjuntos de dados -----
 
