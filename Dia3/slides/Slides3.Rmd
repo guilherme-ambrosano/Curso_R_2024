@@ -535,19 +535,12 @@ iris %>%
 \scriptsize
 ```{r, echo=T, warning=F, message=F}
 
-linhas <- read_lines(
-  "http://www.leb.esalq.usp.br/leb/exceldados/DCE2023.TXT")
-
-inicio <- which(str_starts(linhas, "="))[c(1, seq(3, 37, 3))]
-final <- which(str_starts(linhas, "="))[c(2, seq(5,37,3), 37)]
-pular <- sapply(seq(1,13), function(i){
-  seq(inicio[i], final[i])
-})
-pular2 <- which(linhas=="")
-
-linhas2 <- linhas[-c(unlist(pular),pular2)]
-
-dados_meteorologicos <- as_tibble(linhas2) %>%
+dados_meteorologicos <- read_lines(
+  "http://www.leb.esalq.usp.br/leb/exceldados/DCE2023.TXT") %>%
+  as_tibble() %>% 
+  mutate(n = nchar(value)) %>%
+  filter(n > 98) %>%
+  select(-n) %>%
   separate(value,
            c("No", "ANO", "DIA", "MES", "R.GLOBA",
              "INSOLACAO", "PRECIPITACAO", "UMIDADE RELATIV",
