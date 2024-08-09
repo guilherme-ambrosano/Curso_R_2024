@@ -1,9 +1,9 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2024.3.18)  9 AUG 2024 10:27
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2024.3.18)  9 AUG 2024 10:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**Slides3.tex
-(./Slides3.tex
+**Slides3Exemplos.tex
+(./Slides3Exemplos.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-01-21> (/usr/share/texlive/texmf-dist/tex/latex/beam
 er/beamer.cls
@@ -954,8 +954,8 @@ File: bkm-dvipdfm.def 2020-11-06 v1.29 bookmark driver for dvipdfm (HO)
 \BKM@id=\count379
 )) (/usr/share/texlive/texmf-dist/tex/latex/xurl/xurl.sty
 Package: xurl 2022/01/09 v 0.10 modify URL breaks
-) (./Slides3.aux)
-\openout1 = `Slides3.aux'.
+) (./Slides3Exemplos.aux)
+\openout1 = `Slides3Exemplos.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 460.
 LaTeX Font Info:    ... okay on input line 460.
@@ -1332,7 +1332,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmss' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-(./Slides3.nav)
+(./Slides3Exemplos.nav)
 File: imagens/LogoFundoTransp.jpg Graphic file (type bmp)
 <imagens/LogoFundoTransp.jpg>
 LaTeX Font Info:    Font shape `TU/Libertad(0)/m/n' will be
@@ -1347,75 +1347,7 @@ File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
 [1
 
-] (./Slides3.toc
-
-Package fontspec Info: Libertad Book scale = 0.8879977783270926.
-
-
-Package fontspec Info: Libertad Book scale = 0.8879977783270926.
-
-
-Package fontspec Info: Libertad Book scale = 0.8879977783270926.
-
-
-Package fontspec Info: Libertad Book/B scale = 0.8879977783270926.
-
-
-Package fontspec Info: Libertad Book/B scale = 0.8879977783270926.
-
-
-Package fontspec Info: Libertad Book/I scale = 0.8879977783270926.
-
-
-Package fontspec Info: Libertad Book/I scale = 0.8879977783270926.
-
-
-Package fontspec Info: Libertad Book/BI scale = 0.8879977783270926.
-
-
-Package fontspec Info: Libertad Book/BI scale = 0.8879977783270926.
-
-
-Package fontspec Info: Font family 'LibertadBook(0)' created for font
-(fontspec)             'Libertad Book' with options [Scale=MatchLowercase].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->s*[0.8879977783270926]"Libertad
-(fontspec)             Book/OT:script=latn;language=dflt;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
-(fontspec)             <->s*[0.8879977783270926]"Libertad
-(fontspec)             Book/OT:script=latn;language=dflt;+smcp;"
-(fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->s*[0.8879977783270926]"Libertad
-(fontspec)             Book/B/OT:script=latn;language=dflt;"
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
-(fontspec)             <->s*[0.8879977783270926]"Libertad
-(fontspec)             Book/B/OT:script=latn;language=dflt;+smcp;"
-(fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->s*[0.8879977783270926]"Libertad
-(fontspec)             Book/I/OT:script=latn;language=dflt;"
-(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
-(fontspec)             <->s*[0.8879977783270926]"Libertad
-(fontspec)             Book/I/OT:script=latn;language=dflt;+smcp;"
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
-(fontspec)             <->s*[0.8879977783270926]"Libertad
-(fontspec)             Book/BI/OT:script=latn;language=dflt;"
-(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
-(fontspec)             <->s*[0.8879977783270926]"Libertad
-(fontspec)             Book/BI/OT:script=latn;language=dflt;+smcp;"
-
-LaTeX Font Info:    Font shape `TU/LibertadBook(0)/m/n' will be
-(Font)              scaled to size 8.88pt on input line 1.
-
-Package fontspec Info: Libertad Book scale = 0.8879977783270926.
-
-
-Package fontspec Info: Libertad Book scale = 0.8879977783270926.
-
-)
+]
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
@@ -1477,95 +1409,185 @@ Package fontspec Info: Font family 'LibertadMediumItalic(0)' created for font
 (fontspec)             Italic/BI/OT:script=latn;language=dflt;+smcp;"
 
 LaTeX Font Info:    Font shape `TU/LibertadMediumItalic(0)/m/n' will be
-(Font)              scaled to size 12.7872pt on input line 466.
+(Font)              scaled to size 12.7872pt on input line 467.
 LaTeX Font Info:    Font shape `TU/Libertad(0)/m/n' will be
-(Font)              scaled to size 12.7872pt on input line 466.
+(Font)              scaled to size 12.7872pt on input line 467.
 LaTeX Font Info:    Font shape `TU/Libertad(0)/b/n' will be
-(Font)              scaled to size 12.7872pt on input line 466.
+(Font)              scaled to size 12.7872pt on input line 467.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 7.21117pt on input line 466.
+(Font)              scaled to size 7.21117pt on input line 467.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 5.15083pt on input line 466.
+(Font)              scaled to size 5.15083pt on input line 467.
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 4
-66.
+67.
 (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 10.30258pt on input line 466.
+(Font)              scaled to size 10.30258pt on input line 467.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 7.2118pt on input line 466.
+(Font)              scaled to size 7.2118pt on input line 467.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 5.15129pt on input line 466.
+(Font)              scaled to size 5.15129pt on input line 467.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 10.3006pt on input line 466.
+(Font)              scaled to size 10.3006pt on input line 467.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 7.21042pt on input line 466.
+(Font)              scaled to size 7.21042pt on input line 467.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 5.1503pt on input line 466.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 466
+(Font)              scaled to size 5.1503pt on input line 467.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 467
 .
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 ) (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 466
+LaTeX Font Info:    Trying to load font information for U+msb on input line 467
 .
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-)
-File: imagens/Icon.jpg Graphic file (type bmp)
-<imagens/Icon.jpg>
-[2
+) [2
 
 ]
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
+File: imagens/Icon.jpg Graphic file (type bmp)
+<imagens/Icon.jpg>
 [3
 
 ]
-\openout4 = `Slides3.vrb'.
+\openout4 = `Slides3Exemplos.vrb'.
 
-(./Slides3.vrb
+(./Slides3Exemplos.vrb
 LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <10> not available
-(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 5.
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 8.
+
+Overfull \hbox (44.46013pt too wide) in paragraph at lines 25--25
+[]\TU/lmtt/m/n/10 ## * []Nativa (N) ou Exótica (E)[] -> []Nativa (N) ou Exótica
+ (E)...6[][] 
+ []
+
+
+Overfull \hbox (44.46013pt too wide) in paragraph at lines 25--25
+[]\TU/lmtt/m/n/10 ## * []Nativa (N) ou Exótica (E)[] -> []Nativa (N) ou Exótica
+ (E)...8[][] 
+ []
+
+
+Overfull \hbox (49.71013pt too wide) in paragraph at lines 25--25
+[]\TU/lmtt/m/n/10 ## * []Nativa (N) ou Exótica (E)[] -> []Nativa (N) ou Exótica
+ (E)...10[][] 
+ []
+
+
+Overfull \hbox (128.46013pt too wide) in paragraph at lines 48--48
+[]\TU/lmtt/m/n/10 ##    []Código de uso[] []Família EEI[] []Nome científico EEI
+[]        []Nome popular EEI[][] 
+ []
+
+
+Overfull \hbox (60.21013pt too wide) in paragraph at lines 48--48
+[]\TU/lmtt/m/n/10 ##    <chr>           <chr>         <chr>                    
+    <chr>[] 
+ []
+
+
+Overfull \hbox (128.46013pt too wide) in paragraph at lines 48--48
+[]\TU/lmtt/m/n/10 ##  1 ornamental      Acanthaceae   Asystasia gangetica (L.) 
+T.~ asistásia, coroma~[] 
+ []
+
+
+Overfull \hbox (128.46013pt too wide) in paragraph at lines 48--48
+[]\TU/lmtt/m/n/10 ##  2 ornamental      Acanthaceae   Asystasia gangetica (L.) 
+T.~ asistásia, coroma~[] 
+ []
+
+
+Overfull \hbox (128.46013pt too wide) in paragraph at lines 48--48
+[]\TU/lmtt/m/n/10 ##  3 ornamental      Acanthaceae   Asystasia gangetica (L.) 
+T.~ asistásia, coroma~[] 
+ []
+
+
+Overfull \hbox (128.46013pt too wide) in paragraph at lines 48--48
+[]\TU/lmtt/m/n/10 ##  4 ornamental      Acanthaceae   Asystasia gangetica (L.) 
+T.~ asistásia, coroma~[] 
+ []
+
+
+Overfull \hbox (128.46013pt too wide) in paragraph at lines 48--48
+[]\TU/lmtt/m/n/10 ##  5 ornamental      Acanthaceae   Asystasia gangetica (L.) 
+T.~ asistásia, coroma~[] 
+ []
+
+
+Overfull \hbox (102.21013pt too wide) in paragraph at lines 48--48
+[]\TU/lmtt/m/n/10 ##  6 ornamental      Acanthaceae   Brillantaisia lamium (Nee
+s)~ erva-de-bicho[] 
+ []
+
+
+Overfull \hbox (102.21013pt too wide) in paragraph at lines 48--48
+[]\TU/lmtt/m/n/10 ##  7 ornamental      Acanthaceae   Brillantaisia lamium (Nee
+s)~ erva-de-bicho[] 
+ []
+
+
+Overfull \hbox (102.21013pt too wide) in paragraph at lines 48--48
+[]\TU/lmtt/m/n/10 ##  8 ornamental      Acanthaceae   Brillantaisia lamium (Nee
+s)~ erva-de-bicho[] 
+ []
+
+
+Overfull \hbox (102.21013pt too wide) in paragraph at lines 48--48
+[]\TU/lmtt/m/n/10 ##  9 ornamental      Acanthaceae   Brillantaisia lamium (Nee
+s)~ erva-de-bicho[] 
+ []
+
+
+Overfull \hbox (102.21013pt too wide) in paragraph at lines 48--48
+[]\TU/lmtt/m/n/10 ## 10 ornamental      Acanthaceae   Brillantaisia lamium (Nee
+s)~ erva-de-bicho[] 
+ []
+
+
+Overfull \hbox (81.21013pt too wide) in paragraph at lines 48--48
+[]\TU/lmtt/m/n/10 ## #   []Nativa (N) ou Exótica (E)...6[] <chr>, []Nome cientí
+fico...7[] <chr>,[] 
+ []
+
+
+Overfull \hbox (81.21013pt too wide) in paragraph at lines 48--48
+[]\TU/lmtt/m/n/10 ## #   []Nativa (N) ou Exótica (E)...8[] <chr>, []Nome cientí
+fico...9[] <chr>,[] 
+ []
+
+
+Overfull \hbox (212.46013pt too wide) in paragraph at lines 48--48
+[]\TU/lmtt/m/n/10 ## #   []Ecossistemas com ocorrência da espécie exótica invas
+ora no estado do Rio de Janeiro[] <chr>,[] 
+ []
+
 )
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
+
+
+Overfull \vbox (227.54718pt too high) detected at line 522
+ []
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
 [4
 
 ]
-\openout4 = `Slides3.vrb'.
+\openout4 = `Slides3Exemplos.vrb'.
 
-(./Slides3.vrb
-LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <8> not available
-(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 7.
-
-Overfull \hbox (45.29419pt too wide) in paragraph at lines 45--45
-[]\TU/lmtt/m/n/8 ##   statistic  p.value method                                
-          alternative[] 
- []
-
-
-Overfull \hbox (19.80621pt too wide) in paragraph at lines 45--45
-[]\TU/lmtt/m/n/8 ##       <dbl>    <dbl> <chr>                                 
-          <chr>[] 
- []
-
-
-Overfull \hbox (36.79819pt too wide) in paragraph at lines 45--45
-[]\TU/lmtt/m/n/8 ## 1     11325 2.25e-26 Wilcoxon signed rank test with continu
-ity corr~ two.sided[] 
- []
-
-)
+(./Slides3Exemplos.vrb)
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
@@ -1574,164 +1596,369 @@ File: imagens/Icon.jpg Graphic file (type bmp)
 [5
 
 ]
-\openout4 = `Slides3.vrb'.
+\openout4 = `Slides3Exemplos.vrb'.
 
-(./Slides3.vrb
-Overfull \hbox (32.55017pt too wide) in paragraph at lines 30--30
-[]\TU/lmtt/m/n/8 ##   r.squared adj.r.squared sigma statistic    p.value    df 
-logLik   AIC   BIC[] 
+(./Slides3Exemplos.vrb
+Overfull \hbox (117.96013pt too wide) in paragraph at lines 29--29
+[]\TU/lmtt/m/n/10 ##    Codigo     Familia_EEI NomeCient_EEI NomePop_EEI Ecossi
+st_EEI Categoria Var[] 
  []
 
 
-Overfull \hbox (32.55022pt too wide) in paragraph at lines 30--30
-[]\TU/lmtt/m/n/8 ##       <dbl>         <dbl> <dbl>     <dbl>      <dbl> <dbl> 
- <dbl> <dbl> <dbl>[] 
+Overfull \hbox (128.46013pt too wide) in paragraph at lines 29--29
+[]\TU/lmtt/m/n/10 ##    <chr>      <chr>       <chr>         <chr>       <chr> 
+           <dbl> <chr>[] 
  []
 
 
-Overfull \hbox (32.5502pt too wide) in paragraph at lines 30--30
-[]\TU/lmtt/m/n/8 ## 1     0.134         0.128 0.407      22.9 0.00000407     1 
- -77.0  160.  169.[] 
+Overfull \hbox (128.46013pt too wide) in paragraph at lines 29--29
+[]\TU/lmtt/m/n/10 ##  1 ornamental Acanthaceae Asystasia ga~ asistásia,~ Formaç
+ões P~         1 Nome~[] 
  []
 
 
-Overfull \hbox (45.29419pt too wide) in paragraph at lines 43--43
-[]\TU/lmtt/m/n/8 ##   statistic  p.value method                                
-          alternative[] 
+Overfull \hbox (123.21013pt too wide) in paragraph at lines 29--29
+[]\TU/lmtt/m/n/10 ##  2 ornamental Acanthaceae Asystasia ga~ asistásia,~ Formaç
+ões P~         1 NouE[] 
  []
 
 
-Overfull \hbox (19.80621pt too wide) in paragraph at lines 43--43
-[]\TU/lmtt/m/n/8 ##       <dbl>    <dbl> <chr>                                 
-          <chr>[] 
+Overfull \hbox (128.46013pt too wide) in paragraph at lines 29--29
+[]\TU/lmtt/m/n/10 ##  3 ornamental Acanthaceae Asystasia ga~ asistásia,~ Formaç
+ões P~         1 Nome~[] 
  []
 
 
-Overfull \hbox (36.79819pt too wide) in paragraph at lines 43--43
-[]\TU/lmtt/m/n/8 ## 1     11325 2.25e-26 Wilcoxon signed rank test with continu
-ity corr~ two.sided[] 
+Overfull \hbox (123.21013pt too wide) in paragraph at lines 29--29
+[]\TU/lmtt/m/n/10 ##  4 ornamental Acanthaceae Asystasia ga~ asistásia,~ Formaç
+ões P~         1 NouE[] 
+ []
+
+
+Overfull \hbox (128.46013pt too wide) in paragraph at lines 29--29
+[]\TU/lmtt/m/n/10 ##  5 ornamental Acanthaceae Asystasia ga~ asistásia,~ Formaç
+ões P~         1 Nome~[] 
+ []
+
+
+Overfull \hbox (123.21013pt too wide) in paragraph at lines 29--29
+[]\TU/lmtt/m/n/10 ##  6 ornamental Acanthaceae Asystasia ga~ asistásia,~ Formaç
+ões P~         1 NouE[] 
+ []
+
+
+Overfull \hbox (128.46013pt too wide) in paragraph at lines 29--29
+[]\TU/lmtt/m/n/10 ##  7 ornamental Acanthaceae Asystasia ga~ asistásia,~ Formaç
+ões P~         1 Nome~[] 
+ []
+
+
+Overfull \hbox (123.21013pt too wide) in paragraph at lines 29--29
+[]\TU/lmtt/m/n/10 ##  8 ornamental Acanthaceae Asystasia ga~ asistásia,~ Formaç
+ões P~         1 NouE[] 
+ []
+
+
+Overfull \hbox (128.46013pt too wide) in paragraph at lines 29--29
+[]\TU/lmtt/m/n/10 ##  9 ornamental Acanthaceae Asystasia ga~ asistásia,~ Formaç
+ões P~         1 Nome~[] 
+ []
+
+
+Overfull \hbox (123.21013pt too wide) in paragraph at lines 29--29
+[]\TU/lmtt/m/n/10 ## 10 ornamental Acanthaceae Asystasia ga~ asistásia,~ Formaç
+ões P~         1 NouE[] 
  []
 
 )
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
+
+
+Overfull \vbox (34.4972pt too high) detected at line 576
+ []
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
 [6
 
 ]
-\openout4 = `Slides3.vrb'.
+\openout4 = `Slides3Exemplos.vrb'.
 
-(./Slides3.vrb
+(./Slides3Exemplos.vrb
 LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <9> not available
 (Font)              Font shape `TU/lmtt/b/n' tried instead on input line 7.
 
-Overfull \hbox (80.16025pt too wide) in paragraph at lines 27--27
-[]\TU/lmtt/m/n/9 ##    Sepal.Width Petal.Width .fitted .lower .upper  .resid   
-.hat .sigma  .cooksd[] 
+Overfull \hbox (84.88522pt too wide) in paragraph at lines 33--33
+[]\TU/lmtt/m/n/9 ##    Codigo  Familia_EEI NomeCient_EEI NomePop_EEI Ecossist_E
+EI Categoria Ecossist[] 
  []
 
 
-Overfull \hbox (80.16034pt too wide) in paragraph at lines 27--27
-[]\TU/lmtt/m/n/9 ##          <dbl>       <dbl>   <dbl>  <dbl>  <dbl>   <dbl>  <
-dbl>  <dbl>    <dbl>[] 
+Overfull \hbox (70.71039pt too wide) in paragraph at lines 33--33
+[]\TU/lmtt/m/n/9 ##    <chr>   <chr>       <chr>         <chr>       <chr>     
+       <dbl> <chr>[] 
  []
 
 
-Overfull \hbox (75.43535pt too wide) in paragraph at lines 27--27
-[]\TU/lmtt/m/n/9 ##  1         3.5         0.2    3.27   3.16   3.38  0.233  0.
-0182  0.408 0.00311[] 
+Overfull \hbox (70.71028pt too wide) in paragraph at lines 33--33
+[]\TU/lmtt/m/n/9 ##  1 orname~ Acanthaceae Asystasia ga~ asistásia,~ Formações 
+P~         1 Ombro[] 
  []
 
 
-Overfull \hbox (75.43536pt too wide) in paragraph at lines 27--27
-[]\TU/lmtt/m/n/9 ##  2         3           0.2    3.27   3.16   3.38 -0.267  0.
-0182  0.408 0.00405[] 
+Overfull \hbox (80.16028pt too wide) in paragraph at lines 33--33
+[]\TU/lmtt/m/n/9 ##  2 orname~ Acanthaceae Asystasia ga~ asistásia,~ Formações 
+P~         1 Semidec[] 
  []
 
 
-Overfull \hbox (80.16034pt too wide) in paragraph at lines 27--27
-[]\TU/lmtt/m/n/9 ##  3         3.2         0.2    3.27   3.16   3.38 -0.0666 0.
-0182  0.408 0.000253[] 
+Overfull \hbox (75.43529pt too wide) in paragraph at lines 33--33
+[]\TU/lmtt/m/n/9 ##  3 orname~ Acanthaceae Asystasia ga~ asistásia,~ Formações 
+P~         1 InfMar[] 
  []
 
 
-Overfull \hbox (75.43535pt too wide) in paragraph at lines 27--27
-[]\TU/lmtt/m/n/9 ##  4         3.1         0.2    3.27   3.16   3.38 -0.167  0.
-0182  0.408 0.00158[] 
+Overfull \hbox (70.71025pt too wide) in paragraph at lines 33--33
+[]\TU/lmtt/m/n/9 ##  4 orname~ Acanthaceae Brillantaisi~ erva-de-bi~ Floresta O
+m~         1 Ombro[] 
  []
 
 
-Overfull \hbox (75.43535pt too wide) in paragraph at lines 27--27
-[]\TU/lmtt/m/n/9 ##  5         3.6         0.2    3.27   3.16   3.38  0.333  0.
-0182  0.407 0.00634[] 
+Overfull \hbox (80.16025pt too wide) in paragraph at lines 33--33
+[]\TU/lmtt/m/n/9 ##  5 orname~ Acanthaceae Brillantaisi~ erva-de-bi~ Floresta O
+m~         1 Semidec[] 
  []
 
 
-Overfull \hbox (70.71036pt too wide) in paragraph at lines 27--27
-[]\TU/lmtt/m/n/9 ##  6         3.9         0.4    3.22   3.13   3.32  0.675  0.
-0140  0.404 0.0199[] 
+Overfull \hbox (75.43526pt too wide) in paragraph at lines 33--33
+[]\TU/lmtt/m/n/9 ##  6 orname~ Acanthaceae Brillantaisi~ erva-de-bi~ Floresta O
+m~         1 InfMar[] 
  []
 
 
-Overfull \hbox (75.43535pt too wide) in paragraph at lines 27--27
-[]\TU/lmtt/m/n/9 ##  7         3.4         0.3    3.25   3.14   3.35  0.154  0.
-0160  0.408 0.00119[] 
+Overfull \hbox (70.71027pt too wide) in paragraph at lines 33--33
+[]\TU/lmtt/m/n/9 ##  7 orname~ Acanthaceae Thunbergia a~ amarelinha~ Floresta O
+m~         1 Ombro[] 
  []
 
 
-Overfull \hbox (75.43535pt too wide) in paragraph at lines 27--27
-[]\TU/lmtt/m/n/9 ##  8         3.4         0.2    3.27   3.16   3.38  0.133  0.
-0182  0.408 0.00102[] 
+Overfull \hbox (80.16026pt too wide) in paragraph at lines 33--33
+[]\TU/lmtt/m/n/9 ##  8 orname~ Acanthaceae Thunbergia a~ amarelinha~ Floresta O
+m~         1 Semidec[] 
  []
 
 
-Overfull \hbox (75.43535pt too wide) in paragraph at lines 27--27
-[]\TU/lmtt/m/n/9 ##  9         2.9         0.2    3.27   3.16   3.38 -0.367  0.
-0182  0.407 0.00766[] 
+Overfull \hbox (75.43527pt too wide) in paragraph at lines 33--33
+[]\TU/lmtt/m/n/9 ##  9 orname~ Acanthaceae Thunbergia a~ amarelinha~ Floresta O
+m~         1 InfMar[] 
  []
 
 
-Overfull \hbox (75.43533pt too wide) in paragraph at lines 27--27
-[]\TU/lmtt/m/n/9 ## 10         3.1         0.1    3.29   3.17   3.40 -0.187  0.
-0206  0.408 0.00228[] 
+Overfull \hbox (70.71025pt too wide) in paragraph at lines 33--33
+[]\TU/lmtt/m/n/9 ## 10 orname~ Acanthaceae Thunbergia g~ tumbérgia-~ Floresta O
+m~         2 Ombro[] 
  []
 
 )
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
+
+Overfull \vbox (34.8562pt too high) detected at line 611
+ []
+
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
 [7
 
 ]
+\openout4 = `Slides3Exemplos.vrb'.
+
+(./Slides3Exemplos.vrb
+Overfull \hbox (84.88522pt too wide) in paragraph at lines 34--34
+[]\TU/lmtt/m/n/9 ##    Codigo  Familia_EEI NomeCient_EEI NomePop_EEI Ecossist_E
+EI Categoria Ecossist[] 
+ []
+
+
+Overfull \hbox (70.71039pt too wide) in paragraph at lines 34--34
+[]\TU/lmtt/m/n/9 ##    <chr>   <chr>       <chr>         <chr>       <chr>     
+       <dbl> <chr>[] 
+ []
+
+
+Overfull \hbox (70.71028pt too wide) in paragraph at lines 34--34
+[]\TU/lmtt/m/n/9 ##  1 orname~ Acanthaceae Asystasia ga~ asistásia,~ Formações 
+P~         1 Ombro[] 
+ []
+
+
+Overfull \hbox (70.71028pt too wide) in paragraph at lines 34--34
+[]\TU/lmtt/m/n/9 ##  2 orname~ Acanthaceae Asystasia ga~ asistásia,~ Formações 
+P~         1 Ombro[] 
+ []
+
+
+Overfull \hbox (70.71028pt too wide) in paragraph at lines 34--34
+[]\TU/lmtt/m/n/9 ##  3 orname~ Acanthaceae Asystasia ga~ asistásia,~ Formações 
+P~         1 Ombro[] 
+ []
+
+
+Overfull \hbox (70.71028pt too wide) in paragraph at lines 34--34
+[]\TU/lmtt/m/n/9 ##  4 orname~ Acanthaceae Asystasia ga~ asistásia,~ Formações 
+P~         1 Ombro[] 
+ []
+
+
+Overfull \hbox (70.71028pt too wide) in paragraph at lines 34--34
+[]\TU/lmtt/m/n/9 ##  5 orname~ Acanthaceae Asystasia ga~ asistásia,~ Formações 
+P~         1 Ombro[] 
+ []
+
+
+Overfull \hbox (80.16028pt too wide) in paragraph at lines 34--34
+[]\TU/lmtt/m/n/9 ##  6 orname~ Acanthaceae Asystasia ga~ asistásia,~ Formações 
+P~         1 Semidec[] 
+ []
+
+
+Overfull \hbox (80.16028pt too wide) in paragraph at lines 34--34
+[]\TU/lmtt/m/n/9 ##  7 orname~ Acanthaceae Asystasia ga~ asistásia,~ Formações 
+P~         1 Semidec[] 
+ []
+
+
+Overfull \hbox (80.16028pt too wide) in paragraph at lines 34--34
+[]\TU/lmtt/m/n/9 ##  8 orname~ Acanthaceae Asystasia ga~ asistásia,~ Formações 
+P~         1 Semidec[] 
+ []
+
+
+Overfull \hbox (80.16028pt too wide) in paragraph at lines 34--34
+[]\TU/lmtt/m/n/9 ##  9 orname~ Acanthaceae Asystasia ga~ asistásia,~ Formações 
+P~         1 Semidec[] 
+ []
+
+
+Overfull \hbox (80.16026pt too wide) in paragraph at lines 34--34
+[]\TU/lmtt/m/n/9 ## 10 orname~ Acanthaceae Asystasia ga~ asistásia,~ Formações 
+P~         1 Semidec[] 
+ []
+
+)
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
+
+Overfull \vbox (46.5132pt too high) detected at line 647
+ []
+
+File: imagens/Icon.jpg Graphic file (type bmp)
+<imagens/Icon.jpg>
 [8
 
 ]
-\openout4 = `Slides3.vrb'.
+\openout4 = `Slides3Exemplos.vrb'.
 
-(./Slides3.vrb)
+(./Slides3Exemplos.vrb
+Overfull \hbox (84.88522pt too wide) in paragraph at lines 35--35
+[]\TU/lmtt/m/n/9 ##    Codigo  Familia_EEI NomeCient_EEI NomePop_EEI Ecossist_E
+EI Categoria Ecossist[] 
+ []
+
+
+Overfull \hbox (70.71039pt too wide) in paragraph at lines 35--35
+[]\TU/lmtt/m/n/9 ##    <chr>   <chr>       <chr>         <chr>       <chr>     
+       <dbl> <chr>[] 
+ []
+
+
+Overfull \hbox (70.71028pt too wide) in paragraph at lines 35--35
+[]\TU/lmtt/m/n/9 ##  1 orname~ Acanthaceae Asystasia ga~ asistásia,~ Formações 
+P~         1 Ombro[] 
+ []
+
+
+Overfull \hbox (70.71028pt too wide) in paragraph at lines 35--35
+[]\TU/lmtt/m/n/9 ##  2 orname~ Acanthaceae Asystasia ga~ asistásia,~ Formações 
+P~         1 Ombro[] 
+ []
+
+
+Overfull \hbox (70.71028pt too wide) in paragraph at lines 35--35
+[]\TU/lmtt/m/n/9 ##  3 orname~ Acanthaceae Asystasia ga~ asistásia,~ Formações 
+P~         1 Ombro[] 
+ []
+
+
+Overfull \hbox (70.71028pt too wide) in paragraph at lines 35--35
+[]\TU/lmtt/m/n/9 ##  4 orname~ Acanthaceae Asystasia ga~ asistásia,~ Formações 
+P~         1 Ombro[] 
+ []
+
+
+Overfull \hbox (70.71028pt too wide) in paragraph at lines 35--35
+[]\TU/lmtt/m/n/9 ##  5 orname~ Acanthaceae Asystasia ga~ asistásia,~ Formações 
+P~         1 Ombro[] 
+ []
+
+
+Overfull \hbox (80.16028pt too wide) in paragraph at lines 35--35
+[]\TU/lmtt/m/n/9 ##  6 orname~ Acanthaceae Asystasia ga~ asistásia,~ Formações 
+P~         1 Semidec[] 
+ []
+
+
+Overfull \hbox (75.43529pt too wide) in paragraph at lines 35--35
+[]\TU/lmtt/m/n/9 ##  7 orname~ Acanthaceae Asystasia ga~ asistásia,~ Formações 
+P~         1 InfMar[] 
+ []
+
+
+Overfull \hbox (75.43529pt too wide) in paragraph at lines 35--35
+[]\TU/lmtt/m/n/9 ##  8 orname~ Acanthaceae Asystasia ga~ asistásia,~ Formações 
+P~         1 InfMar[] 
+ []
+
+
+Overfull \hbox (70.71025pt too wide) in paragraph at lines 35--35
+[]\TU/lmtt/m/n/9 ##  9 orname~ Acanthaceae Brillantaisi~ erva-de-bi~ Floresta O
+m~         1 Ombro[] 
+ []
+
+
+Overfull \hbox (70.71024pt too wide) in paragraph at lines 35--35
+[]\TU/lmtt/m/n/9 ## 10 orname~ Acanthaceae Brillantaisi~ erva-de-bi~ Floresta O
+m~         1 Ombro[] 
+ []
+
+)
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
+
+
+Overfull \vbox (56.7572pt too high) detected at line 684
+ []
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
 [9
 
 ]
-\openout4 = `Slides3.vrb'.
+\openout4 = `Slides3Exemplos.vrb'.
 
-(./Slides3.vrb)
+(./Slides3Exemplos.vrb
+File: Slides3Exemplos_files/figure-beamer/unnamed-chunk-7-1.pdf Graphic file (t
+ype pdf)
+<use Slides3Exemplos_files/figure-beamer/unnamed-chunk-7-1.pdf>
+)
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 
-Overfull \vbox (10.0172pt too high) detected at line 667
+Overfull \vbox (2.58363pt too high) detected at line 704
  []
 
 File: imagens/Icon.jpg Graphic file (type bmp)
@@ -1739,36 +1966,54 @@ File: imagens/Icon.jpg Graphic file (type bmp)
 [10
 
 ]
-\openout4 = `Slides3.vrb'.
+\openout4 = `Slides3Exemplos.vrb'.
 
-(./Slides3.vrb)
+(./Slides3Exemplos.vrb
+File: Slides3Exemplos_files/figure-beamer/unnamed-chunk-8-1.pdf Graphic file (t
+ype pdf)
+<use Slides3Exemplos_files/figure-beamer/unnamed-chunk-8-1.pdf>
+)
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
+
+
+Overfull \vbox (13.58363pt too high) detected at line 725
+ []
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
 [11
 
 ]
-\openout4 = `Slides3.vrb'.
+\openout4 = `Slides3Exemplos.vrb'.
 
-(./Slides3.vrb)
+(./Slides3Exemplos.vrb
+LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <7> not available
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 7.
+File: Slides3Exemplos_files/figure-beamer/unnamed-chunk-9-1.pdf Graphic file (t
+ype pdf)
+<use Slides3Exemplos_files/figure-beamer/unnamed-chunk-9-1.pdf>
+)
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
+
+
+Overfull \vbox (7.44887pt too high) detected at line 749
+ []
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
 [12
 
 ]
-\openout4 = `Slides3.vrb'.
+\openout4 = `Slides3Exemplos.vrb'.
 
-(./Slides3.vrb)
+(./Slides3Exemplos.vrb)
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 
-Overfull \vbox (7171.13719pt too high) detected at line 1337
+Overfull \vbox (45.28719pt too high) detected at line 781
  []
 
 File: imagens/Icon.jpg Graphic file (type bmp)
@@ -1776,14 +2021,14 @@ File: imagens/Icon.jpg Graphic file (type bmp)
 [13
 
 ]
-\openout4 = `Slides3.vrb'.
+\openout4 = `Slides3Exemplos.vrb'.
 
-(./Slides3.vrb)
+(./Slides3Exemplos.vrb)
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 
-Overfull \vbox (321.28719pt too high) detected at line 1392
+Overfull \vbox (6.1272pt too high) detected at line 811
  []
 
 File: imagens/Icon.jpg Graphic file (type bmp)
@@ -1791,309 +2036,70 @@ File: imagens/Icon.jpg Graphic file (type bmp)
 [14
 
 ]
-\openout4 = `Slides3.vrb'.
+\openout4 = `Slides3Exemplos.vrb'.
 
-(./Slides3.vrb
-Overfull \hbox (33.96013pt too wide) in paragraph at lines 45--45
-[]\TU/lmtt/m/n/10 ##    block  plot  DBAN  LFAN  TEAN  WEAN  WLAN  NSAN  OVAN  
-ORAN[] 
- []
-
-
-Overfull \hbox (33.96013pt too wide) in paragraph at lines 45--45
-[]\TU/lmtt/m/n/10 ##    <fct> <int> <dbl> <dbl> <dbl> <dbl> <dbl> <dbl> <dbl> <
-dbl>[] 
- []
-
-
-Overfull \hbox (33.96013pt too wide) in paragraph at lines 45--45
-[]\TU/lmtt/m/n/10 ##  1 B1        1  4.96  2.92  1.27  4.02  2     2.43  2.04  
-5.26[] 
- []
-
-
-Overfull \hbox (33.96013pt too wide) in paragraph at lines 45--45
-[]\TU/lmtt/m/n/10 ##  2 B1        2  3.94  1.68  2.1   5.8   2.39  1.28  3.88  
-6.87[] 
- []
-
-
-Overfull \hbox (33.96013pt too wide) in paragraph at lines 45--45
-[]\TU/lmtt/m/n/10 ##  3 B1        3  6.35  4.5   2.37  2.16  2.04  0.83  5.53  
-7.78[] 
- []
-
-
-Overfull \hbox (33.96013pt too wide) in paragraph at lines 45--45
-[]\TU/lmtt/m/n/10 ##  4 B1        4  5.56  4.74  2.08  5.31  1.64  2.44  6.61  
-6.75[] 
- []
-
-
-Overfull \hbox (33.96013pt too wide) in paragraph at lines 45--45
-[]\TU/lmtt/m/n/10 ##  5 B1        5  5.36  4.44  1.74  5.12  1.83  1.3   2.97  
-6.56[] 
- []
-
-
-Overfull \hbox (33.96013pt too wide) in paragraph at lines 45--45
-[]\TU/lmtt/m/n/10 ##  6 B1        6  6.18  4.66  3.16  5.98  2.08  1.34  4.47  
-6.47[] 
- []
-
-
-Overfull \hbox (33.96013pt too wide) in paragraph at lines 45--45
-[]\TU/lmtt/m/n/10 ##  7 B1        7  4.71  2.94  4.55  5.46  3.13  2.06  4.06  
-6.71[] 
- []
-
-
-Overfull \hbox (33.96013pt too wide) in paragraph at lines 45--45
-[]\TU/lmtt/m/n/10 ##  8 B1        8  6.03  1.6   3.2   3.45  1.96  3.02  5.02  
-6.74[] 
- []
-
-
-Overfull \hbox (33.96013pt too wide) in paragraph at lines 45--45
-[]\TU/lmtt/m/n/10 ##  9 B1        9  2.88  1.82  3.69  4.96  1.3   2.18  4.56  
-6.92[] 
- []
-
-
-Overfull \hbox (33.96013pt too wide) in paragraph at lines 45--45
-[]\TU/lmtt/m/n/10 ## 10 B2       10  5.68  4.44  1.52  4.26  2.16  2.35  3.5   
-3.75[] 
- []
-
-
-Overfull \hbox (65.46013pt too wide) in paragraph at lines 45--45
-[]\TU/lmtt/m/n/10 ##    block  plot  CPSV  MPSV  AGSV  CASV  SSSV  UISV  OOSV  
-OTSV  LPSV[] 
- []
-
-
-Overfull \hbox (65.46013pt too wide) in paragraph at lines 45--45
-[]\TU/lmtt/m/n/10 ##    <fct> <int> <dbl> <dbl> <dbl> <dbl> <dbl> <dbl> <dbl> <
-dbl> <dbl>[] 
- []
-
-
-Overfull \hbox (65.46013pt too wide) in paragraph at lines 45--45
-[]\TU/lmtt/m/n/10 ##  1 B1        1  24    16.7  10.4  22     9.5  15.4  16    
-12.2  14.2[] 
- []
-
-
-Overfull \hbox (65.46013pt too wide) in paragraph at lines 45--45
-[]\TU/lmtt/m/n/10 ##  2 B1        2  27.1  13     9.1  18.2  10.5  12.2  12    
-19.8   8.2[] 
- []
-
-
-Overfull \hbox (65.46013pt too wide) in paragraph at lines 45--45
-[]\TU/lmtt/m/n/10 ##  3 B1        3  26.5  17.8   9.2  14.4  14.1  26    21.1  
-19.9   3.5[] 
- []
-
-
-Overfull \hbox (65.46013pt too wide) in paragraph at lines 45--45
-[]\TU/lmtt/m/n/10 ##  4 B1        4  23.1  11.5  10.1  22.4   9.7  20.1  22.1  
-25.3   7.2[] 
- []
-
-
-Overfull \hbox (65.46013pt too wide) in paragraph at lines 45--45
-[]\TU/lmtt/m/n/10 ##  5 B1        5  22.1  12.4  15.2  22.3  11.2  14.1  20    
-19     9.2[] 
- []
-
-
-Overfull \hbox (65.46013pt too wide) in paragraph at lines 45--45
-[]\TU/lmtt/m/n/10 ##  6 B1        6  24.1  12.1  13.9  20    13.1  21.8  23.2  
-20.5   8.5[] 
- []
-
-
-Overfull \hbox (65.46013pt too wide) in paragraph at lines 45--45
-[]\TU/lmtt/m/n/10 ##  7 B1        7  26.1  13.5  15.1  16     9.2  20.1  20.6  
- 7.8   6.7[] 
- []
-
-
-Overfull \hbox (65.46013pt too wide) in paragraph at lines 45--45
-[]\TU/lmtt/m/n/10 ##  8 B1        8  22.5   8.5  12.2  17.2  13.1  28.1  12.8  
-17.8   7.5[] 
- []
-
-
-Overfull \hbox (65.46013pt too wide) in paragraph at lines 45--45
-[]\TU/lmtt/m/n/10 ##  9 B1        9  23    13     9.8  16.1  11.5  23.1   9    
-19.7  14.2[] 
- []
-
-
-Overfull \hbox (65.46013pt too wide) in paragraph at lines 45--45
-[]\TU/lmtt/m/n/10 ## 10 B2       10  26.4  12.2  11.8  22.1  11.2  22.4  12.3  
-13.1   4.5[] 
- []
-
+(./Slides3Exemplos.vrb
+File: Slides3Exemplos_files/figure-beamer/unnamed-chunk-12-1.pdf Graphic file (
+type pdf)
+<use Slides3Exemplos_files/figure-beamer/unnamed-chunk-12-1.pdf>
 )
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
-
-
-Overfull \vbox (225.33719pt too high) detected at line 1439
- []
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
 [15
 
 ]
-\openout4 = `Slides3.vrb'.
+\openout4 = `Slides3Exemplos.vrb'.
 
-(./Slides3.vrb
-Overfull \hbox (33.96013pt too wide) in paragraph at lines 45--45
-[]\TU/lmtt/m/n/10 ##    block  plot  DBAN  LFAN  TEAN  WEAN  WLAN  NSAN  OVAN  
-ORAN[] 
+(./Slides3Exemplos.vrb
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 9.2715pt on input line 6.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 6.181pt on input line 6.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 9.27232pt on input line 6.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 6.18155pt on input line 6.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 9.27054pt on input line 6.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 6.18036pt on input line 6.
+
+Overfull \hbox (84.88515pt too wide) in paragraph at lines 42--42
+[]\TU/lmtt/m/n/9 ##   paa_qtd_agricul_familiar_modal~1 qtd_pes_pbf_idade_7_~2 b
+olsa_atleta_qtd_atl~3[] 
  []
 
 
-Overfull \hbox (33.96013pt too wide) in paragraph at lines 45--45
-[]\TU/lmtt/m/n/10 ##    <fct> <int> <dbl> <dbl> <dbl> <dbl> <dbl> <dbl> <dbl> <
-dbl>[] 
+Overfull \hbox (4.56042pt too wide) in paragraph at lines 42--42
+[]\TU/lmtt/m/n/9 ##   <lgl>                                             <dbl> <
+lgl>[] 
  []
 
 
-Overfull \hbox (33.96013pt too wide) in paragraph at lines 45--45
-[]\TU/lmtt/m/n/10 ##  1 B1        1  4.96  2.92  1.27  4.02  2     2.43  2.04  
-5.26[] 
+Overfull \hbox (65.98518pt too wide) in paragraph at lines 42--42
+[]\TU/lmtt/m/n/9 ## # i abbreviated names: 1: paa_qtd_agricul_familiar_modal_fo
+rmacao_estoque_i,[] 
  []
 
 
-Overfull \hbox (33.96013pt too wide) in paragraph at lines 45--45
-[]\TU/lmtt/m/n/10 ##  2 B1        2  3.94  1.68  2.1   5.8   2.39  1.28  3.88  
-6.87[] 
+Overfull \hbox (75.43518pt too wide) in paragraph at lines 42--42
+[]\TU/lmtt/m/n/9 ## # i 1,074 more variables: bolsa_atleta_qtd_atletas_sexo_fem
+_cor_pardo_i <lgl>,[] 
  []
 
 
-Overfull \hbox (33.96013pt too wide) in paragraph at lines 45--45
-[]\TU/lmtt/m/n/10 ##  3 B1        3  6.35  4.5   2.37  2.16  2.04  0.83  5.53  
-7.78[] 
+Overfull \hbox (23.46017pt too wide) in paragraph at lines 42--42
+[]\TU/lmtt/m/n/9 ## #   bolsa_atleta_qtd_atletas_ens_superior_compl_14_15_anos_
+i <lgl>,[] 
  []
 
 
-Overfull \hbox (33.96013pt too wide) in paragraph at lines 45--45
-[]\TU/lmtt/m/n/10 ##  4 B1        4  5.56  4.74  2.08  5.31  1.64  2.44  6.61  
-6.75[] 
- []
-
-
-Overfull \hbox (33.96013pt too wide) in paragraph at lines 45--45
-[]\TU/lmtt/m/n/10 ##  5 B1        5  5.36  4.44  1.74  5.12  1.83  1.3   2.97  
-6.56[] 
- []
-
-
-Overfull \hbox (33.96013pt too wide) in paragraph at lines 45--45
-[]\TU/lmtt/m/n/10 ##  6 B1        6  6.18  4.66  3.16  5.98  2.08  1.34  4.47  
-6.47[] 
- []
-
-
-Overfull \hbox (33.96013pt too wide) in paragraph at lines 45--45
-[]\TU/lmtt/m/n/10 ##  7 B1        7  4.71  2.94  4.55  5.46  3.13  2.06  4.06  
-6.71[] 
- []
-
-
-Overfull \hbox (33.96013pt too wide) in paragraph at lines 45--45
-[]\TU/lmtt/m/n/10 ##  8 B1        8  6.03  1.6   3.2   3.45  1.96  3.02  5.02  
-6.74[] 
- []
-
-
-Overfull \hbox (33.96013pt too wide) in paragraph at lines 45--45
-[]\TU/lmtt/m/n/10 ##  9 B1        9  2.88  1.82  3.69  4.96  1.3   2.18  4.56  
-6.92[] 
- []
-
-
-Overfull \hbox (33.96013pt too wide) in paragraph at lines 45--45
-[]\TU/lmtt/m/n/10 ## 10 B2       10  5.68  4.44  1.52  4.26  2.16  2.35  3.5   
-3.75[] 
- []
-
-
-Overfull \hbox (65.46013pt too wide) in paragraph at lines 45--45
-[]\TU/lmtt/m/n/10 ##    block  plot  CPSV  MPSV  AGSV  CASV  SSSV  UISV  OOSV  
-OTSV  LPSV[] 
- []
-
-
-Overfull \hbox (65.46013pt too wide) in paragraph at lines 45--45
-[]\TU/lmtt/m/n/10 ##    <fct> <int> <dbl> <dbl> <dbl> <dbl> <dbl> <dbl> <dbl> <
-dbl> <dbl>[] 
- []
-
-
-Overfull \hbox (65.46013pt too wide) in paragraph at lines 45--45
-[]\TU/lmtt/m/n/10 ##  1 B1        1  24    16.7  10.4  22     9.5  15.4  16    
-12.2  14.2[] 
- []
-
-
-Overfull \hbox (65.46013pt too wide) in paragraph at lines 45--45
-[]\TU/lmtt/m/n/10 ##  2 B1        2  27.1  13     9.1  18.2  10.5  12.2  12    
-19.8   8.2[] 
- []
-
-
-Overfull \hbox (65.46013pt too wide) in paragraph at lines 45--45
-[]\TU/lmtt/m/n/10 ##  3 B1        3  26.5  17.8   9.2  14.4  14.1  26    21.1  
-19.9   3.5[] 
- []
-
-
-Overfull \hbox (65.46013pt too wide) in paragraph at lines 45--45
-[]\TU/lmtt/m/n/10 ##  4 B1        4  23.1  11.5  10.1  22.4   9.7  20.1  22.1  
-25.3   7.2[] 
- []
-
-
-Overfull \hbox (65.46013pt too wide) in paragraph at lines 45--45
-[]\TU/lmtt/m/n/10 ##  5 B1        5  22.1  12.4  15.2  22.3  11.2  14.1  20    
-19     9.2[] 
- []
-
-
-Overfull \hbox (65.46013pt too wide) in paragraph at lines 45--45
-[]\TU/lmtt/m/n/10 ##  6 B1        6  24.1  12.1  13.9  20    13.1  21.8  23.2  
-20.5   8.5[] 
- []
-
-
-Overfull \hbox (65.46013pt too wide) in paragraph at lines 45--45
-[]\TU/lmtt/m/n/10 ##  7 B1        7  26.1  13.5  15.1  16     9.2  20.1  20.6  
- 7.8   6.7[] 
- []
-
-
-Overfull \hbox (65.46013pt too wide) in paragraph at lines 45--45
-[]\TU/lmtt/m/n/10 ##  8 B1        8  22.5   8.5  12.2  17.2  13.1  28.1  12.8  
-17.8   7.5[] 
- []
-
-
-Overfull \hbox (65.46013pt too wide) in paragraph at lines 45--45
-[]\TU/lmtt/m/n/10 ##  9 B1        9  23    13     9.8  16.1  11.5  23.1   9    
-19.7  14.2[] 
- []
-
-
-Overfull \hbox (65.46013pt too wide) in paragraph at lines 45--45
-[]\TU/lmtt/m/n/10 ## 10 B2       10  26.4  12.2  11.8  22.1  11.2  22.4  12.3  
-13.1   4.5[] 
+Overfull \hbox (28.18518pt too wide) in paragraph at lines 42--42
+[]\TU/lmtt/m/n/9 ## #   bolsa_atleta_qtd_atletas_ens_superior_incomp_16_18_anos
+_i <lgl>,[] 
  []
 
 )
@@ -2101,7 +2107,7 @@ Overfull \hbox (65.46013pt too wide) in paragraph at lines 45--45
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 
-Overfull \vbox (225.33719pt too high) detected at line 1486
+Overfull \vbox (118.07219pt too high) detected at line 876
  []
 
 File: imagens/Icon.jpg Graphic file (type bmp)
@@ -2109,150 +2115,96 @@ File: imagens/Icon.jpg Graphic file (type bmp)
 [16
 
 ]
-\openout4 = `Slides3.vrb'.
+\openout4 = `Slides3Exemplos.vrb'.
 
-(./Slides3.vrb
-Overfull \hbox (33.96013pt too wide) in paragraph at lines 45--45
-[]\TU/lmtt/m/n/10 ##    block  plot  DBAN  LFAN  TEAN  WEAN  WLAN  NSAN  OVAN  
-ORAN[] 
+(./Slides3Exemplos.vrb
+Overfull \hbox (84.88516pt too wide) in paragraph at lines 34--34
+[]\TU/lmtt/m/n/9 ##    qtd_pes_pbf_idade_7_a_15_sexo~1 cadunico_tot_fam_ext~2 i
+gd_pbf_qtd_total_pu~3[] 
  []
 
 
-Overfull \hbox (33.96013pt too wide) in paragraph at lines 45--45
-[]\TU/lmtt/m/n/10 ##    <fct> <int> <dbl> <dbl> <dbl> <dbl> <dbl> <dbl> <dbl> <
-dbl>[] 
+Overfull \hbox (84.88553pt too wide) in paragraph at lines 34--34
+[]\TU/lmtt/m/n/9 ##                              <dbl>                  <dbl>  
+                <dbl>[] 
  []
 
 
-Overfull \hbox (33.96013pt too wide) in paragraph at lines 45--45
-[]\TU/lmtt/m/n/10 ##  1 B1        1  4.96  2.92  1.27  4.02  2     2.43  2.04  
-5.26[] 
+Overfull \hbox (84.88556pt too wide) in paragraph at lines 34--34
+[]\TU/lmtt/m/n/9 ##  1                             148                     NA  
+                11750[] 
  []
 
 
-Overfull \hbox (33.96013pt too wide) in paragraph at lines 45--45
-[]\TU/lmtt/m/n/10 ##  2 B1        2  3.94  1.68  2.1   5.8   2.39  1.28  3.88  
-6.87[] 
+Overfull \hbox (84.88554pt too wide) in paragraph at lines 34--34
+[]\TU/lmtt/m/n/9 ##  2                              82                   4030  
+                 8114[] 
  []
 
 
-Overfull \hbox (33.96013pt too wide) in paragraph at lines 45--45
-[]\TU/lmtt/m/n/10 ##  3 B1        3  6.35  4.5   2.37  2.16  2.04  0.83  5.53  
-7.78[] 
+Overfull \hbox (84.88554pt too wide) in paragraph at lines 34--34
+[]\TU/lmtt/m/n/9 ##  3                             118                   7707  
+                11142[] 
  []
 
 
-Overfull \hbox (33.96013pt too wide) in paragraph at lines 45--45
-[]\TU/lmtt/m/n/10 ##  4 B1        4  5.56  4.74  2.08  5.31  1.64  2.44  6.61  
-6.75[] 
+Overfull \hbox (84.88556pt too wide) in paragraph at lines 34--34
+[]\TU/lmtt/m/n/9 ##  4                             128                     NA  
+                11142[] 
  []
 
 
-Overfull \hbox (33.96013pt too wide) in paragraph at lines 45--45
-[]\TU/lmtt/m/n/10 ##  5 B1        5  5.36  4.44  1.74  5.12  1.83  1.3   2.97  
-6.56[] 
+Overfull \hbox (84.88556pt too wide) in paragraph at lines 34--34
+[]\TU/lmtt/m/n/9 ##  5                              79                     NA  
+                 8478[] 
  []
 
 
-Overfull \hbox (33.96013pt too wide) in paragraph at lines 45--45
-[]\TU/lmtt/m/n/10 ##  6 B1        6  6.18  4.66  3.16  5.98  2.08  1.34  4.47  
-6.47[] 
+Overfull \hbox (84.88554pt too wide) in paragraph at lines 34--34
+[]\TU/lmtt/m/n/9 ##  6                              85                   5489  
+                 8478[] 
  []
 
 
-Overfull \hbox (33.96013pt too wide) in paragraph at lines 45--45
-[]\TU/lmtt/m/n/10 ##  7 B1        7  4.71  2.94  4.55  5.46  3.13  2.06  4.06  
-6.71[] 
+Overfull \hbox (84.88554pt too wide) in paragraph at lines 34--34
+[]\TU/lmtt/m/n/9 ##  7                              83                   5522  
+                 8478[] 
  []
 
 
-Overfull \hbox (33.96013pt too wide) in paragraph at lines 45--45
-[]\TU/lmtt/m/n/10 ##  8 B1        8  6.03  1.6   3.2   3.45  1.96  3.02  5.02  
-6.74[] 
+Overfull \hbox (84.88556pt too wide) in paragraph at lines 34--34
+[]\TU/lmtt/m/n/9 ##  8                              24                    756  
+                 1031[] 
  []
 
 
-Overfull \hbox (33.96013pt too wide) in paragraph at lines 45--45
-[]\TU/lmtt/m/n/10 ##  9 B1        9  2.88  1.82  3.69  4.96  1.3   2.18  4.56  
-6.92[] 
+Overfull \hbox (84.88556pt too wide) in paragraph at lines 34--34
+[]\TU/lmtt/m/n/9 ##  9                              81                   3814  
+                   NA[] 
  []
 
 
-Overfull \hbox (33.96013pt too wide) in paragraph at lines 45--45
-[]\TU/lmtt/m/n/10 ## 10 B2       10  5.68  4.44  1.52  4.26  2.16  2.35  3.5   
-3.75[] 
+Overfull \hbox (84.88554pt too wide) in paragraph at lines 34--34
+[]\TU/lmtt/m/n/9 ## 10                             189                   2728  
+                   NA[] 
  []
 
 
-Overfull \hbox (65.46013pt too wide) in paragraph at lines 45--45
-[]\TU/lmtt/m/n/10 ##    block  plot  CPSV  MPSV  AGSV  CASV  SSSV  UISV  OOSV  
-OTSV  LPSV[] 
+Overfull \hbox (23.46019pt too wide) in paragraph at lines 34--34
+[]\TU/lmtt/m/n/9 ## # i abbreviated names: 1: qtd_pes_pbf_idade_7_a_15_sexo_fem
+inino_i,[] 
  []
 
 
-Overfull \hbox (65.46013pt too wide) in paragraph at lines 45--45
-[]\TU/lmtt/m/n/10 ##    <fct> <int> <dbl> <dbl> <dbl> <dbl> <dbl> <dbl> <dbl> <
-dbl> <dbl>[] 
+Overfull \hbox (42.36018pt too wide) in paragraph at lines 34--34
+[]\TU/lmtt/m/n/9 ## #   2: cadunico_tot_fam_ext_pob_i, 3: igd_pbf_qtd_total_pub
+lico_saude_i[] 
  []
 
 
-Overfull \hbox (65.46013pt too wide) in paragraph at lines 45--45
-[]\TU/lmtt/m/n/10 ##  1 B1        1  24    16.7  10.4  22     9.5  15.4  16    
-12.2  14.2[] 
- []
-
-
-Overfull \hbox (65.46013pt too wide) in paragraph at lines 45--45
-[]\TU/lmtt/m/n/10 ##  2 B1        2  27.1  13     9.1  18.2  10.5  12.2  12    
-19.8   8.2[] 
- []
-
-
-Overfull \hbox (65.46013pt too wide) in paragraph at lines 45--45
-[]\TU/lmtt/m/n/10 ##  3 B1        3  26.5  17.8   9.2  14.4  14.1  26    21.1  
-19.9   3.5[] 
- []
-
-
-Overfull \hbox (65.46013pt too wide) in paragraph at lines 45--45
-[]\TU/lmtt/m/n/10 ##  4 B1        4  23.1  11.5  10.1  22.4   9.7  20.1  22.1  
-25.3   7.2[] 
- []
-
-
-Overfull \hbox (65.46013pt too wide) in paragraph at lines 45--45
-[]\TU/lmtt/m/n/10 ##  5 B1        5  22.1  12.4  15.2  22.3  11.2  14.1  20    
-19     9.2[] 
- []
-
-
-Overfull \hbox (65.46013pt too wide) in paragraph at lines 45--45
-[]\TU/lmtt/m/n/10 ##  6 B1        6  24.1  12.1  13.9  20    13.1  21.8  23.2  
-20.5   8.5[] 
- []
-
-
-Overfull \hbox (65.46013pt too wide) in paragraph at lines 45--45
-[]\TU/lmtt/m/n/10 ##  7 B1        7  26.1  13.5  15.1  16     9.2  20.1  20.6  
- 7.8   6.7[] 
- []
-
-
-Overfull \hbox (65.46013pt too wide) in paragraph at lines 45--45
-[]\TU/lmtt/m/n/10 ##  8 B1        8  22.5   8.5  12.2  17.2  13.1  28.1  12.8  
-17.8   7.5[] 
- []
-
-
-Overfull \hbox (65.46013pt too wide) in paragraph at lines 45--45
-[]\TU/lmtt/m/n/10 ##  9 B1        9  23    13     9.8  16.1  11.5  23.1   9    
-19.7  14.2[] 
- []
-
-
-Overfull \hbox (65.46013pt too wide) in paragraph at lines 45--45
-[]\TU/lmtt/m/n/10 ## 10 B2       10  26.4  12.2  11.8  22.1  11.2  22.4  12.3  
-13.1   4.5[] 
+Overfull \hbox (28.1852pt too wide) in paragraph at lines 34--34
+[]\TU/lmtt/m/n/9 ## #   bpc_pcd_val_medio_f <dbl>, cadunico_tot_pes_ext_pob_pbf
+_i <dbl>,[] 
  []
 
 )
@@ -2260,7 +2212,7 @@ Overfull \hbox (65.46013pt too wide) in paragraph at lines 45--45
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 
-Overfull \vbox (225.33719pt too high) detected at line 1533
+Overfull \vbox (46.68419pt too high) detected at line 912
  []
 
 File: imagens/Icon.jpg Graphic file (type bmp)
@@ -2268,359 +2220,195 @@ File: imagens/Icon.jpg Graphic file (type bmp)
 [17
 
 ]
-\openout4 = `Slides3.vrb'.
+\openout4 = `Slides3Exemplos.vrb'.
 
-(./Slides3.vrb
-Overfull \hbox (75.96013pt too wide) in paragraph at lines 15--15
-[]\TU/lmtt/m/n/10 ##  [1] "FEV-2023" "MAR-2023" "ABR-2023" "MAI-2023" "JUN-2023
-" "JUL-2023"[] 
+(./Slides3Exemplos.vrb
+Overfull \hbox (128.46013pt too wide) in paragraph at lines 32--32
+[]\TU/lmtt/m/n/10 ##    anomes_s formento_qtd_fam_ben~1 formento_qtd_fam_ben~2 
+formento_qtd_fam_ben~3[] 
  []
 
 
-Overfull \hbox (18.21013pt too wide) in paragraph at lines 15--15
-[]\TU/lmtt/m/n/10 ##  [7] "AGO-2023" "SET-2023" "OUT-2023" "NOV-2023" "DEZ-2023
-"[] 
+Overfull \hbox (128.46013pt too wide) in paragraph at lines 32--32
+[]\TU/lmtt/m/n/10 ##       <dbl>                  <dbl>                  <dbl> 
+                 <dbl>[] 
+ []
+
+
+Overfull \hbox (128.46013pt too wide) in paragraph at lines 32--32
+[]\TU/lmtt/m/n/10 ##  1   202312                      0                      0 
+                     0[] 
+ []
+
+
+Overfull \hbox (128.46013pt too wide) in paragraph at lines 32--32
+[]\TU/lmtt/m/n/10 ##  2   202311                      0                      0 
+                     0[] 
+ []
+
+
+Overfull \hbox (128.46013pt too wide) in paragraph at lines 32--32
+[]\TU/lmtt/m/n/10 ##  3   202310                      0                      0 
+                     0[] 
+ []
+
+
+Overfull \hbox (128.46013pt too wide) in paragraph at lines 32--32
+[]\TU/lmtt/m/n/10 ##  4   202312                      1                      0 
+                     0[] 
+ []
+
+
+Overfull \hbox (128.46013pt too wide) in paragraph at lines 32--32
+[]\TU/lmtt/m/n/10 ##  5   202312                      0                      0 
+                     0[] 
+ []
+
+
+Overfull \hbox (128.46013pt too wide) in paragraph at lines 32--32
+[]\TU/lmtt/m/n/10 ##  6   202310                      0                      0 
+                     0[] 
+ []
+
+
+Overfull \hbox (128.46013pt too wide) in paragraph at lines 32--32
+[]\TU/lmtt/m/n/10 ##  7   202311                      0                      0 
+                     0[] 
+ []
+
+
+Overfull \hbox (128.46013pt too wide) in paragraph at lines 32--32
+[]\TU/lmtt/m/n/10 ##  8   202306                      0                      0 
+                     0[] 
+ []
+
+
+Overfull \hbox (128.46013pt too wide) in paragraph at lines 32--32
+[]\TU/lmtt/m/n/10 ##  9   202301                      0                      0 
+                     0[] 
+ []
+
+
+Overfull \hbox (128.46013pt too wide) in paragraph at lines 32--32
+[]\TU/lmtt/m/n/10 ## 10   202301                      0                      0 
+                     0[] 
+ []
+
+
+Overfull \hbox (28.71013pt too wide) in paragraph at lines 32--32
+[]\TU/lmtt/m/n/10 ## #   1: formento_qtd_fam_benef_catadores_material_reciclado
+_i,[] 
+ []
+
+
+Overfull \hbox (54.96013pt too wide) in paragraph at lines 32--32
+[]\TU/lmtt/m/n/10 ## # i 11 more variables: formento_qtd_fam_benef_quilombolas_
+i <dbl>,[] 
+ []
+
+
+Overfull \hbox (33.96013pt too wide) in paragraph at lines 32--32
+[]\TU/lmtt/m/n/10 ## #   formento_qtd_fam_benef_assentados_ref_agraria_i <dbl>,
+ ...[] 
  []
 
 )
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
+
+
+Overfull \vbox (71.45718pt too high) detected at line 946
+ []
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
 [18
 
 ]
-\openout4 = `Slides3.vrb'.
+\openout4 = `Slides3Exemplos.vrb'.
 
-(./Slides3.vrb
-Overfull \hbox (7.71013pt too wide) in paragraph at lines 190--190
-[]\TU/lmtt/m/n/10 ##    BOLSISTA                              []VALOR DA BOLSA[
-][] 
+(./Slides3Exemplos.vrb
+Overfull \hbox (84.88516pt too wide) in paragraph at lines 36--36
+[]\TU/lmtt/m/n/9 ##    anomes_s formento_qtd_fam_ben~1 formento_qtd_fam_ben~2 f
+ormento_qtd_fam_ben~3[] 
  []
 
 
-Overfull \hbox (7.71013pt too wide) in paragraph at lines 190--190
-[]\TU/lmtt/m/n/10 ##    BOLSISTA                              []VALOR DA BOLSA[
-][] 
+Overfull \hbox (84.8855pt too wide) in paragraph at lines 36--36
+[]\TU/lmtt/m/n/9 ##       <dbl>                  <dbl>                  <dbl>  
+                <dbl>[] 
  []
 
 
-Overfull \hbox (7.71013pt too wide) in paragraph at lines 190--190
-[]\TU/lmtt/m/n/10 ##    BOLSISTA                              []VALOR DA BOLSA[
-][] 
+Overfull \hbox (84.88559pt too wide) in paragraph at lines 36--36
+[]\TU/lmtt/m/n/9 ##  1   202301                      0                      0  
+                    0[] 
  []
 
 
-Overfull \hbox (2.46013pt too wide) in paragraph at lines 190--190
-[]\TU/lmtt/m/n/10 ##    BOLSISTA                             []VALOR DA BOLSA[]
-[] 
+Overfull \hbox (84.88559pt too wide) in paragraph at lines 36--36
+[]\TU/lmtt/m/n/9 ##  2   202303                      0                      0  
+                    0[] 
  []
 
 
-Overfull \hbox (2.46013pt too wide) in paragraph at lines 190--190
-[]\TU/lmtt/m/n/10 ##    BOLSISTA                             []VALOR DA BOLSA[]
-[] 
+Overfull \hbox (84.88559pt too wide) in paragraph at lines 36--36
+[]\TU/lmtt/m/n/9 ##  3   202304                      0                      0  
+                    0[] 
  []
 
 
-Overfull \hbox (2.46013pt too wide) in paragraph at lines 190--190
-[]\TU/lmtt/m/n/10 ##    BOLSISTA                             []VALOR DA BOLSA[]
-[] 
+Overfull \hbox (84.88559pt too wide) in paragraph at lines 36--36
+[]\TU/lmtt/m/n/9 ##  4   202306                      1                      0  
+                    0[] 
  []
 
 
-Overfull \hbox (2.46013pt too wide) in paragraph at lines 190--190
-[]\TU/lmtt/m/n/10 ##    BOLSISTA                             []VALOR DA BOLSA[]
-[] 
+Overfull \hbox (84.88559pt too wide) in paragraph at lines 36--36
+[]\TU/lmtt/m/n/9 ##  5   202307                      0                      0  
+                    0[] 
  []
 
 
-Overfull \hbox (2.46013pt too wide) in paragraph at lines 190--190
-[]\TU/lmtt/m/n/10 ##    BOLSISTA                             []VALOR DA BOLSA[]
-[] 
+Overfull \hbox (84.88559pt too wide) in paragraph at lines 36--36
+[]\TU/lmtt/m/n/9 ##  6   202308                      0                      0  
+                    0[] 
  []
 
 
-Overfull \hbox (2.46013pt too wide) in paragraph at lines 190--190
-[]\TU/lmtt/m/n/10 ##    <chr>                                           <dbl>[]
- 
+Overfull \hbox (84.88559pt too wide) in paragraph at lines 36--36
+[]\TU/lmtt/m/n/9 ##  7   202309                      0                      0  
+                    0[] 
  []
 
 
-Overfull \hbox (2.46013pt too wide) in paragraph at lines 190--190
-[]\TU/lmtt/m/n/10 ##  1 MIKAEL GABRIEL TOMAZ DA SILVA                     500[]
- 
+Overfull \hbox (84.88559pt too wide) in paragraph at lines 36--36
+[]\TU/lmtt/m/n/9 ##  8   202310                      0                      0  
+                    0[] 
  []
 
 
-Overfull \hbox (2.46013pt too wide) in paragraph at lines 190--190
-[]\TU/lmtt/m/n/10 ##  2 ASHLEY LARISSA GOMES DE MEDEIROS                  500[]
- 
+Overfull \hbox (84.88559pt too wide) in paragraph at lines 36--36
+[]\TU/lmtt/m/n/9 ##  9   202311                      5                      0  
+                    0[] 
  []
 
 
-Overfull \hbox (2.46013pt too wide) in paragraph at lines 190--190
-[]\TU/lmtt/m/n/10 ##  3 ADENILSON DA PENHA RIBEIRO                        500[]
- 
+Overfull \hbox (84.88557pt too wide) in paragraph at lines 36--36
+[]\TU/lmtt/m/n/9 ## 10   202312                      6                      1  
+                    0[] 
  []
 
 
-Overfull \hbox (2.46013pt too wide) in paragraph at lines 190--190
-[]\TU/lmtt/m/n/10 ##  4 SERGIO EMANOEL FERREIRA DA SILVA                  500[]
- 
+Overfull \hbox (18.73518pt too wide) in paragraph at lines 36--36
+[]\TU/lmtt/m/n/9 ## # i 11 more variables: formento_qtd_fam_benef_quilombolas_i
+ <dbl>,[] 
  []
 
 
-Overfull \hbox (2.46013pt too wide) in paragraph at lines 190--190
-[]\TU/lmtt/m/n/10 ##  5 GUSTAVO DOS SANTOS BAIA                           500[]
- 
- []
-
-
-Overfull \hbox (2.46013pt too wide) in paragraph at lines 190--190
-[]\TU/lmtt/m/n/10 ##  6 LUCAS EDUARDO DA SILVA CAMPELO                    500[]
- 
- []
-
-
-Overfull \hbox (2.46013pt too wide) in paragraph at lines 190--190
-[]\TU/lmtt/m/n/10 ##  7 ANDRESSA WITORIA MONTEIRO DOS SANTOS              500[]
- 
- []
-
-
-Overfull \hbox (2.46013pt too wide) in paragraph at lines 190--190
-[]\TU/lmtt/m/n/10 ##  8 MYLENA HUK GAZEL                                  500[]
- 
- []
-
-
-Overfull \hbox (2.46013pt too wide) in paragraph at lines 190--190
-[]\TU/lmtt/m/n/10 ##  9 LUY SOUZA DE SOUZA                                500[]
- 
- []
-
-
-Overfull \hbox (2.46013pt too wide) in paragraph at lines 190--190
-[]\TU/lmtt/m/n/10 ## 10 VANESSA CORDEIRO SENA                             500[]
- 
- []
-
-
-Overfull \hbox (2.46013pt too wide) in paragraph at lines 190--190
-[]\TU/lmtt/m/n/10 ##    BOLSISTA                             []VALOR DA BOLSA[]
-[] 
- []
-
-
-Overfull \hbox (2.46013pt too wide) in paragraph at lines 190--190
-[]\TU/lmtt/m/n/10 ##    <chr>                                           <dbl>[]
- 
- []
-
-
-Overfull \hbox (2.46013pt too wide) in paragraph at lines 190--190
-[]\TU/lmtt/m/n/10 ##  1 ABRÃAO GUIMARÃES SILVA                            500[]
- 
- []
-
-
-Overfull \hbox (2.46013pt too wide) in paragraph at lines 190--190
-[]\TU/lmtt/m/n/10 ##  2 ADENILSON DA PENHA RIBEIRO                        500[]
- 
- []
-
-
-Overfull \hbox (2.46013pt too wide) in paragraph at lines 190--190
-[]\TU/lmtt/m/n/10 ##  3 ALEXANDRE PACHECO CAXIAS DE SOUSA                 500[]
- 
- []
-
-
-Overfull \hbox (2.46013pt too wide) in paragraph at lines 190--190
-[]\TU/lmtt/m/n/10 ##  4 ALINE SOUZA BONNETERRE                            500[]
- 
- []
-
-
-Overfull \hbox (2.46013pt too wide) in paragraph at lines 190--190
-[]\TU/lmtt/m/n/10 ##  5 ALLAN PATRICK SOUTO MONTEIRO                      500[]
- 
- []
-
-
-Overfull \hbox (2.46013pt too wide) in paragraph at lines 190--190
-[]\TU/lmtt/m/n/10 ##  6 AMANDA CIPRIANO DA CRUZ                           500[]
- 
- []
-
-
-Overfull \hbox (2.46013pt too wide) in paragraph at lines 190--190
-[]\TU/lmtt/m/n/10 ##  7 AMANDA ZUILA MIRANDA MENDES                       500[]
- 
- []
-
-
-Overfull \hbox (2.46013pt too wide) in paragraph at lines 190--190
-[]\TU/lmtt/m/n/10 ##  8 ANDRÉ COSTA QUEIROZ                               500[]
- 
- []
-
-
-Overfull \hbox (2.46013pt too wide) in paragraph at lines 190--190
-[]\TU/lmtt/m/n/10 ##  9 ANDRES HERNAN FERREIRA SOUSA                      500[]
- 
- []
-
-
-Overfull \hbox (2.46013pt too wide) in paragraph at lines 190--190
-[]\TU/lmtt/m/n/10 ## 10 ANDRESSA WITORIA MONTEIRO DOS SANTOS              500[]
- 
- []
-
-
-Overfull \hbox (2.46013pt too wide) in paragraph at lines 190--190
-[]\TU/lmtt/m/n/10 ##    BOLSISTA                             []VALOR DA BOLSA[]
-[] 
- []
-
-
-Overfull \hbox (2.46013pt too wide) in paragraph at lines 190--190
-[]\TU/lmtt/m/n/10 ##    <chr>                                           <dbl>[]
- 
- []
-
-
-Overfull \hbox (2.46013pt too wide) in paragraph at lines 190--190
-[]\TU/lmtt/m/n/10 ##  1 ABRÃAO GUIMARÃES SILVA                            500[]
- 
- []
-
-
-Overfull \hbox (2.46013pt too wide) in paragraph at lines 190--190
-[]\TU/lmtt/m/n/10 ##  2 ADENILSON DA PENHA RIBEIRO                        500[]
- 
- []
-
-
-Overfull \hbox (2.46013pt too wide) in paragraph at lines 190--190
-[]\TU/lmtt/m/n/10 ##  3 ALEXANDRE PACHECO CAXIAS DE SOUSA                 500[]
- 
- []
-
-
-Overfull \hbox (2.46013pt too wide) in paragraph at lines 190--190
-[]\TU/lmtt/m/n/10 ##  4 ALINE SOUZA BONNETERRE                            500[]
- 
- []
-
-
-Overfull \hbox (2.46013pt too wide) in paragraph at lines 190--190
-[]\TU/lmtt/m/n/10 ##  5 ALLAN PATRICK SOUTO MONTEIRO                      500[]
- 
- []
-
-
-Overfull \hbox (2.46013pt too wide) in paragraph at lines 190--190
-[]\TU/lmtt/m/n/10 ##  6 AMANDA CIPRIANO DA CRUZ                           500[]
- 
- []
-
-
-Overfull \hbox (2.46013pt too wide) in paragraph at lines 190--190
-[]\TU/lmtt/m/n/10 ##  7 AMANDA ZUILA MIRANDA MENDES                       500[]
- 
- []
-
-
-Overfull \hbox (2.46013pt too wide) in paragraph at lines 190--190
-[]\TU/lmtt/m/n/10 ##  8 ANDRÉ COSTA QUEIROZ                               500[]
- 
- []
-
-
-Overfull \hbox (2.46013pt too wide) in paragraph at lines 190--190
-[]\TU/lmtt/m/n/10 ##  9 ANDRES HERNAN FERREIRA SOUSA                      500[]
- 
- []
-
-
-Overfull \hbox (2.46013pt too wide) in paragraph at lines 190--190
-[]\TU/lmtt/m/n/10 ## 10 ANDRESSA WITORIA MONTEIRO DOS SANTOS              500[]
- 
- []
-
-
-Overfull \hbox (2.46013pt too wide) in paragraph at lines 190--190
-[]\TU/lmtt/m/n/10 ##    BOLSISTA                             []VALOR DA BOLSA[]
-[] 
- []
-
-
-Overfull \hbox (2.46013pt too wide) in paragraph at lines 190--190
-[]\TU/lmtt/m/n/10 ##    <chr>                                           <dbl>[]
- 
- []
-
-
-Overfull \hbox (2.46013pt too wide) in paragraph at lines 190--190
-[]\TU/lmtt/m/n/10 ##  1 ABRÃAO GUIMARÃES SILVA                            500[]
- 
- []
-
-
-Overfull \hbox (2.46013pt too wide) in paragraph at lines 190--190
-[]\TU/lmtt/m/n/10 ##  2 ADENILSON DA PENHA RIBEIRO                        500[]
- 
- []
-
-
-Overfull \hbox (2.46013pt too wide) in paragraph at lines 190--190
-[]\TU/lmtt/m/n/10 ##  3 ALEXANDRE PACHECO CAXIAS DE SOUSA                 500[]
- 
- []
-
-
-Overfull \hbox (2.46013pt too wide) in paragraph at lines 190--190
-[]\TU/lmtt/m/n/10 ##  4 ALINE SOUZA BONNETERRE                            500[]
- 
- []
-
-
-Overfull \hbox (2.46013pt too wide) in paragraph at lines 190--190
-[]\TU/lmtt/m/n/10 ##  5 ALLAN PATRICK SOUTO MONTEIRO                      500[]
- 
- []
-
-
-Overfull \hbox (2.46013pt too wide) in paragraph at lines 190--190
-[]\TU/lmtt/m/n/10 ##  6 AMANDA CIPRIANO DA CRUZ                           500[]
- 
- []
-
-
-Overfull \hbox (2.46013pt too wide) in paragraph at lines 190--190
-[]\TU/lmtt/m/n/10 ##  7 AMANDA ZUILA MIRANDA MENDES                       500[]
- 
- []
-
-
-Overfull \hbox (2.46013pt too wide) in paragraph at lines 190--190
-[]\TU/lmtt/m/n/10 ##  8 ANDRÉ COSTA QUEIROZ                               500[]
- 
- []
-
-
-Overfull \hbox (2.46013pt too wide) in paragraph at lines 190--190
-[]\TU/lmtt/m/n/10 ##  9 ANDRES HERNAN FERREIRA SOUSA                      500[]
- 
- []
-
-
-Overfull \hbox (2.46013pt too wide) in paragraph at lines 190--190
-[]\TU/lmtt/m/n/10 ## 10 ANDRESSA WITORIA MONTEIRO DOS SANTOS              500[]
- 
+Overfull \hbox (9.28517pt too wide) in paragraph at lines 36--36
+[]\TU/lmtt/m/n/9 ## #   formento_qtd_fam_benef_agrilcultores_familiares_i <dbl>
+, ...[] 
  []
 
 )
@@ -2628,7 +2416,7 @@ Overfull \hbox (2.46013pt too wide) in paragraph at lines 190--190
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
 
-Overfull \vbox (1965.2972pt too high) detected at line 1742
+Overfull \vbox (68.73819pt too high) detected at line 984
  []
 
 File: imagens/Icon.jpg Graphic file (type bmp)
@@ -2636,12 +2424,54 @@ File: imagens/Icon.jpg Graphic file (type bmp)
 [19
 
 ]
-\openout4 = `Slides3.vrb'.
+\openout4 = `Slides3Exemplos.vrb'.
 
-(./Slides3.vrb
-Overfull \hbox (144.21013pt too wide) in paragraph at lines 17--17
-[]\TU/lmtt/m/n/10 ## ! Can[]t combine []..1$VALOR DA BOLSA[] <character> and []
-..8$VALOR DA BOLSA[] <double>.[] 
+(./Slides3Exemplos.vrb
+Overfull \hbox (37.63545pt too wide) in paragraph at lines 28--28
+[]\TU/lmtt/m/n/9 ##   anomes_s name                                            
+      value[] 
+ []
+
+
+Overfull \hbox (37.63547pt too wide) in paragraph at lines 28--28
+[]\TU/lmtt/m/n/9 ##      <dbl> <chr>                                           
+      <dbl>[] 
+ []
+
+
+Overfull \hbox (37.63521pt too wide) in paragraph at lines 28--28
+[]\TU/lmtt/m/n/9 ## 1   202301 formento_qtd_fam_benef_catadores_material_recicl
+ado_i     0[] 
+ []
+
+
+Overfull \hbox (37.63528pt too wide) in paragraph at lines 28--28
+[]\TU/lmtt/m/n/9 ## 2   202301 formento_qtd_fam_benef_comun_terreiro_i         
+          0[] 
+ []
+
+
+Overfull \hbox (37.63533pt too wide) in paragraph at lines 28--28
+[]\TU/lmtt/m/n/9 ## 3   202301 formento_qtd_fam_benef_ciganas_i                
+          0[] 
+ []
+
+
+Overfull \hbox (37.63531pt too wide) in paragraph at lines 28--28
+[]\TU/lmtt/m/n/9 ## 4   202301 formento_qtd_fam_benef_quilombolas_i            
+          4[] 
+ []
+
+
+Overfull \hbox (37.63524pt too wide) in paragraph at lines 28--28
+[]\TU/lmtt/m/n/9 ## 5   202301 formento_qtd_fam_benef_assentados_ref_agraria_i 
+          4[] 
+ []
+
+
+Overfull \hbox (37.63521pt too wide) in paragraph at lines 28--28
+[]\TU/lmtt/m/n/9 ## 6   202301 formento_qtd_fam_benef_agrilcultores_familiares_
+i       223[] 
  []
 
 )
@@ -2653,57 +2483,174 @@ File: imagens/Icon.jpg Graphic file (type bmp)
 [20
 
 ]
-\openout4 = `Slides3.vrb'.
+\openout4 = `Slides3Exemplos.vrb'.
 
-(./Slides3.vrb
-LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <5> not available
-(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 7.
+(./Slides3Exemplos.vrb
+Overfull \hbox (84.88551pt too wide) in paragraph at lines 25--25
+[]\TU/lmtt/m/n/9 ##   anomes_s            name                                 
+                value[] 
+ []
+
+
+Overfull \hbox (84.88553pt too wide) in paragraph at lines 25--25
+[]\TU/lmtt/m/n/9 ##   <dttm>              <chr>                                
+                <dbl>[] 
+ []
+
+
+Overfull \hbox (84.8852pt too wide) in paragraph at lines 25--25
+[]\TU/lmtt/m/n/9 ## 1 2023-01-01 00:00:00 formento_qtd_fam_benef_catadores_mate
+rial_reciclado~     0[] 
+ []
+
+
+Overfull \hbox (84.88527pt too wide) in paragraph at lines 25--25
+[]\TU/lmtt/m/n/9 ## 2 2023-01-01 00:00:00 formento_qtd_fam_benef_comun_terreiro
+_i                  0[] 
+ []
+
+
+Overfull \hbox (84.88531pt too wide) in paragraph at lines 25--25
+[]\TU/lmtt/m/n/9 ## 3 2023-01-01 00:00:00 formento_qtd_fam_benef_ciganas_i     
+                    0[] 
+ []
+
+
+Overfull \hbox (84.8853pt too wide) in paragraph at lines 25--25
+[]\TU/lmtt/m/n/9 ## 4 2023-01-01 00:00:00 formento_qtd_fam_benef_quilombolas_i 
+                    4[] 
+ []
+
+
+Overfull \hbox (84.88522pt too wide) in paragraph at lines 25--25
+[]\TU/lmtt/m/n/9 ## 5 2023-01-01 00:00:00 formento_qtd_fam_benef_assentados_ref
+_agraria_i          4[] 
+ []
+
+
+Overfull \hbox (84.8852pt too wide) in paragraph at lines 25--25
+[]\TU/lmtt/m/n/9 ## 6 2023-01-01 00:00:00 formento_qtd_fam_benef_agrilcultores_
+familiares_i      223[] 
+ []
+
 )
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
-
-
-Overfull \vbox (28.32718pt too high) detected at line 1814
- []
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
 [21
 
 ]
-\openout4 = `Slides3.vrb'.
+\openout4 = `Slides3Exemplos.vrb'.
 
-(./Slides3.vrb)
+(./Slides3Exemplos.vrb
+Overfull \hbox (80.16048pt too wide) in paragraph at lines 26--26
+[]\TU/lmtt/m/n/9 ##   anomes_s            name                                 
+          value GPTE[] 
+ []
+
+
+Overfull \hbox (84.8855pt too wide) in paragraph at lines 26--26
+[]\TU/lmtt/m/n/9 ##   <dttm>              <chr>                                
+          <dbl> <fct>[] 
+ []
+
+
+Overfull \hbox (84.88521pt too wide) in paragraph at lines 26--26
+[]\TU/lmtt/m/n/9 ## 1 2023-01-01 00:00:00 formento_qtd_fam_benef_catadores_mate
+rial_rec~     0 cata~[] 
+ []
+
+
+Overfull \hbox (84.88524pt too wide) in paragraph at lines 26--26
+[]\TU/lmtt/m/n/9 ## 2 2023-01-01 00:00:00 formento_qtd_fam_benef_comun_terreiro
+_i            0 comu~[] 
+ []
+
+
+Overfull \hbox (84.88528pt too wide) in paragraph at lines 26--26
+[]\TU/lmtt/m/n/9 ## 3 2023-01-01 00:00:00 formento_qtd_fam_benef_ciganas_i     
+              0 ciga~[] 
+ []
+
+
+Overfull \hbox (84.88527pt too wide) in paragraph at lines 26--26
+[]\TU/lmtt/m/n/9 ## 4 2023-01-01 00:00:00 formento_qtd_fam_benef_quilombolas_i 
+              4 quil~[] 
+ []
+
+
+Overfull \hbox (84.88521pt too wide) in paragraph at lines 26--26
+[]\TU/lmtt/m/n/9 ## 5 2023-01-01 00:00:00 formento_qtd_fam_benef_assentados_ref
+_agraria~     4 asse~[] 
+ []
+
+
+Overfull \hbox (84.8852pt too wide) in paragraph at lines 26--26
+[]\TU/lmtt/m/n/9 ## 6 2023-01-01 00:00:00 formento_qtd_fam_benef_agrilcultores_
+familiar~   223 agri~[] 
+ []
+
+)
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
-
-
-Overfull \vbox (88.11919pt too high) detected at line 1854
- []
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
 [22
 
 ]
-\openout4 = `Slides3.vrb'.
+\openout4 = `Slides3Exemplos.vrb'.
 
-(./Slides3.vrb)
+(./Slides3Exemplos.vrb
+Overfull \hbox (33.96013pt too wide) in paragraph at lines 23--23
+[]\TU/lmtt/m/n/10 ##  [1] "Acampados Rurais"             "Agrilcultores Familia
+res"[] 
+ []
+
+
+Overfull \hbox (12.96013pt too wide) in paragraph at lines 23--23
+[]\TU/lmtt/m/n/10 ##  [3] "Assentados Ref Agraria"       "Atingidas Empr Infra"
+[] 
+ []
+
+
+Overfull \hbox (23.46013pt too wide) in paragraph at lines 23--23
+[]\TU/lmtt/m/n/10 ## [11] "Pescadores Artesanais"        "Presos Sist Carcerari
+o"[] 
+ []
+
+)
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
-
-
-Overfull \vbox (110.6232pt too high) detected at line 1896
- []
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
 [23
 
 ]
-\openout4 = `Slides3.vrb'.
+\openout4 = `Slides3Exemplos.vrb'.
 
-(./Slides3.vrb)
+(./Slides3Exemplos.vrb
+Overfull \hbox (28.71013pt too wide) in paragraph at lines 25--25
+[]\TU/lmtt/m/n/10 ##  [1] "Acampados Rurais"             "Agricultores Familiar
+es"[] 
+ []
+
+
+Overfull \hbox (12.96013pt too wide) in paragraph at lines 25--25
+[]\TU/lmtt/m/n/10 ##  [3] "Assentados Ref Agraria"       "Atingidas Empr Infra"
+[] 
+ []
+
+
+Overfull \hbox (23.46013pt too wide) in paragraph at lines 25--25
+[]\TU/lmtt/m/n/10 ## [11] "Pescadores Artesanais"        "Presos Sist Carcerari
+o"[] 
+ []
+
+)
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
@@ -2712,9 +2659,13 @@ File: imagens/Icon.jpg Graphic file (type bmp)
 [24
 
 ]
-\openout4 = `Slides3.vrb'.
+\openout4 = `Slides3Exemplos.vrb'.
 
-(./Slides3.vrb)
+(./Slides3Exemplos.vrb
+File: Slides3Exemplos_files/figure-beamer/unnamed-chunk-22-1.pdf Graphic file (
+type pdf)
+<use Slides3Exemplos_files/figure-beamer/unnamed-chunk-22-1.pdf>
+)
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
@@ -2723,95 +2674,105 @@ File: imagens/Icon.jpg Graphic file (type bmp)
 [25
 
 ]
-\openout4 = `Slides3.vrb'.
+\openout4 = `Slides3Exemplos.vrb'.
 
-(./Slides3.vrb
-Overfull \hbox (23.46013pt too wide) in paragraph at lines 27--27
-[]\TU/lmtt/m/n/10 ## 1 Sepal.Length     0.988 0.219   Shapiro-Wilk normality te
-st[] 
+(./Slides3Exemplos.vrb
+Overfull \hbox (128.46013pt too wide) in paragraph at lines 26--26
+[]\TU/lmtt/m/n/10 ##   Pilar                Indicador  Ordem UF    []Ano Atuali
+zação[] []Ano Publicação[][] 
  []
 
 
-Overfull \hbox (23.46013pt too wide) in paragraph at lines 27--27
-[]\TU/lmtt/m/n/10 ## 2 Sepal.Width      0.989 0.323   Shapiro-Wilk normality te
-st[] 
+Overfull \hbox (128.46013pt too wide) in paragraph at lines 26--26
+[]\TU/lmtt/m/n/10 ##   <chr>                <chr>      <dbl> <chr>             
+<dbl>            <dbl>[] 
  []
 
 
-Overfull \hbox (23.46013pt too wide) in paragraph at lines 27--27
-[]\TU/lmtt/m/n/10 ## 3 Petal.Length     0.981 0.0368  Shapiro-Wilk normality te
-st[] 
+Overfull \hbox (128.46013pt too wide) in paragraph at lines 26--26
+[]\TU/lmtt/m/n/10 ## 1 Potencial de Mercado Tamanho d~     1 AC                
+ 2014             2015[] 
  []
 
 
-Overfull \hbox (23.46013pt too wide) in paragraph at lines 27--27
-[]\TU/lmtt/m/n/10 ## 4 Petal.Width      0.972 0.00387 Shapiro-Wilk normality te
-st[] 
+Overfull \hbox (128.46013pt too wide) in paragraph at lines 26--26
+[]\TU/lmtt/m/n/10 ## 2 Potencial de Mercado Taxa de c~     1 AC                
+ 2014             2015[] 
+ []
+
+
+Overfull \hbox (128.46013pt too wide) in paragraph at lines 26--26
+[]\TU/lmtt/m/n/10 ## 3 Potencial de Mercado Total          1 AC                
+ 2015             2015[] 
+ []
+
+
+Overfull \hbox (128.46013pt too wide) in paragraph at lines 26--26
+[]\TU/lmtt/m/n/10 ## 4 Infraestrutura       Acessibil~     1 AC                
+ 2014             2015[] 
+ []
+
+
+Overfull \hbox (128.46013pt too wide) in paragraph at lines 26--26
+[]\TU/lmtt/m/n/10 ## 5 Infraestrutura       Custo de ~    -1 AC                
+ 2014             2015[] 
+ []
+
+
+Overfull \hbox (128.46013pt too wide) in paragraph at lines 26--26
+[]\TU/lmtt/m/n/10 ## 6 Infraestrutura       Custo de ~    -1 AC                
+ 2013             2015[] 
+ []
+
+
+Overfull \hbox (112.71013pt too wide) in paragraph at lines 26--26
+[]\TU/lmtt/m/n/10 ## # i 9 more variables: []Nota Bruta Indicador[] <chr>, []Pe
+so Indicadores[] <lgl>,[] 
+ []
+
+
+Overfull \hbox (91.71013pt too wide) in paragraph at lines 26--26
+[]\TU/lmtt/m/n/10 ## #   []Peso Pilares[] <lgl>, []Peso Real[] <lgl>, []Descriç
+ão Sintática[] <chr>,[] 
+ []
+
+
+Overfull \hbox (70.71013pt too wide) in paragraph at lines 26--26
+[]\TU/lmtt/m/n/10 ## #   []Fonte Oficial[] <chr>, []Unidade de Medida[] <chr>, 
+Detalhes <chr>,[] 
  []
 
 )
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
-
-
-Overfull \vbox (10.81718pt too high) detected at line 1989
- []
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
 [26
 
 ]
-\openout4 = `Slides3.vrb'.
+\openout4 = `Slides3Exemplos.vrb'.
 
-(./Slides3.vrb
-Overfull \hbox (39.21013pt too wide) in paragraph at lines 25--25
-[]\TU/lmtt/m/n/10 ##   Variável     term         df sumsq meansq statistic   p.
-value[] 
- []
-
-
-Overfull \hbox (39.21013pt too wide) in paragraph at lines 25--25
-[]\TU/lmtt/m/n/10 ##   <chr>        <chr>     <dbl> <dbl>  <dbl>     <dbl>     
-<dbl>[] 
- []
-
-
-Overfull \hbox (39.21013pt too wide) in paragraph at lines 25--25
-[]\TU/lmtt/m/n/10 ## 1 Sepal.Length Species       2  63.2 31.6       119.   1.6
-7e-31[] 
- []
-
-
-Overfull \hbox (2.46013pt too wide) in paragraph at lines 25--25
-[]\TU/lmtt/m/n/10 ## 2 Sepal.Length Residuals   147  39.0  0.265      NA   NA[]
- 
- []
-
-
-Overfull \hbox (39.21013pt too wide) in paragraph at lines 25--25
-[]\TU/lmtt/m/n/10 ## 3 Sepal.Width  Species       2  11.3  5.67       49.2  4.4
-9e-17[] 
- []
-
-
-Overfull \hbox (2.46013pt too wide) in paragraph at lines 25--25
-[]\TU/lmtt/m/n/10 ## 4 Sepal.Width  Residuals   147  17.0  0.115      NA   NA[]
- 
- []
-
+(./Slides3Exemplos.vrb
+File: Slides3Exemplos_files/figure-beamer/unnamed-chunk-24-1.pdf Graphic file (
+type pdf)
+<use Slides3Exemplos_files/figure-beamer/unnamed-chunk-24-1.pdf>
 )
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
+
+
+Overfull \vbox (57.68964pt too high) detected at line 1184
+ []
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
 [27
 
 ]
-\openout4 = `Slides3.vrb'.
-
-(./Slides3.vrb)
+File: Slides3Exemplos_files/figure-beamer/unnamed-chunk-25-1.pdf Graphic file (
+type pdf)
+<use Slides3Exemplos_files/figure-beamer/unnamed-chunk-25-1.pdf>
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
@@ -2820,97 +2781,115 @@ File: imagens/Icon.jpg Graphic file (type bmp)
 [28
 
 ]
-\openout4 = `Slides3.vrb'.
+\openout4 = `Slides3Exemplos.vrb'.
 
-(./Slides3.vrb
-Overfull \hbox (33.96013pt too wide) in paragraph at lines 15--15
-[]\TU/lmtt/m/n/10 ##              Sepal.Length Sepal.Width Petal.Length Petal.W
-idth[] 
+(./Slides3Exemplos.vrb
+Overfull \hbox (112.71013pt too wide) in paragraph at lines 44--44
+[]\TU/lmtt/m/n/10 ## Bounding box:  xmin: -73.99045 ymin: -33.75118 xmax: -28.8
+4764 ymax: 5.271841[] 
  []
 
 
-Overfull \hbox (33.96013pt too wide) in paragraph at lines 15--15
-[]\TU/lmtt/m/n/10 ## Sepal.Length    1.0000000  -0.1175698    0.8717538   0.817
-9411[] 
+Overfull \hbox (28.71013pt too wide) in paragraph at lines 44--44
+[]\TU/lmtt/m/n/10 ##    code_state abbrev_state name_state code_region name_reg
+ion[] 
  []
 
 
-Overfull \hbox (33.96013pt too wide) in paragraph at lines 15--15
-[]\TU/lmtt/m/n/10 ## Sepal.Width    -0.1175698   1.0000000   -0.4284401  -0.366
-1259[] 
+Overfull \hbox (28.71013pt too wide) in paragraph at lines 44--44
+[]\TU/lmtt/m/n/10 ## 1          11           RO   Rondônia           1       No
+rte[] 
  []
 
 
-Overfull \hbox (33.96013pt too wide) in paragraph at lines 15--15
-[]\TU/lmtt/m/n/10 ## Petal.Length    0.8717538  -0.4284401    1.0000000   0.962
-8654[] 
+Overfull \hbox (28.71013pt too wide) in paragraph at lines 44--44
+[]\TU/lmtt/m/n/10 ## 2          12           AC       Acre           1       No
+rte[] 
  []
 
 
-Overfull \hbox (33.96013pt too wide) in paragraph at lines 15--15
-[]\TU/lmtt/m/n/10 ## Petal.Width     0.8179411  -0.3661259    0.9628654   1.000
-0000[] 
+Overfull \hbox (28.71013pt too wide) in paragraph at lines 44--44
+[]\TU/lmtt/m/n/10 ## 3          13           AM   Amazônas           1       No
+rte[] 
  []
 
 
-Overfull \hbox (60.21013pt too wide) in paragraph at lines 25--25
-[]\TU/lmtt/m/n/10 ## Error in cor.test.default(iris[-5]): []X[] deve ser um vet
-or numérico[] 
+Overfull \hbox (28.71013pt too wide) in paragraph at lines 44--44
+[]\TU/lmtt/m/n/10 ## 4          14           RR    Roraima           1       No
+rte[] 
+ []
+
+
+Overfull \hbox (28.71013pt too wide) in paragraph at lines 44--44
+[]\TU/lmtt/m/n/10 ## 5          15           PA       Pará           1       No
+rte[] 
+ []
+
+
+Overfull \hbox (28.71013pt too wide) in paragraph at lines 44--44
+[]\TU/lmtt/m/n/10 ## 6          16           AP      Amapá           1       No
+rte[] 
+ []
+
+
+Overfull \hbox (28.71013pt too wide) in paragraph at lines 44--44
+[]\TU/lmtt/m/n/10 ## 7          17           TO  Tocantins           1       No
+rte[] 
+ []
+
+
+Overfull \hbox (28.71013pt too wide) in paragraph at lines 44--44
+[]\TU/lmtt/m/n/10 ## 8          21           MA   Maranhão           2    Norde
+ste[] 
+ []
+
+
+Overfull \hbox (28.71013pt too wide) in paragraph at lines 44--44
+[]\TU/lmtt/m/n/10 ## 9          22           PI      Piauí           2    Norde
+ste[] 
+ []
+
+
+Overfull \hbox (28.71013pt too wide) in paragraph at lines 44--44
+[]\TU/lmtt/m/n/10 ## 10         23           CE      Ceará           2    Norde
+ste[] 
  []
 
 )
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
+
+
+Overfull \vbox (211.8472pt too high) detected at line 1235
+ []
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
 [29
 
 ]
-\openout4 = `Slides3.vrb'.
+\openout4 = `Slides3Exemplos.vrb'.
 
-(./Slides3.vrb
-Overfull \hbox (2.46013pt too wide) in paragraph at lines 20--20
-[]\TU/lmtt/m/n/10 ##              [,1]         [,2]         [,3]         [,4][]
- 
- []
-
-
-Overfull \hbox (2.46013pt too wide) in paragraph at lines 20--20
-[]\TU/lmtt/m/n/10 ## [1,] 0.000000e+00 1.518983e-01 1.038667e-47 2.325498e-37[]
- 
- []
-
-
-Overfull \hbox (2.46013pt too wide) in paragraph at lines 20--20
-[]\TU/lmtt/m/n/10 ## [2,] 1.518983e-01 0.000000e+00 4.513314e-08 4.073229e-06[]
- 
- []
-
-
-Overfull \hbox (2.46013pt too wide) in paragraph at lines 20--20
-[]\TU/lmtt/m/n/10 ## [3,] 1.038667e-47 4.513314e-08 0.000000e+00 4.675004e-86[]
- 
- []
-
-
-Overfull \hbox (2.46013pt too wide) in paragraph at lines 20--20
-[]\TU/lmtt/m/n/10 ## [4,] 2.325498e-37 4.073229e-06 4.675004e-86 0.000000e+00[]
- 
- []
-
+(./Slides3Exemplos.vrb
+File: Slides3Exemplos_files/figure-beamer/unnamed-chunk-27-1.pdf Graphic file (
+type pdf)
+<use Slides3Exemplos_files/figure-beamer/unnamed-chunk-27-1.pdf>
 )
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
+
+
+Overfull \vbox (103.24226pt too high) detected at line 1256
+ []
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
 [30
 
 ]
-\openout4 = `Slides3.vrb'.
-
-(./Slides3.vrb)
+File: Slides3Exemplos_files/figure-beamer/unnamed-chunk-28-1.pdf Graphic file (
+type pdf)
+<use Slides3Exemplos_files/figure-beamer/unnamed-chunk-28-1.pdf>
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
@@ -2919,453 +2898,53 @@ File: imagens/Icon.jpg Graphic file (type bmp)
 [31
 
 ]
-\openout4 = `Slides3.vrb'.
+\openout4 = `Slides3Exemplos.vrb'.
 
-(./Slides3.vrb)
+(./Slides3Exemplos.vrb
+File: Slides3Exemplos_files/figure-beamer/unnamed-chunk-29-1.pdf Graphic file (
+type pdf)
+<use Slides3Exemplos_files/figure-beamer/unnamed-chunk-29-1.pdf>
+)
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
+
+
+Overfull \vbox (145.54672pt too high) detected at line 1285
+ []
 
 File: imagens/Icon.jpg Graphic file (type bmp)
 <imagens/Icon.jpg>
 [32
 
 ]
+File: Slides3Exemplos_files/figure-beamer/unnamed-chunk-30-1.pdf Graphic file (
+type pdf)
+<use Slides3Exemplos_files/figure-beamer/unnamed-chunk-30-1.pdf>
 
 Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
 
+File: imagens/Icon.jpg Graphic file (type bmp)
+<imagens/Icon.jpg>
 [33
 
 ]
-\openout4 = `Slides3.vrb'.
-
-(./Slides3.vrb
-File: Slides3_files/figure-beamer/unnamed-chunk-29-1.pdf Graphic file (type pdf
-)
-<use Slides3_files/figure-beamer/unnamed-chunk-29-1.pdf>
-)
-
-Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
-
-File: imagens/Icon.jpg Graphic file (type bmp)
-<imagens/Icon.jpg>
-[34
-
-]
-\openout4 = `Slides3.vrb'.
-
-(./Slides3.vrb
-File: Slides3_files/figure-beamer/unnamed-chunk-30-1.pdf Graphic file (type pdf
-)
-<use Slides3_files/figure-beamer/unnamed-chunk-30-1.pdf>
-)
-
-Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
-
-File: imagens/Icon.jpg Graphic file (type bmp)
-<imagens/Icon.jpg>
-[35
-
-]
-\openout4 = `Slides3.vrb'.
-
-(./Slides3.vrb
-File: Slides3_files/figure-beamer/unnamed-chunk-31-1.pdf Graphic file (type pdf
-)
-<use Slides3_files/figure-beamer/unnamed-chunk-31-1.pdf>
-)
-
-Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
-
-File: imagens/Icon.jpg Graphic file (type bmp)
-<imagens/Icon.jpg>
-[36
-
-]
-\openout4 = `Slides3.vrb'.
-
-(./Slides3.vrb
-File: Slides3_files/figure-beamer/unnamed-chunk-32-1.pdf Graphic file (type pdf
-)
-<use Slides3_files/figure-beamer/unnamed-chunk-32-1.pdf>
-)
-
-Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
-
-File: imagens/Icon.jpg Graphic file (type bmp)
-<imagens/Icon.jpg>
-[37
-
-]
-\openout4 = `Slides3.vrb'.
-
-(./Slides3.vrb
-File: Slides3_files/figure-beamer/unnamed-chunk-33-1.pdf Graphic file (type pdf
-)
-<use Slides3_files/figure-beamer/unnamed-chunk-33-1.pdf>
-)
-
-Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
-
-File: imagens/Icon.jpg Graphic file (type bmp)
-<imagens/Icon.jpg>
-[38
-
-]
-\openout4 = `Slides3.vrb'.
-
-(./Slides3.vrb
-File: Slides3_files/figure-beamer/unnamed-chunk-34-1.pdf Graphic file (type pdf
-)
-<use Slides3_files/figure-beamer/unnamed-chunk-34-1.pdf>
-)
-
-Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
-
-File: imagens/Icon.jpg Graphic file (type bmp)
-<imagens/Icon.jpg>
-[39
-
-]
-\openout4 = `Slides3.vrb'.
-
-(./Slides3.vrb
-File: Slides3_files/figure-beamer/unnamed-chunk-35-1.pdf Graphic file (type pdf
-)
-<use Slides3_files/figure-beamer/unnamed-chunk-35-1.pdf>
-)
-
-Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
-
-
-Overfull \vbox (11.6794pt too high) detected at line 2251
- []
-
-File: imagens/Icon.jpg Graphic file (type bmp)
-<imagens/Icon.jpg>
-[40
-
-]
-\openout4 = `Slides3.vrb'.
-
-(./Slides3.vrb
-File: Slides3_files/figure-beamer/unnamed-chunk-36-1.pdf Graphic file (type pdf
-)
-<use Slides3_files/figure-beamer/unnamed-chunk-36-1.pdf>
-)
-
-Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
-
-File: imagens/Icon.jpg Graphic file (type bmp)
-<imagens/Icon.jpg>
-[41
-
-]
-File: Slides3_files/figure-beamer/unnamed-chunk-37-1.pdf Graphic file (type pdf
-)
-<use Slides3_files/figure-beamer/unnamed-chunk-37-1.pdf>
-
-Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
-
-File: imagens/Icon.jpg Graphic file (type bmp)
-<imagens/Icon.jpg>
-[42
-
-]
-\openout4 = `Slides3.vrb'.
-
-(./Slides3.vrb
-LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <7> not available
-(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 7.
-)
-
-Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
-
-File: imagens/Icon.jpg Graphic file (type bmp)
-<imagens/Icon.jpg>
-[43
-
-]
-\openout4 = `Slides3.vrb'.
-
-(./Slides3.vrb
-File: Slides3_files/figure-beamer/unnamed-chunk-39-1.pdf Graphic file (type pdf
-)
-<use Slides3_files/figure-beamer/unnamed-chunk-39-1.pdf>
-)
-
-Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
-
-File: imagens/Icon.jpg Graphic file (type bmp)
-<imagens/Icon.jpg>
-[44
-
-]
-\openout4 = `Slides3.vrb'.
-
-(./Slides3.vrb
-File: Slides3_files/figure-beamer/unnamed-chunk-40-1.pdf Graphic file (type pdf
-)
-<use Slides3_files/figure-beamer/unnamed-chunk-40-1.pdf>
-)
-
-Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
-
-File: imagens/Icon.jpg Graphic file (type bmp)
-<imagens/Icon.jpg>
-[45
-
-]
-\openout4 = `Slides3.vrb'.
-
-(./Slides3.vrb
-File: Slides3_files/figure-beamer/unnamed-chunk-41-1.pdf Graphic file (type pdf
-)
-<use Slides3_files/figure-beamer/unnamed-chunk-41-1.pdf>
-)
-
-Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
-
-File: imagens/Icon.jpg Graphic file (type bmp)
-<imagens/Icon.jpg>
-[46
-
-]
-\openout4 = `Slides3.vrb'.
-
-(./Slides3.vrb
-File: Slides3_files/figure-beamer/unnamed-chunk-42-1.pdf Graphic file (type pdf
-)
-<use Slides3_files/figure-beamer/unnamed-chunk-42-1.pdf>
-)
-
-Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
-
-
-Overfull \vbox (13.67813pt too high) detected at line 2398
- []
-
-File: imagens/Icon.jpg Graphic file (type bmp)
-<imagens/Icon.jpg>
-[47
-
-]
-\openout4 = `Slides3.vrb'.
-
-(./Slides3.vrb
-File: Slides3_files/figure-beamer/unnamed-chunk-43-1.pdf Graphic file (type pdf
-)
-<use Slides3_files/figure-beamer/unnamed-chunk-43-1.pdf>
-)
-
-Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
-
-File: imagens/Icon.jpg Graphic file (type bmp)
-<imagens/Icon.jpg>
-[48
-
-]
-\openout4 = `Slides3.vrb'.
-
-(./Slides3.vrb
-File: Slides3_files/figure-beamer/unnamed-chunk-44-1.pdf Graphic file (type pdf
-)
-<use Slides3_files/figure-beamer/unnamed-chunk-44-1.pdf>
-)
-
-Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
-
-
-Overfull \vbox (13.70193pt too high) detected at line 2433
- []
-
-File: imagens/Icon.jpg Graphic file (type bmp)
-<imagens/Icon.jpg>
-[49
-
-]
-\openout4 = `Slides3.vrb'.
-
-(./Slides3.vrb
-File: Slides3_files/figure-beamer/unnamed-chunk-45-1.pdf Graphic file (type pdf
-)
-<use Slides3_files/figure-beamer/unnamed-chunk-45-1.pdf>
-)
-
-Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
-
-
-Overfull \vbox (13.70193pt too high) detected at line 2453
- []
-
-File: imagens/Icon.jpg Graphic file (type bmp)
-<imagens/Icon.jpg>
-[50
-
-]
-\openout4 = `Slides3.vrb'.
-
-(./Slides3.vrb
-File: Slides3_files/figure-beamer/unnamed-chunk-46-1.pdf Graphic file (type pdf
-)
-<use Slides3_files/figure-beamer/unnamed-chunk-46-1.pdf>
-)
-
-Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
-
-File: imagens/Icon.jpg Graphic file (type bmp)
-<imagens/Icon.jpg>
-[51
-
-]
-\openout4 = `Slides3.vrb'.
-
-(./Slides3.vrb
-File: Slides3_files/figure-beamer/unnamed-chunk-47-1.pdf Graphic file (type pdf
-)
-<use Slides3_files/figure-beamer/unnamed-chunk-47-1.pdf>
-)
-
-Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
-
-File: imagens/Icon.jpg Graphic file (type bmp)
-<imagens/Icon.jpg>
-[52
-
-]
-\openout4 = `Slides3.vrb'.
-
-(./Slides3.vrb
-File: Slides3_files/figure-beamer/unnamed-chunk-48-1.pdf Graphic file (type pdf
-)
-<use Slides3_files/figure-beamer/unnamed-chunk-48-1.pdf>
-)
-
-Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
-
-File: imagens/Icon.jpg Graphic file (type bmp)
-<imagens/Icon.jpg>
-[53
-
-]
-\openout4 = `Slides3.vrb'.
-
-(./Slides3.vrb
-File: Slides3_files/figure-beamer/unnamed-chunk-49-1.pdf Graphic file (type pdf
-)
-<use Slides3_files/figure-beamer/unnamed-chunk-49-1.pdf>
-)
-
-Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
-
-
-Overfull \vbox (53.74226pt too high) detected at line 2531
- []
-
-File: imagens/Icon.jpg Graphic file (type bmp)
-<imagens/Icon.jpg>
-[54
-
-]
-\openout4 = `Slides3.vrb'.
-
-(./Slides3.vrb
-File: Slides3_files/figure-beamer/unnamed-chunk-50-1.pdf Graphic file (type pdf
-)
-<use Slides3_files/figure-beamer/unnamed-chunk-50-1.pdf>
-)
-
-Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
-
-
-Overfull \vbox (53.74226pt too high) detected at line 2553
- []
-
-File: imagens/Icon.jpg Graphic file (type bmp)
-<imagens/Icon.jpg>
-[55
-
-]
-\openout4 = `Slides3.vrb'.
-
-(./Slides3.vrb
-File: Slides3_files/figure-beamer/unnamed-chunk-51-1.pdf Graphic file (type pdf
-)
-<use Slides3_files/figure-beamer/unnamed-chunk-51-1.pdf>
-)
-
-Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
-
-
-Overfull \vbox (15.78523pt too high) detected at line 2578
- []
-
-File: imagens/Icon.jpg Graphic file (type bmp)
-<imagens/Icon.jpg>
-[56
-
-]
-\openout4 = `Slides3.vrb'.
-
-(./Slides3.vrb
-File: Slides3_files/figure-beamer/unnamed-chunk-52-1.pdf Graphic file (type pdf
-)
-<use Slides3_files/figure-beamer/unnamed-chunk-52-1.pdf>
-)
-
-Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
-
-File: imagens/Icon.jpg Graphic file (type bmp)
-<imagens/Icon.jpg>
-[57
-
-]
-\openout4 = `Slides3.vrb'.
-
-(./Slides3.vrb
-File: Slides3_files/figure-beamer/unnamed-chunk-53-1.pdf Graphic file (type pdf
-)
-<use Slides3_files/figure-beamer/unnamed-chunk-53-1.pdf>
-)
-
-Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
-
-File: imagens/Icon.jpg Graphic file (type bmp)
-<imagens/Icon.jpg>
-[58
-
-]
-\openout4 = `Slides3.vrb'.
-
-(./Slides3.vrb
-File: Slides3_files/figure-beamer/unnamed-chunk-54-1.pdf Graphic file (type pdf
-)
-<use Slides3_files/figure-beamer/unnamed-chunk-54-1.pdf>
-)
-
-Package fontspec Info: Libertad Medium Italic scale = 0.8879985588945874.
-
-File: imagens/Icon.jpg Graphic file (type bmp)
-<imagens/Icon.jpg>
-[59
-
-]
 \tf@nav=\write6
-\openout6 = `Slides3.nav'.
+\openout6 = `Slides3Exemplos.nav'.
 
 \tf@toc=\write7
-\openout7 = `Slides3.toc'.
+\openout7 = `Slides3Exemplos.toc'.
 
 \tf@snm=\write8
-\openout8 = `Slides3.snm'.
+\openout8 = `Slides3Exemplos.snm'.
 
-(./Slides3.aux) ) 
+(./Slides3Exemplos.aux) ) 
 Here is how much of TeX's memory you used:
- 34653 strings out of 476191
- 720038 string characters out of 5812072
- 1526154 words of memory out of 5000000
- 54561 multiletter control sequences out of 15000+600000
- 473156 words of font info for 105 fonts, out of 8000000 for 9000
+ 34251 strings out of 476191
+ 710581 string characters out of 5812072
+ 1148831 words of memory out of 5000000
+ 54238 multiletter control sequences out of 15000+600000
+ 474982 words of font info for 104 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 128i,15n,128p,1004b,1495s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 128i,15n,124p,1012b,864s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Slides3.pdf (59 pages).
+Output written on Slides3Exemplos.pdf (33 pages).

@@ -447,12 +447,35 @@ iris %>%
 
 # ggplot2
 
-```{r, echo=T}
+```{r, echo=T, warning=F, message=F, fig.height=2,fig.width=3}
 
 bolsas %>%
   ggplot(aes(x=Mes, y=`VALOR DA BOLSA`, col=BOLSISTA)) +
   geom_line(show.legend=F) +
-  geom_point(show.legend=F, position="jitter")
+  geom_point(show.legend=F)
+
+```
+
+# ggplot2
+
+```{r, echo=T, warning=F, message=F, fig.height=2,fig.width=3}
+
+bolsas %>%
+  ggplot(aes(x=Mes, y=`VALOR DA BOLSA`, col=BOLSISTA)) +
+  geom_line(show.legend=F) +
+  geom_point(show.legend=F, position = "jitter")
+
+```
+
+# ggplot2
+
+```{r, echo=T, warning=F, message=F, fig.height=2,fig.width=3}
+
+bolsas %>%
+  ggplot(aes(x=Mes, y=`VALOR DA BOLSA`, col=BOLSISTA)) +
+  scale_y_continuous(limits=c(0, 505)) +
+  geom_line(show.legend=F) +
+  geom_point(show.legend=F, position = "jitter")
 
 ```
 
@@ -510,52 +533,6 @@ iris %>%
 
 ```
 
-
-# -
-\section{Exercício}
-\framecard{{\color{white}\Huge{Exercício}}}
-
-# Exercício
-
-Personalizar o gráfico a seguir:
-
-```{r, echo=T, eval=F}
-
-cor(attitude) %>%
-  as.data.frame() %>% 
-  rownames_to_column("Var1") %>%
-  pivot_longer(-Var1, names_to="Var2") %>% 
-  ggplot(aes(x=Var1, y=Var2, fill=value)) +
-  geom_tile()
-
-```
-
-Exemplo:
-
-
-```{r, fig.height=3}
-
-cor(attitude) %>%
-  as.data.frame() %>% 
-  rownames_to_column("Var1") %>%
-  pivot_longer(-Var1, names_to="Var2") %>% 
-  mutate_at(vars(Var1, Var2), ~factor(., levels=unique(.))) %>% 
-  mutate_at(vars(Var1, Var2), fct_relabel, str_to_title) %>% 
-  filter(as.numeric(Var1)>as.numeric(Var2)) %>% 
-  ggplot(aes(x=Var1, y=Var2, fill=value)) +
-  geom_tile(width=.9, height=.9, color="grey25") +
-  geom_text(aes(label=round(value, 4))) +
-  scale_fill_gradient2(limits=c(-1, 1)) +
-  labs(fill="Coeficiente de\ncorrelação de\nPearson") +
-  theme_minimal() +
-  theme(axis.title = element_blank())
-
-```
-
-# -
-\section{ggplot2 (continuação)}
-\framecard{{\color{white}\Huge{ggplot2 (continuação)}}}
-
 # ggplot2
 
 \scriptsize
@@ -573,7 +550,7 @@ pular2 <- which(linhas=="")
 
 linhas2 <- linhas[-c(unlist(pular),pular2)]
 
-dados_metereologicos <- as_tibble(linhas2) %>%
+dados_meteorologicos <- as_tibble(linhas2) %>%
   separate(value,
            c("No", "ANO", "DIA", "MES", "R.GLOBA",
              "INSOLACAO", "PRECIPITACAO", "UMIDADE RELATIV",
@@ -593,7 +570,7 @@ dados_metereologicos <- as_tibble(linhas2) %>%
 \small
 ```{r, echo=T, warning=F, fig.height=4}
 
-dados_metereologicos %>%
+dados_meteorologicos %>%
   ggplot(aes(x=Data)) +
   geom_col(aes(y=PRECIPITACAO)) +
   geom_line(aes(y=`TEMPER MEDIA`)) +
@@ -607,7 +584,7 @@ dados_metereologicos %>%
 \small
 ```{r, echo=T, warning=F, fig.height=3}
 
-dados_metereologicos %>%
+dados_meteorologicos %>%
   ggplot(aes(x=Data)) +
   scale_x_date(date_breaks="3 months",
                date_labels="%B de %Y") +
@@ -623,7 +600,7 @@ dados_metereologicos %>%
 \small
 ```{r, echo=T, warning=F, fig.height=3}
 
-dados_metereologicos %>%
+dados_meteorologicos %>%
   select(Data, PRECIPITACAO, starts_with("TEMPER")) %>%
   pivot_longer(starts_with("TEMPER"), names_to="TEMPER") %>%
   ggplot(aes(x=Data)) +
@@ -638,7 +615,7 @@ dados_metereologicos %>%
 \footnotesize
 ```{r, echo=T, warning=F, fig.height=3}
 
-dados_metereologicos %>% 
+dados_meteorologicos %>% 
   mutate_at(vars(Data), month, label=T) %>% 
   group_by(Data) %>%
   summarise(PRECIPITACAO = sum(PRECIPITACAO),
@@ -805,440 +782,39 @@ agridat::aastveit.barley.height %>%
 
 ```
 
+# ggplot 2
 
-# -
-\section{Exemplos}
-\framecard{{\color{white}\Huge{Exemplos}}}
+```{r, echo=T, fig.height=5}
 
-# Conjuntos de dados do governo
-
-https://dados.gov.br/dados/conjuntos-dados
-
-# Plantas alternativas a exóticas invasoras
-
-Fonte: https://dados.gov.br/dados/conjuntos-dados/plantas-alternativas-as-plantas-exoticas-invasoras-rj
-
-```{r, echo=T}
-
-library(readxl)
-read_xlsx(
-  paste0("../dados/listagem-de-plantas-alternativas-as-",
-         "plantas-exoticas-invasoras-listadas-para-o-",
-         "estado-do-rio-de.xlsx"),
-  range="A7:L268")
-
-```
-
-# Plantas alternativas a exóticas invasoras
-
-Fonte: https://dados.gov.br/dados/conjuntos-dados/plantas-alternativas-as-plantas-exoticas-invasoras-rj
-
-```{r, echo=T, warning=F, message=F}
-
-library(readxl)
-invasoras <- read_xlsx(
-  paste0("../dados/listagem-de-plantas-alternativas-as-",
-         "plantas-exoticas-invasoras-listadas-para-o-",
-         "estado-do-rio-de.xlsx"),
-  col_names=c("Codigo", "Familia_EEI", "NomeCient_EEI",
-              "NomePop_EEI",
-              "NomeCient_Ombro", "NouE_Ombro",
-              "NomeCient_Semidec", "NouE_Semidec",
-              "NomeCient_InfMar", "NouE_InfMar",
-              "Ecossist_EEI", "Categoria"),
-  range="A8:L268")
+iris %>%
+  ggplot(aes(x=Petal.Length, y=Petal.Width)) +
+  geom_point()
 
 ```
 
 
-# Plantas alternativas a exóticas invasoras
 
-```{r, echo=T, warning=F, message=F}
+# ggplot 2
 
-invasoras %>%
-  pivot_longer(c(ends_with("Ombro"),
-                 ends_with("Semidec"),
-                 ends_with("InfMar"))) %>%
-  separate(name, c("Var", "Ecossist"))
+```{r, echo=T, fig.height=4, message=F, warning=F}
 
-```
+modelo <- lm(Petal.Width ~ Petal.Length, data=iris)
 
-# Plantas alternativas a exóticas invasoras
-
-\small
-```{r, echo=T, warning=F, message=F}
-
-invasoras %>%
-  pivot_longer(c(ends_with("Ombro"),
-                 ends_with("Semidec"),
-                 ends_with("InfMar"))) %>%
-  separate(name, c("Var", "Ecossist")) %>%
-  pivot_wider(id_cols=c(Codigo,ends_with("EEI"),Categoria,Ecossist),
-              names_from=Var)
+iris %>%
+  ggplot(aes(x=Petal.Length, y=Petal.Width)) +
+  geom_point() +
+  geom_abline(intercept=coef(modelo)[1],
+              slope=coef(modelo)[2])
 
 ```
 
-# Plantas alternativas a exóticas invasoras
+# ggplot 2
 
-\small
-```{r, echo=T, warning=F, message=F}
+```{r, echo=T, fig.height=5, message=F, warning=F}
 
-invasoras %>%
-  pivot_longer(c(ends_with("Ombro"),
-                 ends_with("Semidec"),
-                 ends_with("InfMar"))) %>%
-  separate(name, c("Var", "Ecossist")) %>%
-  pivot_wider(id_cols=c(Codigo,ends_with("EEI"),Categoria,Ecossist),
-              names_from=Var) %>%
-  unnest_longer(c(NomeCient, NouE))
-
-```
-
-# Plantas alternativas a exóticas invasoras
-
-\small
-```{r, echo=T, warning=F, message=F}
-
-invasoras %>%
-  pivot_longer(c(ends_with("Ombro"),
-                 ends_with("Semidec"),
-                 ends_with("InfMar"))) %>%
-  separate(name, c("Var", "Ecossist")) %>%
-  pivot_wider(id_cols=c(Codigo,ends_with("EEI"),Categoria,Ecossist),
-              names_from=Var) %>%
-  unnest_longer(c(NomeCient, NouE)) %>%
-  filter(!is.na(NomeCient), !is.na(NouE))
-
-```
-
-# Plantas alternativas a exóticas invasoras
-
-\small
-```{r, echo=T, fig.height=4}
-
-invasoras %>%
-  group_by(NomeCient_EEI) %>% 
-  count() %>%
-  ungroup() %>% 
-  ggplot(aes(x=NomeCient_EEI, y=n)) +
-  geom_col() +
-  theme_grey(base_size = 8) +
-  theme(axis.text.x = element_text(angle=90, hjust=1, vjust=.5))
-
-```
-
-# Plantas alternativas a exóticas invasoras
-
-\small
-```{r, echo=T, fig.height=4}
-
-invasoras %>%
-  group_by(NomeCient_EEI) %>% 
-  count() %>%
-  ungroup() %>% 
-  mutate(NomeCient_EEI = fct_reorder(NomeCient_EEI, desc(n))) %>%
-  ggplot(aes(x=NomeCient_EEI, y=n)) +
-  geom_col() +
-  theme_grey(base_size = 8) +
-  theme(axis.text.x = element_text(angle=90, hjust=1, vjust=.5))
-
-```
-
-# Plantas alternativas a exóticas invasoras
-
-\scriptsize
-```{r, echo=T, fig.height=4}
-
-invasoras %>%
-  group_by(NomeCient_EEI, Ecossist_EEI) %>% 
-  count() %>%
-  ungroup() %>% 
-  mutate(NomeCient_EEI = fct_reorder(NomeCient_EEI, desc(n))) %>%
-  mutate_at(vars(Ecossist_EEI), str_wrap, width=22) %>% 
-  ggplot(aes(x=NomeCient_EEI, y=n, fill=Ecossist_EEI)) +
-  guides(fill=guide_legend(nrow=3)) +
-  geom_col() +
-  theme_grey(base_size = 8) +
-  theme(axis.text.x = element_blank(),
-        legend.position = "bottom")
-
-```
-
-# Plantas alternativas a exóticas invasoras
-
-```{r, echo=T, fig.height=4}
-
-invasoras %>%
-  group_by(NomeCient_EEI, Ecossist_EEI) %>%
-  count() %>%
-  group_by(NomeCient_EEI) %>%
-  count() %>%
-  arrange(desc(n))
-
-```
-
-# Plantas alternativas a exóticas invasoras
-
-\small
-```{r, echo=T, fig.height=4}
-
-ecossist <- invasoras %>%
-  mutate_at(vars(Ecossist_EEI), replace_na, "?") %>% 
-  group_by(NomeCient_EEI, Ecossist_EEI) %>%
-  count() %>%
-  group_by(NomeCient_EEI) %>%
-  arrange(Ecossist_EEI) %>% 
-  summarise(Ecossist_EEI = (function(x) {
-    if(length(x)==1) return(x)
-    else {
-      if(is.na(x[1])) return(x[2])
-      if(is.na(x[2])) return(x[1])
-      if(grepl(x[1], x[2])) return(x[2])
-      if(grepl(x[2], x[1])) return(x[1])
-      return(paste(x, collapse=", "))
-    }
-  })(Ecossist_EEI),
-  n = sum(n)) %>%
-  mutate_at(vars(Ecossist_EEI), ~ifelse(
-    .=="Formações Pioneiras de Influência Marinha, Floresta Ombrófila Densa",
-    "Floresta Ombrófila Densa, Formações Pioneiras de Influência Marinha", .))
-
-```
-
-
-# Plantas alternativas a exóticas invasoras
-
-\scriptsize
-```{r, echo=T, fig.height=4}
-
-ecossist %>% 
-  mutate(NomeCient_EEI = fct_reorder(NomeCient_EEI, desc(n))) %>%
-  mutate_at(vars(Ecossist_EEI), str_wrap, width=22) %>% 
-  ggplot(aes(x=NomeCient_EEI, y=n, fill=Ecossist_EEI)) +
-  guides(fill=guide_legend(nrow=3)) +
-  geom_col() +
-  theme_grey(base_size = 8) +
-  theme(axis.text.x = element_blank(),
-        legend.position = "bottom")
-
-```
-
-
-# Programa de Fomento Rural
-
-\small
-Fonte: https://dados.gov.br/dados/conjuntos-dados/programa-fomento-rural
-
-```{r, echo=T, warning=F, message=F}
-
-library(readr)
-
-fomentoRural <- read_csv(
-  paste0("https://aplicacoes.mds.gov.br/sagi/",
-         "servicos/misocial/?",
-         "fq=anomes_s:2023*&",
-         "fq=formento_qtd_total_familias_benef_i:*&",
-         "q=*:*&",
-         "rows=1000000&",
-         "wt=csv"))
-
-head(fomentoRural)
-
-```
-
-# Programa de Fomento Rural
-
-\small
-```{r, echo=T}
-
-fomentoRural %>% 
-  select_if(~!all(is.na(.))) %>% 
-  select_if(~!all(.==0))
-
-```
-
-# Programa de Fomento Rural
-
-```{r, echo=T}
-
-fomentoRural %>% 
-  select(anomes_s, matches( paste0(
-    "formento\\_qtd\\_fam\\_benef\\_.*\\_i")))
-
-```
-
-# Programa de Fomento Rural
-
-\small
-```{r, echo=T}
-
-fomentoRural %>% 
-  select(anomes_s, matches(
-    "formento\\_qtd\\_fam\\_benef\\_.*\\_i")) %>%
-  group_by(anomes_s) %>%
-  summarise_all(sum, na.rm=T)
-
-```
-
-# Programa de Fomento Rural
-
-\small
-```{r, echo=T}
-
-fr <- fomentoRural %>% 
-  select(anomes_s, matches(
-    "formento\\_qtd\\_fam\\_benef\\_.*\\_i")) %>%
-  group_by(anomes_s) %>%
-  summarise_all(sum, na.rm=T) %>% 
-  pivot_longer(-anomes_s)
-
-head(fr)
-
-```
-
-
-# Programa de Fomento Rural
-
-\small
-```{r, echo=T}
-
-fr <- fr %>%
-  mutate_at(vars(anomes_s), as.character) %>% 
-  mutate_at(vars(anomes_s), fast_strptime, format="%Y%m", lt=F)
-
-head(fr)
-
-```
-
-# Programa de Fomento Rural
-
-\small
-```{r, echo=T}
-
-fr <- fr %>%
-  mutate(GPTE = str_remove(name, "formento\\_qtd\\_fam\\_benef\\_"),
-         GPTE = str_remove(GPTE, "\\_i$")) %>%
-  mutate_at(vars(GPTE), factor)
-
-head(fr)
-
-```
-
-# Programa de Fomento Rural
-
-```{r, echo=T}
-
-fr <- fr %>%
-  mutate_at(vars(GPTE), fct_relabel,
-            str_replace_all, "\\_", " ") %>%
-  mutate_at(vars(GPTE), fct_relabel,
-            str_to_title)
-
-levels(fr$GPTE)
-
-```
-
-# Programa de Fomento Rural
-
-```{r, echo=T}
-
-fr <- fr %>%
-  mutate_at(vars(GPTE), fct_relabel,
-            str_replace,
-            "Agrilcultores", "Agricultores") %>%
-  mutate_at(vars(GPTE), fct_relabel,
-            str_replace,
-            "Indinegas", "Indígenas")
-
-levels(fr$GPTE)
-
-```
-
-# Programa de Fomento Rural
-
-```{r, echo=T, fig.height=4}
-
-fr %>%
-  ggplot(aes(x=anomes_s, col=GPTE, y=value)) +
-  geom_line()
-
-```
-
-# -
-\section{Exercícios}
-\framecard{{\color{white}\Huge{Exercícios}}}
-
-# Exercício 1
-
-Personalizar o gráfico a seguir:
-
-```{r, echo=T, eval=F}
-
-dados_metereologicos %>%
-  select(Data, PRECIPITACAO, starts_with("TEMPER")) %>%
-  pivot_longer(starts_with("TEMPER")) %>%
-  ggplot(aes(x=Data)) +
-  geom_bar(stat="unique", aes(y=PRECIPITACAO)) +
-  geom_line(aes(y=value, color=name))
-  
-```
-Exemplo:
-
-```{r, fig.height=3}
-
-dados_metereologicos %>%
-  select(Data, PRECIPITACAO, starts_with("TEMPER")) %>%
-  pivot_longer(starts_with("TEMPER")) %>%
-  mutate_at(vars(name), ~case_when(
-    str_ends(., "NIMA") ~ "Temperatura mínima",
-    str_ends(., "IA") ~ "Temperatura média",
-    str_ends(., "XIMA") ~ "Temperatura máxima")) %>% 
-  ggplot(aes(x=Data)) +
-  scale_x_date(label=function(x) str_sub(str_to_title(strftime(x, "%b")),1,1),
-               breaks="month", name="Mês") +
-  scale_y_continuous(name="Precipitação (mm)",
-                     sec.axis = sec_axis(~./2, name="Temperatura (°C)")) +
-  geom_bar(stat="unique", aes(y=PRECIPITACAO), fill="#4292c6") +
-  geom_line(aes(y=value*2, color=name)) +
-  scale_color_manual(values=c("#cb181d", "#000000", "#08306b")) +
-  theme_minimal() +
-  theme(legend.position = "bottom",
-        legend.title = element_blank())
-
-```
-
-# Exercício 2
-
-- \icon Encontrar o conjunto de dados dos Cursos Ativos da Graduação da UFSCar
-(https://dados.gov.br/dados/conjuntos-dados/)
-- \icon Processar os dados
-- \icon Obter a soma de vagas para cada uma das duas modalidades
-
-```{r}
-
-dados_ufscar <- read_csv("https://dados.ufscar.br/dataset/b00bb4d5-37ad-42e3-b726-30c06a448f3f/resource/f6f03301-42c9-4d23-80c3-75b1582a8020/download/cursos-presencial-graduacao.csv")
-
-aggregate(dados_ufscar$Vagas, list(Modalidade=dados_ufscar$Modalidade), sum)
-```
-
-- \icon Fazer um gráfico, baseando-se no gráfico a seguir:
-
-```{r}
-
-dados_ufscar %>%
-  mutate_at(vars(Turno), factor, levels=c("Matutino", "Integral", "Noturno")) %>% 
-  group_by(Turno, Modalidade, Campus) %>%
-  filter(Modalidade != "EAD") %>% 
-  summarise_at(vars(Vagas), sum) %>%
-  ggplot(aes(x=Turno, y=Vagas)) +
-  facet_wrap(~Campus) +
-  geom_col(aes(fill=Turno), show.legend=F, color="grey25") +
-  geom_hline(linetype="dashed",
-             aes(yintercept=1405, color="Vagas para modalidade EAD")) +
-  scale_color_manual(values="red") +
-  scale_fill_manual(values=c("orange", "yellow", "darkblue")) +
-  theme_bw() +
-  theme(legend.position="bottom",
-        legend.title=element_blank())
+iris %>%
+  ggplot(aes(x=Petal.Length, y=Petal.Width)) +
+  geom_point() +
+  geom_smooth(method="lm", formula=y~x)
 
 ```

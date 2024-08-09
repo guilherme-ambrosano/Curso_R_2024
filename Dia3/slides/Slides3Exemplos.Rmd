@@ -1,0 +1,523 @@
+---
+title: |
+  | Manipulação e
+  | Apresentação
+  | de Dados
+author: "Guilherme Bovi Ambrosano"
+date: "Dia 3 - Exemplos - 09/08/2024"
+output:
+    beamer_presentation:
+      includes:
+        in_header:
+          - config/config.sty
+      latex_engine: xelatex
+      keep_tex: false
+      toc: false
+fontsize: 10pt
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+Sys.setlocale(category = "LC_TIME", locale = "pt_BR.UTF-8")
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+# -
+\section{Exemplos}
+\framecard{{\color{white}\Huge{Exemplos}}}
+
+# Conjuntos de dados do governo
+
+https://dados.gov.br/dados/conjuntos-dados
+
+# Plantas alternativas a exóticas invasoras
+
+Fonte: https://dados.gov.br/dados/conjuntos-dados/plantas-alternativas-as-plantas-exoticas-invasoras-rj
+
+```{r, echo=T}
+
+library(readxl)
+read_xlsx(
+  paste0("../dados/listagem-de-plantas-alternativas-as-",
+         "plantas-exoticas-invasoras-listadas-para-o-",
+         "estado-do-rio-de.xlsx"),
+  range="A7:L268")
+
+```
+
+# Plantas alternativas a exóticas invasoras
+
+Fonte: https://dados.gov.br/dados/conjuntos-dados/plantas-alternativas-as-plantas-exoticas-invasoras-rj
+
+```{r, echo=T, warning=F, message=F}
+
+library(readxl)
+invasoras <- read_xlsx(
+  paste0("../dados/listagem-de-plantas-alternativas-as-",
+         "plantas-exoticas-invasoras-listadas-para-o-",
+         "estado-do-rio-de.xlsx"),
+  col_names=c("Codigo", "Familia_EEI", "NomeCient_EEI",
+              "NomePop_EEI",
+              "NomeCient_Ombro", "NouE_Ombro",
+              "NomeCient_Semidec", "NouE_Semidec",
+              "NomeCient_InfMar", "NouE_InfMar",
+              "Ecossist_EEI", "Categoria"),
+  range="A8:L268")
+
+```
+
+
+# Plantas alternativas a exóticas invasoras
+
+```{r, echo=T, warning=F, message=F}
+
+invasoras %>%
+  pivot_longer(c(ends_with("Ombro"),
+                 ends_with("Semidec"),
+                 ends_with("InfMar"))) %>%
+  separate(name, c("Var", "Ecossist"))
+
+```
+
+# Plantas alternativas a exóticas invasoras
+
+\small
+```{r, echo=T, warning=F, message=F}
+
+invasoras %>%
+  pivot_longer(c(ends_with("Ombro"),
+                 ends_with("Semidec"),
+                 ends_with("InfMar"))) %>%
+  separate(name, c("Var", "Ecossist")) %>%
+  pivot_wider(id_cols=c(Codigo,ends_with("EEI"),Categoria,Ecossist),
+              names_from=Var)
+
+```
+
+# Plantas alternativas a exóticas invasoras
+
+\small
+```{r, echo=T, warning=F, message=F}
+
+invasoras %>%
+  pivot_longer(c(ends_with("Ombro"),
+                 ends_with("Semidec"),
+                 ends_with("InfMar"))) %>%
+  separate(name, c("Var", "Ecossist")) %>%
+  pivot_wider(id_cols=c(Codigo,ends_with("EEI"),Categoria,Ecossist),
+              names_from=Var) %>%
+  unnest_longer(c(NomeCient, NouE))
+
+```
+
+# Plantas alternativas a exóticas invasoras
+
+\small
+```{r, echo=T, warning=F, message=F}
+
+invasoras %>%
+  pivot_longer(c(ends_with("Ombro"),
+                 ends_with("Semidec"),
+                 ends_with("InfMar"))) %>%
+  separate(name, c("Var", "Ecossist")) %>%
+  pivot_wider(id_cols=c(Codigo,ends_with("EEI"),Categoria,Ecossist),
+              names_from=Var) %>%
+  unnest_longer(c(NomeCient, NouE)) %>%
+  filter(!is.na(NomeCient), !is.na(NouE))
+
+```
+
+# Plantas alternativas a exóticas invasoras
+
+\small
+```{r, echo=T, fig.height=4}
+
+invasoras %>%
+  group_by(NomeCient_EEI) %>% 
+  count() %>%
+  ungroup() %>% 
+  ggplot(aes(x=NomeCient_EEI, y=n)) +
+  geom_col() +
+  theme_grey(base_size = 8) +
+  theme(axis.text.x = element_text(angle=90, hjust=1, vjust=.5))
+
+```
+
+# Plantas alternativas a exóticas invasoras
+
+\small
+```{r, echo=T, fig.height=4}
+
+invasoras %>%
+  group_by(NomeCient_EEI) %>% 
+  count() %>%
+  ungroup() %>% 
+  mutate(NomeCient_EEI = fct_reorder(NomeCient_EEI, desc(n))) %>%
+  ggplot(aes(x=NomeCient_EEI, y=n)) +
+  geom_col() +
+  theme_grey(base_size = 8) +
+  theme(axis.text.x = element_text(angle=90, hjust=1, vjust=.5))
+
+```
+
+# Plantas alternativas a exóticas invasoras
+
+\scriptsize
+```{r, echo=T, fig.height=4}
+
+invasoras %>%
+  group_by(NomeCient_EEI, Ecossist_EEI) %>% 
+  count() %>%
+  ungroup() %>% 
+  mutate(NomeCient_EEI = fct_reorder(NomeCient_EEI, desc(n))) %>%
+  mutate_at(vars(Ecossist_EEI), str_wrap, width=22) %>% 
+  ggplot(aes(x=NomeCient_EEI, y=n, fill=Ecossist_EEI)) +
+  guides(fill=guide_legend(nrow=3)) +
+  geom_col() +
+  theme_grey(base_size = 8) +
+  theme(axis.text.x = element_blank(),
+        legend.position = "bottom")
+
+```
+
+# Plantas alternativas a exóticas invasoras
+
+```{r, echo=T, fig.height=4}
+
+invasoras %>%
+  group_by(NomeCient_EEI, Ecossist_EEI) %>%
+  count() %>%
+  group_by(NomeCient_EEI) %>%
+  count() %>%
+  arrange(desc(n))
+
+```
+
+# Plantas alternativas a exóticas invasoras
+
+\small
+```{r, echo=T, fig.height=4}
+
+ecossist <- invasoras %>%
+  mutate_at(vars(Ecossist_EEI), replace_na, "?") %>% 
+  group_by(NomeCient_EEI, Ecossist_EEI) %>%
+  count() %>%
+  group_by(NomeCient_EEI) %>%
+  arrange(Ecossist_EEI) %>% 
+  summarise(Ecossist_EEI = (function(x) {
+    if(length(x)==1) return(x)
+    else {
+      if(is.na(x[1])) return(x[2])
+      if(is.na(x[2])) return(x[1])
+      if(grepl(x[1], x[2])) return(x[2])
+      if(grepl(x[2], x[1])) return(x[1])
+      return(paste(x, collapse=", "))
+    }
+  })(Ecossist_EEI),
+  n = sum(n)) %>%
+  mutate_at(vars(Ecossist_EEI), ~ifelse(
+    .=="Formações Pioneiras de Influência Marinha, Floresta Ombrófila Densa",
+    "Floresta Ombrófila Densa, Formações Pioneiras de Influência Marinha", .))
+
+```
+
+
+# Plantas alternativas a exóticas invasoras
+
+\scriptsize
+```{r, echo=T, fig.height=4}
+
+ecossist %>% 
+  mutate(NomeCient_EEI = fct_reorder(NomeCient_EEI, desc(n))) %>%
+  mutate_at(vars(Ecossist_EEI), str_wrap, width=22) %>% 
+  ggplot(aes(x=NomeCient_EEI, y=n, fill=Ecossist_EEI)) +
+  guides(fill=guide_legend(nrow=3)) +
+  geom_col() +
+  theme_grey(base_size = 8) +
+  theme(axis.text.x = element_blank(),
+        legend.position = "bottom")
+
+```
+
+
+# Programa de Fomento Rural
+
+\small
+Fonte: https://dados.gov.br/dados/conjuntos-dados/programa-fomento-rural
+
+```{r, echo=T, warning=F, message=F}
+
+library(readr)
+
+fomentoRural <- read_csv(
+  paste0("https://aplicacoes.mds.gov.br/sagi/",
+         "servicos/misocial/?",
+         "fq=anomes_s:2023*&",
+         "fq=formento_qtd_total_familias_benef_i:*&",
+         "q=*:*&",
+         "rows=1000000&",
+         "wt=csv"))
+
+head(fomentoRural)
+
+```
+
+# Programa de Fomento Rural
+
+\small
+```{r, echo=T}
+
+fomentoRural %>% 
+  select_if(~!all(is.na(.))) %>% 
+  select_if(~!all(.==0))
+
+```
+
+# Programa de Fomento Rural
+
+```{r, echo=T}
+
+fomentoRural %>% 
+  select(anomes_s, matches( paste0(
+    "formento\\_qtd\\_fam\\_benef\\_.*\\_i")))
+
+```
+
+# Programa de Fomento Rural
+
+\small
+```{r, echo=T}
+
+fomentoRural %>% 
+  select(anomes_s, matches(
+    "formento\\_qtd\\_fam\\_benef\\_.*\\_i")) %>%
+  group_by(anomes_s) %>%
+  summarise_all(sum, na.rm=T)
+
+```
+
+# Programa de Fomento Rural
+
+\small
+```{r, echo=T}
+
+fr <- fomentoRural %>% 
+  select(anomes_s, matches(
+    "formento\\_qtd\\_fam\\_benef\\_.*\\_i")) %>%
+  group_by(anomes_s) %>%
+  summarise_all(sum, na.rm=T) %>% 
+  pivot_longer(-anomes_s)
+
+head(fr)
+
+```
+
+
+# Programa de Fomento Rural
+
+\small
+```{r, echo=T}
+
+fr <- fr %>%
+  mutate_at(vars(anomes_s), as.character) %>% 
+  mutate_at(vars(anomes_s), fast_strptime, format="%Y%m", lt=F)
+
+head(fr)
+
+```
+
+# Programa de Fomento Rural
+
+\small
+```{r, echo=T}
+
+fr <- fr %>%
+  mutate(GPTE = str_remove(name, "formento\\_qtd\\_fam\\_benef\\_"),
+         GPTE = str_remove(GPTE, "\\_i$")) %>%
+  mutate_at(vars(GPTE), factor)
+
+head(fr)
+
+```
+
+# Programa de Fomento Rural
+
+```{r, echo=T}
+
+fr <- fr %>%
+  mutate_at(vars(GPTE), fct_relabel,
+            str_replace_all, "\\_", " ") %>%
+  mutate_at(vars(GPTE), fct_relabel,
+            str_to_title)
+
+levels(fr$GPTE)
+
+```
+
+# Programa de Fomento Rural
+
+```{r, echo=T}
+
+fr <- fr %>%
+  mutate_at(vars(GPTE), fct_relabel,
+            str_replace,
+            "Agrilcultores", "Agricultores") %>%
+  mutate_at(vars(GPTE), fct_relabel,
+            str_replace,
+            "Indinegas", "Indígenas")
+
+levels(fr$GPTE)
+
+```
+
+# Programa de Fomento Rural
+
+```{r, echo=T, fig.height=4}
+
+fr %>%
+  ggplot(aes(x=anomes_s, col=GPTE, y=value)) +
+  geom_line()
+
+```
+
+
+# Ranking de competitividade por estados
+
+https://tinyurl.com/mry3wrp7
+
+```{r, echo=T, warning=F}
+
+indicadores <- read_xlsx("../dados/ranking_2015_2020.xlsx")
+head(indicadores)
+
+```
+
+# Ranking de competitividade por estados
+
+```{r, echo=T, fig.height=4}
+
+indicadores %>%
+  filter(Pilar=="Ranking Geral",
+         Indicador=="Total",
+         str_ends(UF, "[^*]")) %>% 
+  mutate(UF=fct_reorder(UF, `Nota Normalizada Indicador`, 
+                        sum, .na_rm=T)) %>% 
+  group_by(UF) %>%
+  summarise_at(vars(`Nota Normalizada Indicador`), 
+               sum, na.rm=T) %>% 
+  ggplot(aes(x=`Nota Normalizada Indicador`, y=UF)) +
+  geom_col(aes(fill=`Nota Normalizada Indicador`),
+           show.legend=F)
+
+```
+
+# Ranking de competitividade por estados
+
+```{r, echo=F}
+
+indicadores %>%
+  filter(Pilar=="Ranking Geral",
+         Indicador=="Total",
+         str_ends(UF, "[^*]")) %>% 
+  mutate(UF=fct_reorder(UF, `Nota Normalizada Indicador`, 
+                        sum, .na_rm=T)) %>% 
+  group_by(UF) %>%
+  summarise_at(vars(`Nota Normalizada Indicador`), 
+               sum, na.rm=T) %>% 
+  ggplot(aes(x=`Nota Normalizada Indicador`, y=UF)) +
+  geom_col(aes(fill=`Nota Normalizada Indicador`),
+           show.legend=F)
+
+```
+
+# Ranking de competitividade por estados
+
+```{r, echo=T, message=F, warning=F}
+library(geobr)
+
+estados <- read_state(
+  year = 2020, 
+  showProgress = FALSE)
+
+estados
+
+```
+
+# Ranking de competitividade por estados
+
+```{r, echo=T, fig.height=4}
+
+indicadores %>%
+  filter(Pilar=="Ranking Geral",
+         Indicador=="Total",
+         str_ends(UF, "[^*]")) %>% 
+  group_by(UF) %>%
+  summarise_at(vars(`Nota Normalizada Indicador`), 
+               sum, na.rm=T)  %>% 
+  rename(abbrev_state=UF) %>%
+  left_join(estados, by="abbrev_state")%>% 
+  ggplot(aes(fill=`Nota Normalizada Indicador`, geometry=geom)) +
+  geom_sf()
+
+```
+
+# Ranking de competitividade por estados
+
+```{r, echo=F}
+
+indicadores %>%
+  filter(Pilar=="Ranking Geral",
+         Indicador=="Total",
+         str_ends(UF, "[^*]")) %>% 
+  group_by(UF) %>%
+  summarise_at(vars(`Nota Normalizada Indicador`), 
+               sum, na.rm=T)  %>% 
+  rename(abbrev_state=UF) %>%
+  left_join(estados, by="abbrev_state")%>% 
+  ggplot(aes(fill=`Nota Normalizada Indicador`, geometry=geom)) +
+  geom_sf()
+
+```
+
+# Ranking de competitividade por estados
+
+```{r, echo=T, warning=F, message=F, fig.height=3}
+
+indicadores %>%
+  filter(Pilar!="Ranking Geral",
+         Indicador=="Total", UF=="SP",
+         `Ano Publicação` %in% c(2019, 2020)) %>% 
+  group_by(`Ano Publicação`, Pilar) %>%
+  summarise(soma = sum(`Nota Normalizada Indicador`)) %>%
+  mutate(`Ano Publicação` = factor(`Ano Publicação`)) %>% 
+  mutate(Pilar = fct_reorder(Pilar, -soma)) %>% 
+  mutate(Pilar = fct_relabel(Pilar, str_wrap, width=15)) %>% 
+  ggplot(aes(x=Pilar, y=soma, color=`Ano Publicação`)) +
+  geom_line(aes(group=`Ano Publicação`)) +
+  coord_radial(expand=F, r_axis_inside = T) +
+  theme_minimal() +
+  theme(axis.title = element_blank())
+
+```
+
+# Ranking de competitividade por estados
+
+```{r, echo=F, warning=F, message=F, fig.height=3}
+
+indicadores %>%
+  filter(Pilar!="Ranking Geral",
+         Indicador=="Total", UF=="SP",
+         `Ano Publicação` %in% c(2019, 2020)) %>% 
+  group_by(`Ano Publicação`, Pilar) %>%
+  summarise(soma = sum(`Nota Normalizada Indicador`)) %>%
+  mutate(`Ano Publicação` = factor(`Ano Publicação`)) %>% 
+  mutate(Pilar = fct_reorder(Pilar, -soma)) %>% 
+  mutate(Pilar = fct_relabel(Pilar, str_wrap, width=15)) %>% 
+  ggplot(aes(x=Pilar, y=soma, color=`Ano Publicação`)) +
+  geom_line(aes(group=`Ano Publicação`)) +
+  coord_radial(expand=F, r_axis_inside = T) +
+  theme_minimal() +
+  theme(axis.title = element_blank())
+
+```
