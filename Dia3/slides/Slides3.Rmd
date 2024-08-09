@@ -26,6 +26,17 @@ knitr::opts_chunk$set(echo = FALSE)
 # Sumário {.allowframebreaks}
 \tableofcontents[subsubsectionstyle=hide]
 
+
+# -
+\section{Material do curso}
+\framecard{{\color{white}\Huge{Material do curso}}}
+
+# Material do curso
+
+https://github.com/guilherme-ambrosano/Curso_R_2024
+
+![](imagens/Github.png)
+
 # -
 \section{broom}
 \framecard{{\color{white}\Huge{broom}}}
@@ -808,3 +819,6 @@ iris %>%
   geom_smooth(method="lm", formula=y~x)
 
 ```
+
+\section{Exemplos}
+\section{Exercícios}
